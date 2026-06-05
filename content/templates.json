@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "weekend-getaway",
+    "title": "Weekend Getaway",
+    "durationDays": 3,
+    "climate": "mild",
+    "travelerType": "minimalist",
+    "description": "Perfect for a quick 2-3 day trip. Fits in almost any personal item or small carry-on.",
+    "recommendedCubes": ["medium-standard", "small-standard", "clear-toiletry"],
+    "packingChecklist": ["2 T-shirts", "1 Light sweater", "1 Pair of jeans", "3 Pairs of underwear", "3 Pairs of socks", "Basic toiletries"]
+  },
+  {
+    "slug": "1-week-europe-summer",
+    "title": "1 Week Europe (Summer)",
+    "durationDays": 7,
+    "climate": "warm",
+    "travelerType": "standard",
+    "description": "A versatile setup for summer in Europe, focusing on breathable layers and walking shoes.",
+    "recommendedCubes": ["medium-compression", "medium-standard", "small-standard", "tube-cube", "clear-toiletry"],
+    "packingChecklist": ["5 T-shirts/Tops", "2 Shorts", "1 Light pants", "1 Dress/Nice outfit", "7 Pairs underwear", "5 Pairs socks", "1 Swimwear", "Toiletries", "Adapters"]
+  },
+  {
+    "slug": "2-week-japan-winter",
+    "title": "2 Weeks Japan (Winter)",
+    "durationDays": 14,
+    "climate": "cold",
+    "travelerType": "standard",
+    "description": "Heavy on layers. Compression cubes are essential here to manage bulky winter clothing.",
+    "recommendedCubes": ["large-compression", "medium-compression", "small-compression", "shoe-bag", "tube-cube", "clear-toiletry"],
+    "packingChecklist": ["3 Sweaters/Fleece", "4 Long-sleeve base layers", "2 Pairs of jeans/warm pants", "1 Winter coat (worn)", "14 Pairs underwear", "7 Pairs wool socks", "Gloves & Beanie", "Toiletries"]
+  },
+  {
+    "slug": "digital-nomad-1-month",
+    "title": "1 Month Digital Nomad",
+    "durationDays": 30,
+    "climate": "mixed",
+    "travelerType": "tech",
+    "description": "Designed for long-term travel with a focus on tech gear and laundry-friendly capsule wardrobes.",
+    "recommendedCubes": ["large-compression", "medium-compression", "small-compression", "tube-cube", "tube-cube", "clear-toiletry"],
+    "packingChecklist": ["5 Versatile tops", "2 Pants", "1 Shorts", "1 Light jacket", "7 Pairs underwear", "7 Pairs socks", "Laptop & Stand", "Extensive chargers/cables", "Power bank", "Toiletries"]
+  },
+  {
+    "slug": "business-trip-short",
+    "title": "3-Day Business Trip",
+    "durationDays": 3,
+    "climate": "mixed",
+    "travelerType": "business",
+    "description": "Wrinkle-resistant packing setup for professional attire.",
+    "recommendedCubes": ["large-standard", "small-standard", "shoe-bag", "tube-cube", "clear-toiletry"],
+    "packingChecklist": ["2 Dress shirts", "1 Suit/Blazer", "1 Pair dress pants", "Casual evening outfit", "3 Pairs dress socks", "3 Pairs underwear", "1 Pair dress shoes", "Laptop & Charger", "Toiletries"]
+  },
+  {
+    "slug": "ultralight-hiker",
+    "title": "Ultralight Hiking Trip",
+    "durationDays": 5,
+    "climate": "variable",
+    "travelerType": "minimalist",
+    "description": "Function over fashion. Every gram counts.",
+    "recommendedCubes": ["medium-compression", "small-compression", "clear-toiletry"],
+    "packingChecklist": ["2 Merino wool tees", "1 Hiking pants", "1 Rain shell", "1 Puffy jacket", "3 Pairs merino underwear", "3 Pairs hiking socks", "First aid kit", "Sunscreen"]
+  },
+  {
+    "slug": "beach-resort-week",
+    "title": "1 Week Beach Resort",
+    "durationDays": 7,
+    "climate": "hot",
+    "travelerType": "standard",
+    "description": "Lots of swimwear and light fabrics. Very easy to pack in a small carry-on.",
+    "recommendedCubes": ["medium-standard", "small-standard", "small-standard", "shoe-bag", "clear-toiletry"],
+    "packingChecklist": ["3 Swimsuits", "4 T-shirts/Tank tops", "2 Shorts", "1 Nice evening outfit", "Sandals", "Hat", "Sunglasses", "Reef-safe sunscreen"]
+  },
+  {
+    "slug": "wedding-guest-weekend",
+    "title": "Wedding Guest Weekend",
+    "durationDays": 3,
+    "climate": "mixed",
+    "travelerType": "standard",
+    "description": "Balancing casual travel clothes with one formal outfit that needs careful packing.",
+    "recommendedCubes": ["large-standard", "medium-standard", "shoe-bag", "clear-toiletry"],
+    "packingChecklist": ["1 Formal outfit (Suit/Dress)", "Dress shoes/heels", "2 Casual daytime outfits", "Pajamas", "Undergarments", "Toiletries", "Steamer (optional)"]
+  },
+  {
+    "slug": "family-disney-week",
+    "title": "Family Theme Park Week (1 Child)",
+    "durationDays": 7,
+    "climate": "warm",
+    "travelerType": "family",
+    "description": "Color-coded cubes highly recommended to separate adult and child clothing.",
+    "recommendedCubes": ["large-compression", "medium-compression", "medium-standard", "small-standard", "tube-cube", "clear-toiletry"],
+    "packingChecklist": ["Adult: 7 tops, 3 bottoms", "Child: 10 tops, 7 bottoms", "Comfortable walking shoes", "Rain ponchos", "Snack containers", "First aid / meds", "Sunscreen"]
+  },
+  {
+    "slug": "ski-weekend",
+    "title": "Ski/Snowboard Weekend",
+    "durationDays": 4,
+    "climate": "cold",
+    "travelerType": "active",
+    "description": "Bulky gear requires heavy compression. (Assuming hard gear is rented or packed separately).",
+    "recommendedCubes": ["large-compression", "medium-compression", "small-standard", "clear-toiletry"],
+    "packingChecklist": ["2 Base layer sets", "1 Mid-layer fleece", "Ski pants", "Ski jacket", "4 Pairs ski socks", "Gloves, goggles, neck gaiter", "Casual evening clothes"]
+  }
+]

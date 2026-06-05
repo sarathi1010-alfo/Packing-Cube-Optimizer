@@ -1,0 +1,287 @@
+[
+  {
+    "id": "ryanair",
+    "name": "Ryanair",
+    "region": "Europe",
+    "carryOn": {
+      "width": 40,
+      "height": 55,
+      "depth": 20,
+      "weightKg": 10,
+      "isIncluded": false
+    },
+    "personalItem": {
+      "width": 25,
+      "height": 40,
+      "depth": 20,
+      "weightKg": null,
+      "isIncluded": true
+    }
+  },
+  {
+    "id": "easyjet",
+    "name": "easyJet",
+    "region": "Europe",
+    "carryOn": {
+      "width": 45,
+      "height": 56,
+      "depth": 25,
+      "weightKg": 15,
+      "isIncluded": false
+    },
+    "personalItem": {
+      "width": 36,
+      "height": 45,
+      "depth": 20,
+      "weightKg": 15,
+      "isIncluded": true
+    }
+  },
+  {
+    "id": "wizz-air",
+    "name": "Wizz Air",
+    "region": "Europe",
+    "carryOn": {
+      "width": 40,
+      "height": 55,
+      "depth": 23,
+      "weightKg": 10,
+      "isIncluded": false
+    },
+    "personalItem": {
+      "width": 30,
+      "height": 40,
+      "depth": 20,
+      "weightKg": 10,
+      "isIncluded": true
+    }
+  },
+  {
+    "id": "american-airlines",
+    "name": "American Airlines",
+    "region": "North America",
+    "carryOn": {
+      "width": 36,
+      "height": 56,
+      "depth": 23,
+      "weightKg": null,
+      "isIncluded": true
+    },
+    "personalItem": {
+      "width": 35,
+      "height": 45,
+      "depth": 20,
+      "weightKg": null,
+      "isIncluded": true
+    }
+  },
+  {
+    "id": "delta",
+    "name": "Delta Air Lines",
+    "region": "North America",
+    "carryOn": {
+      "width": 35,
+      "height": 56,
+      "depth": 23,
+      "weightKg": null,
+      "isIncluded": true
+    },
+    "personalItem": {
+      "width": 38,
+      "height": 43,
+      "depth": 22,
+      "weightKg": null,
+      "isIncluded": true
+    }
+  },
+  {
+    "id": "united",
+    "name": "United Airlines",
+    "region": "North America",
+    "carryOn": {
+      "width": 35,
+      "height": 56,
+      "depth": 22,
+      "weightKg": null,
+      "isIncluded": true
+    },
+    "personalItem": {
+      "width": 25,
+      "height": 43,
+      "depth": 22,
+      "weightKg": null,
+      "isIncluded": true
+    }
+  },
+  {
+    "id": "spirit",
+    "name": "Spirit Airlines",
+    "region": "North America",
+    "carryOn": {
+      "width": 45,
+      "height": 56,
+      "depth": 25,
+      "weightKg": null,
+      "isIncluded": false
+    },
+    "personalItem": {
+      "width": 35,
+      "height": 45,
+      "depth": 20,
+      "weightKg": null,
+      "isIncluded": true
+    }
+  },
+  {
+    "id": "frontier",
+    "name": "Frontier Airlines",
+    "region": "North America",
+    "carryOn": {
+      "width": 40,
+      "height": 61,
+      "depth": 25,
+      "weightKg": 15,
+      "isIncluded": false
+    },
+    "personalItem": {
+      "width": 35,
+      "height": 45,
+      "depth": 20,
+      "weightKg": null,
+      "isIncluded": true
+    }
+  },
+  {
+    "id": "emirates",
+    "name": "Emirates",
+    "region": "Middle East",
+    "carryOn": {
+      "width": 38,
+      "height": 55,
+      "depth": 20,
+      "weightKg": 7,
+      "isIncluded": true
+    },
+    "personalItem": {
+      "width": 0,
+      "height": 0,
+      "depth": 0,
+      "weightKg": null,
+      "isIncluded": false
+    }
+  },
+  {
+    "id": "qatar-airways",
+    "name": "Qatar Airways",
+    "region": "Middle East",
+    "carryOn": {
+      "width": 37,
+      "height": 50,
+      "depth": 25,
+      "weightKg": 7,
+      "isIncluded": true
+    },
+    "personalItem": {
+      "width": 0,
+      "height": 0,
+      "depth": 0,
+      "weightKg": null,
+      "isIncluded": false
+    }
+  },
+  {
+    "id": "indigo",
+    "name": "IndiGo",
+    "region": "Asia",
+    "carryOn": {
+      "width": 35,
+      "height": 55,
+      "depth": 25,
+      "weightKg": 7,
+      "isIncluded": true
+    },
+    "personalItem": {
+      "width": 0,
+      "height": 0,
+      "depth": 0,
+      "weightKg": null,
+      "isIncluded": false
+    }
+  },
+  {
+    "id": "air-asia",
+    "name": "AirAsia",
+    "region": "Asia",
+    "carryOn": {
+      "width": 36,
+      "height": 56,
+      "depth": 23,
+      "weightKg": 7,
+      "isIncluded": true
+    },
+    "personalItem": {
+      "width": 30,
+      "height": 40,
+      "depth": 10,
+      "weightKg": null,
+      "isIncluded": true
+    }
+  },
+  {
+    "id": "singapore-airlines",
+    "name": "Singapore Airlines",
+    "region": "Asia",
+    "carryOn": {
+      "width": 40,
+      "height": 55,
+      "depth": 20,
+      "weightKg": 7,
+      "isIncluded": true
+    },
+    "personalItem": {
+      "width": 30,
+      "height": 40,
+      "depth": 10,
+      "weightKg": null,
+      "isIncluded": true
+    }
+  },
+  {
+    "id": "latam",
+    "name": "LATAM",
+    "region": "South America",
+    "carryOn": {
+      "width": 35,
+      "height": 55,
+      "depth": 25,
+      "weightKg": 10,
+      "isIncluded": true
+    },
+    "personalItem": {
+      "width": 35,
+      "height": 45,
+      "depth": 20,
+      "weightKg": null,
+      "isIncluded": true
+    }
+  },
+  {
+    "id": "qantas",
+    "name": "Qantas",
+    "region": "Oceania",
+    "carryOn": {
+      "width": 38,
+      "height": 56,
+      "depth": 23,
+      "weightKg": 7,
+      "isIncluded": true
+    },
+    "personalItem": {
+      "width": 0,
+      "height": 0,
+      "depth": 0,
+      "weightKg": null,
+      "isIncluded": true
+    }
+  }
+]

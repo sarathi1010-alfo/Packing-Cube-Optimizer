@@ -1,0 +1,101 @@
+[
+  {
+    "id": "small-standard",
+    "name": "Small Standard Cube",
+    "dimensions": { "width": 28, "height": 17, "depth": 8 },
+    "volumeLiters": 3.8,
+    "type": "standard",
+    "useCase": "Socks, underwear, belts, small accessories",
+    "recommendedTripLength": "Any",
+    "compressionFactor": 1.0,
+    "color": "#e2e8f0"
+  },
+  {
+    "id": "medium-standard",
+    "name": "Medium Standard Cube",
+    "dimensions": { "width": 35, "height": 25, "depth": 8 },
+    "volumeLiters": 7,
+    "type": "standard",
+    "useCase": "T-shirts, shorts, light sweaters",
+    "recommendedTripLength": "Weekend",
+    "compressionFactor": 1.0,
+    "color": "#cbd5e1"
+  },
+  {
+    "id": "large-standard",
+    "name": "Large Standard Cube",
+    "dimensions": { "width": 45, "height": 32, "depth": 8 },
+    "volumeLiters": 11.5,
+    "type": "standard",
+    "useCase": "Pants, jeans, thick sweaters, jackets",
+    "recommendedTripLength": "1+ Week",
+    "compressionFactor": 1.0,
+    "color": "#94a3b8"
+  },
+  {
+    "id": "small-compression",
+    "name": "Small Compression Cube",
+    "dimensions": { "width": 25, "height": 18, "depth": 10 },
+    "volumeLiters": 4.5,
+    "type": "compression",
+    "useCase": "Socks, underwear, swimwear",
+    "recommendedTripLength": "Any",
+    "compressionFactor": 0.6,
+    "color": "#bae6fd"
+  },
+  {
+    "id": "medium-compression",
+    "name": "Medium Compression Cube",
+    "dimensions": { "width": 36, "height": 25, "depth": 10 },
+    "volumeLiters": 9,
+    "type": "compression",
+    "useCase": "T-shirts, light layers, dresses",
+    "recommendedTripLength": "Weekend to 1 Week",
+    "compressionFactor": 0.6,
+    "color": "#7dd3fc"
+  },
+  {
+    "id": "large-compression",
+    "name": "Large Compression Cube",
+    "dimensions": { "width": 36, "height": 36, "depth": 10 },
+    "volumeLiters": 13,
+    "type": "compression",
+    "useCase": "Bulky items, jeans, sweaters, coats",
+    "recommendedTripLength": "1+ Week",
+    "compressionFactor": 0.5,
+    "color": "#38bdf8"
+  },
+  {
+    "id": "shoe-bag",
+    "name": "Shoe Bag",
+    "dimensions": { "width": 40, "height": 22, "depth": 12 },
+    "volumeLiters": 10.5,
+    "type": "specialty",
+    "useCase": "1 pair of bulky shoes or 2 pairs of sandals",
+    "recommendedTripLength": "Any",
+    "compressionFactor": 1.0,
+    "color": "#fde047"
+  },
+  {
+    "id": "tube-cube",
+    "name": "Tube Cube",
+    "dimensions": { "width": 33, "height": 10, "depth": 10 },
+    "volumeLiters": 3.3,
+    "type": "standard",
+    "useCase": "Cables, chargers, socks, ties, curling iron",
+    "recommendedTripLength": "Any",
+    "compressionFactor": 1.0,
+    "color": "#d9f99d"
+  },
+  {
+    "id": "clear-toiletry",
+    "name": "TSA Clear Toiletry Bag",
+    "dimensions": { "width": 20, "height": 15, "depth": 6 },
+    "volumeLiters": 1.8,
+    "type": "specialty",
+    "useCase": "Liquids, gels, aerosols (TSA compliant 3-1-1)",
+    "recommendedTripLength": "Any",
+    "compressionFactor": 1.0,
+    "color": "#fbcfe8"
+  }
+]
