@@ -12,7 +12,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/carry-on-checker',
     '/simulator',
     '/airlines',
-    '/templates'
+    '/templates',
+    '/about',
+    '/contact',
+    '/privacy-policy',
+    '/terms-of-service'
   ].map((route) => ({
     url: `${BASE_URL}${route}`,
     lastModified: new Date(),

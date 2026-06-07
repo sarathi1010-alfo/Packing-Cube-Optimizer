@@ -23,6 +23,9 @@ export function Navbar() {
           <Link href="/templates" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
             Templates
           </Link>
+          <Link href="/about" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+            About
+          </Link>
           <Link href="/calculator">
             <Button className="bg-brand-orange hover:bg-brand-orange/90 text-white">
               Start Packing
@@ -49,6 +52,9 @@ export function Navbar() {
                 </Link>
                 <Link href="/templates" className="text-lg font-medium">
                   Templates
+                </Link>
+                <Link href="/about" className="text-lg font-medium">
+                  About
                 </Link>
                 <Link href="/calculator" className="mt-4">
                   <Button className="bg-brand-orange hover:bg-brand-orange/90 text-white w-full">
