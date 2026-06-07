@@ -6,22 +6,26 @@ import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { AdSlot } from "@/components/ads/ad-slot";
 import { RecentlyLaunched } from "@/components/widgets/recently-launched";
+import { siteConfig } from "@/config/site";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://packingcubeoptimizer.com'),
-  title: "Packing Cube Optimizer | Pack smarter, fit more",
-  description: "An interactive visual packing planner that helps travelers optimize luggage space using packing cubes and airline-specific simulations.",
+  metadataBase: new URL(siteConfig.url),
+  title: {
+    default: siteConfig.name + " | Pack smarter, fit more",
+    template: "%s | " + siteConfig.name,
+  },
+  description: siteConfig.description,
   keywords: ["packing cube optimizer", "luggage space calculator", "carry on size checker", "packing simulator", "travel tool"],
   openGraph: {
-    title: "Packing Cube Optimizer | Pack smarter, fit more",
-    description: "An interactive visual packing planner that helps travelers optimize luggage space using packing cubes and airline-specific simulations.",
-    url: "https://packingcubeoptimizer.com",
-    siteName: "Packing Cube Optimizer",
+    title: siteConfig.name,
+    description: siteConfig.description,
+    url: siteConfig.url,
+    siteName: siteConfig.name,
     images: [
       {
-        url: "/og-image.png",
+        url: `${siteConfig.url}${siteConfig.ogImage}`,
         width: 1200,
         height: 630,
       },
@@ -31,21 +35,21 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Packing Cube Optimizer | Pack smarter, fit more",
-    description: "An interactive visual packing planner that helps travelers optimize luggage space using packing cubes and airline-specific simulations.",
-    images: ["/og-image.png"],
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: [`${siteConfig.url}${siteConfig.ogImage}`],
   },
   alternates: {
-    canonical: "https://packingcubeoptimizer.com",
+    canonical: siteConfig.url,
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  "name": "Packing Cube Optimizer",
-  "description": "An interactive visual packing planner that helps travelers optimize luggage space using packing cubes and airline-specific simulations.",
-  "url": "https://packingcubeoptimizer.com",
+  "name": siteConfig.name,
+  "description": siteConfig.description,
+  "url": siteConfig.url,
   "applicationCategory": "TravelApplication",
   "operatingSystem": "All",
   "offers": {

@@ -1,10 +1,10 @@
 import { MetadataRoute } from 'next';
 import { generatePseoSlugs } from '@/lib/data/pseo';
 import { getAirlines, getTemplates } from '@/lib/data';
-
-const BASE_URL = 'https://packingcubeoptimizer.com';
+import { siteConfig } from '@/config/site';
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const BASE_URL = siteConfig.url;
   // Core routes
   const coreRoutes = [
     '',
