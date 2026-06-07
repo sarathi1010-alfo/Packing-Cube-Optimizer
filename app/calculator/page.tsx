@@ -9,6 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Slider } from "@/components/ui/slider";
 import { Box, ArrowRight, Calculator } from "lucide-react";
 import Link from "next/link";
+import { RelatedTools } from "@/components/widgets/related-tools";
 
 export default function CalculatorPage() {
   const [days, setDays] = useState<number[]>([7]);
@@ -156,6 +157,10 @@ export default function CalculatorPage() {
             </Card>
           )}
         </div>
+      </div>
+
+      <div className="mt-24">
+        <RelatedTools />
       </div>
     </div>
   );

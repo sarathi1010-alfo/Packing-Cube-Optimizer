@@ -1,10 +1,10 @@
 import { MetadataRoute } from 'next';
 import { generatePseoSlugs } from '@/lib/data/pseo';
 import { getAirlines, getTemplates } from '@/lib/data';
-
-const BASE_URL = 'https://packingcubeoptimizer.com';
+import { siteConfig } from '@/config/site';
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const BASE_URL = siteConfig.url;
   // Core routes
   const coreRoutes = [
     '',
@@ -12,7 +12,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/carry-on-checker',
     '/simulator',
     '/airlines',
-    '/templates'
+    '/templates',
+    '/about',
+    '/contact',
+    '/privacy-policy',
+    '/terms-of-service',
+    '/blog'
   ].map((route) => ({
     url: `${BASE_URL}${route}`,
     lastModified: new Date(),
@@ -47,5 +52,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...coreRoutes, ...airlines, ...templates, ...pseoRoutes];
+  // Blog Routes
+  const blogRoutes = [
+    '/blog/how-to-pack-7-day-trip-carry-on'
+  ].map((route) => ({
+    url: `${BASE_URL}${route}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  return [...coreRoutes, ...airlines, ...templates, ...pseoRoutes, ...blogRoutes];
 }
