@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Plane, Box, LayoutTemplate, ArrowRight, CheckCircle2 } from "lucide-react";
+import { RelatedTools } from "@/components/widgets/related-tools";
 
 export default function Home() {
   return (
@@ -137,6 +138,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <RelatedTools />
     </div>
   );
 }

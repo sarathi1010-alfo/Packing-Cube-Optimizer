@@ -16,7 +16,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/about',
     '/contact',
     '/privacy-policy',
-    '/terms-of-service'
+    '/terms-of-service',
+    '/blog'
   ].map((route) => ({
     url: `${BASE_URL}${route}`,
     lastModified: new Date(),
@@ -51,5 +52,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...coreRoutes, ...airlines, ...templates, ...pseoRoutes];
+  // Blog Routes
+  const blogRoutes = [
+    '/blog/how-to-pack-7-day-trip-carry-on'
+  ].map((route) => ({
+    url: `${BASE_URL}${route}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  return [...coreRoutes, ...airlines, ...templates, ...pseoRoutes, ...blogRoutes];
 }

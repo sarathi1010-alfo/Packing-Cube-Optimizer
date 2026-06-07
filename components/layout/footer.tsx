@@ -42,9 +42,18 @@ export function Footer() {
             <li><Link href="/about" className="hover:text-primary transition-colors">About Us</Link></li>
           </ul>
         </div>
+
+        <div>
+          <h3 className="font-semibold mb-4">Social</h3>
+          <ul className="space-y-2 text-sm text-muted-foreground">
+            <li><a href="#" className="hover:text-primary transition-colors">Twitter</a></li>
+            <li><a href="#" className="hover:text-primary transition-colors">GitHub</a></li>
+            <li><a href="#" className="hover:text-primary transition-colors">LinkedIn</a></li>
+          </ul>
+        </div>
       </div>
       <div className="container mx-auto px-4 mt-12 pt-8 border-t text-center text-sm text-muted-foreground">
-        <p>&copy; {new Date().getFullYear()} Packing Cube Optimizer. All rights reserved.</p>
+        <p>&copy; 2025 alfo.online — All rights reserved</p>
       </div>
     </footer>
   );

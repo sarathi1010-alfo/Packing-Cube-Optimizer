@@ -4,6 +4,8 @@ import Script from "next/script";
 import "./globals.css";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
+import { AdSlot } from "@/components/ads/ad-slot";
+import { RecentlyLaunched } from "@/components/widgets/recently-launched";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -79,8 +81,11 @@ export default function RootLayout({
           `}
         </Script>
         <Navbar />
+        <RecentlyLaunched />
         <main className="flex-1">
+          <AdSlot slot="top-leaderboard" format="auto" />
           {children}
+          <AdSlot slot="bottom-leaderboard" format="auto" />
         </main>
         <Footer />
       </body>
