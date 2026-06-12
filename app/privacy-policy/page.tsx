@@ -22,7 +22,7 @@ export default function PrivacyPolicyPage() {
         <p>
           Welcome to Packing Cube Optimizer (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We are committed to protecting your privacy
           and ensuring you have a positive experience on our website. This Privacy Policy applies to our website
-          at packingcubeoptimizer.com and explains how we collect, use, and share your personal data.
+          at packfit.alfo.online and explains how we collect, use, and share your personal data.
         </p>
       </section>
 
