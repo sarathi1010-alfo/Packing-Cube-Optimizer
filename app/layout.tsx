@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     images: [`${siteConfig.url}${siteConfig.ogImage}`],
   },
   alternates: {
-    canonical: siteConfig.url,
+    canonical: "/",
   },
   manifest: "/manifest.json",
   appleWebApp: {
