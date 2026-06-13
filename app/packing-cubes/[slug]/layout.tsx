@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import { parsePseoSlug, getPseoName } from "@/lib/data/pseo";
 import { Metadata } from "next";
+import { siteConfig } from "@/config/site";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -37,7 +38,7 @@ export async function generateMetadata(
     title,
     description,
     alternates: {
-      canonical: `https://packingcubeoptimizer.com/packing-cubes/${resolvedParams.slug}`,
+      canonical: `${siteConfig.url}/packing-cubes/${resolvedParams.slug}`,
     },
     openGraph: {
       title,

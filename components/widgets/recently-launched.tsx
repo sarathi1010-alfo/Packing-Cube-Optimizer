@@ -4,7 +4,7 @@ export function RecentlyLaunched() {
   const newTools = [
     { name: "Luna Cycle", url: "https://lunacycle.alfo.online" },
     { name: "Font Fusion", url: "https://fontfusion.alfo.online" },
-    { name: "Packing Cube Optimizer", url: "https://packingcubeoptimizer.com" },
+    { name: "Packing Cube Optimizer", url: "https://packfit.alfo.online" },
   ];
 
   return (
