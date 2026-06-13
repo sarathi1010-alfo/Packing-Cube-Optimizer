@@ -3,14 +3,21 @@
 // If running locally, it falls back to localhost.
 // This prevents Vercel preview domains or default vercel.app URLs from leaking into production SEO.
 
+// Ensure the fallback strictly defaults to the production canonical domain during builds
+const getCanonicalUrl = () => {
+  if (process.env.NEXT_PUBLIC_SITE_URL) {
+    return process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, "");
+  }
+  if (process.env.NODE_ENV === "development") {
+    return "http://localhost:3000";
+  }
+  return "https://packingcubeoptimizer.com";
+};
+
 export const siteConfig = {
   name: "Packing Cube Optimizer",
   description: "An interactive visual packing planner that helps travelers optimize luggage space using packing cubes and airline-specific simulations.",
-  url: process.env.NEXT_PUBLIC_SITE_URL
-    ? process.env.NEXT_PUBLIC_SITE_URL
-    : process.env.NODE_ENV === "development"
-      ? "http://localhost:3000"
-      : "https://packingcubeoptimizer.com", // Your hardcoded production fallback
+  url: getCanonicalUrl(),
   ogImage: "/og-image.png",
   links: {
     twitter: "https://twitter.com/alfo_online",
