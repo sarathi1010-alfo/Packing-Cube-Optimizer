@@ -4,8 +4,8 @@
 // This prevents Vercel preview domains or default vercel.app URLs from leaking into production SEO.
 
 export const siteConfig = {
-  name: "Packing Cube Optimizer",
-  description: "An interactive visual packing planner that helps travelers optimize luggage space using packing cubes and airline-specific simulations.",
+  name: "PackFit",
+  description: "Your personal system for packing consistency. Pack smarter, fit more, travel lighter, and never forget essentials again with our smart, habit-forming workflow.",
   url: process.env.NEXT_PUBLIC_SITE_URL
     ? process.env.NEXT_PUBLIC_SITE_URL
     : process.env.NODE_ENV === "development"
