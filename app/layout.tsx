@@ -7,6 +7,7 @@ import { Footer } from "@/components/layout/footer";
 import { AdSlot } from "@/components/ads/ad-slot";
 import { RecentlyLaunched } from "@/components/widgets/recently-launched";
 import { siteConfig } from "@/config/site";
+import { PWARegistry } from "@/components/pwa-registry";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -40,8 +41,18 @@ export const metadata: Metadata = {
     images: [`${siteConfig.url}${siteConfig.ogImage}`],
   },
   alternates: {
-    canonical: siteConfig.url,
+    canonical: "/",
   },
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: siteConfig.name,
+  },
+};
+
+export const viewport = {
+  themeColor: "#0F172A",
 };
 
 const jsonLd = {
@@ -84,6 +95,7 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={`${inter.className} min-h-screen flex flex-col`}>
+        <PWARegistry />
         <Navbar />
         <RecentlyLaunched />
         <main className="flex-1">
