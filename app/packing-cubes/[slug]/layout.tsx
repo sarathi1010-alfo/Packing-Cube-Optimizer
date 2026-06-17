@@ -17,7 +17,7 @@ export async function generateMetadata(
 
   if (!parsedSlug) {
     return {
-      title: "Packing Cube Optimizer",
+      title: "PackFit",
     };
   }
 

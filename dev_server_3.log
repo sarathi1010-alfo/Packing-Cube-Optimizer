@@ -2,13 +2,10 @@
 > temp-app@0.1.0 dev
 > next dev --turbopack
 
- ⚠ Port 3000 is in use by an unknown process, using available port 3003 instead.
+ ⚠ Port 3000 is in use by an unknown process, using available port 3002 instead.
    ▲ Next.js 15.5.19 (Turbopack)
-   - Local:        http://localhost:3003
-   - Network:      http://192.168.0.2:3003
+   - Local:        http://localhost:3002
+   - Network:      http://192.168.0.2:3002
 
  ✓ Starting...
- ✓ Ready in 1769ms
- ○ Compiling / ...
- ✓ Compiled / in 6.1s
- GET / 200 in 8013ms
+ ✓ Ready in 2.1s
