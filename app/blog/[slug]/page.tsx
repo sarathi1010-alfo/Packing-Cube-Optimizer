@@ -13,7 +13,7 @@ interface PageProps {
 const POSTS = {
   "how-to-pack-7-day-trip-carry-on": {
     title: "How to pack for a 7-day trip in a carry-on",
-    description: "Learn the exact packing cube configuration and folding techniques to fit a full week of clothes into a standard budget airline carry-on without paying extra baggage fees.",
+    description: "Learn packing cube configurations to fit a full week of clothes into a standard budget airline carry-on without paying extra baggage fees.",
     date: "2025-01-15",
     content: `
       <p>Traveling with just a carry-on for a 7-day trip is the ultimate travel flex. It means no waiting at the baggage carousel, no lost luggage, and avoiding those dreaded $60+ checked bag fees. The secret? Packing cubes and spatial optimization.</p>
@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   return {
-    title: `${post.title} | Packing Cube Optimizer`,
+    title: post.title,
     description: post.description,
   };
 }

@@ -29,7 +29,7 @@ export function Footer() {
           <ul className="space-y-2 text-sm text-muted-foreground">
             <li><Link href="/airlines" className="hover:text-primary transition-colors">Airline Baggage Rules</Link></li>
             <li><Link href="/templates" className="hover:text-primary transition-colors">Packing Templates</Link></li>
-            <li><Link href="/guides" className="hover:text-primary transition-colors">Travel Guides</Link></li>
+            <li><Link href="/blog" className="hover:text-primary transition-colors">Travel Guides</Link></li>
           </ul>
         </div>
 

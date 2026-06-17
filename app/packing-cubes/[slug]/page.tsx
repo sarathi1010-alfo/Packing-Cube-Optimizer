@@ -87,7 +87,7 @@ export default async function PseoGuidePage({ params }: { params: Promise<{ slug
     "headline": `Best Packing Cube Setup for a ${durName} ${tripName} in ${destName}`,
     "author": {
       "@type": "Organization",
-      "name": "Packing Cube Optimizer"
+      "name": "PackFit"
     }
   };
 

@@ -1,70 +1,61 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Packing Cube Optimizer",
-  description: "Terms of Service for using the Packing Cube Optimizer platform and tools.",
+  title: "Terms of Service",
+  description: "Terms of Service for using the PackFit platform and tools.",
 };
 
 export default function TermsOfServicePage() {
-  const lastUpdated = new Date().toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  });
-
   return (
-    <div className="container max-w-3xl py-12 px-4 mx-auto prose prose-slate">
-      <h1 className="text-3xl font-bold mb-6">Terms of Service</h1>
-      <p className="text-muted-foreground mb-8">Last Updated: {lastUpdated}</p>
+    <div className="container max-w-3xl py-16 px-4 mx-auto prose prose-slate">
+      <h1 className="text-4xl font-extrabold text-brand-navy mb-8">Terms of Service</h1>
+
+      <p className="text-muted-foreground mb-8">Last updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
+        <h2>1. Acceptance of Terms</h2>
         <p>
-          By accessing and using Packing Cube Optimizer (the &quot;Service&quot; or &quot;Tool&quot;), you accept and agree to be
-          bound by the terms and provision of this agreement.
+          By accessing and using PackFit (the &quot;Service&quot;), you accept and agree to be bound by the terms and provision of this agreement.
         </p>
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">2. Description of Service</h2>
+        <h2>2. Use of Service</h2>
         <p>
-          Packing Cube Optimizer is an interactive web tool designed to assist users in visually planning
-          and optimizing their luggage space. The tool provides simulations based on generic and specific
-          airline carry-on dimensions.
+          The Service is provided &quot;as is&quot; for informational and planning purposes only. While we strive to maintain accurate airline baggage dimensions and rules, airlines change their policies frequently. <strong>You are solely responsible for verifying the current baggage rules directly with your airline before travel.</strong> PackFit is not liable for any baggage fees, denied boarding, or other travel disruptions resulting from the use of our Service.
         </p>
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">3. Disclaimer of Warranties</h2>
+        <h2>3. Local Storage and Data</h2>
         <p>
-          The Service is provided &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; without warranties of any kind.
-          While we strive for accuracy in our packing simulations and airline allowance data,
-          airline rules change frequently and without notice. <strong>We do not guarantee that your
-          luggage will be accepted by an airline.</strong> Always verify baggage restrictions directly
-          with your airline before traveling.
+          PackFit operates primarily as a client-side application. Your packing lists, templates, and configurations are saved locally in your browser&apos;s storage. We are not responsible for the loss of this data due to browser clearing, cache resets, or changing devices.
         </p>
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">4. Limitation of Liability</h2>
+        <h2>4. Intellectual Property</h2>
         <p>
-          In no event shall Packing Cube Optimizer, its developers, or its affiliates be liable for any
-          indirect, incidental, special, consequential or punitive damages, including without limitation,
-          excess baggage fees, missed flights, or any other loss resulting from your access to or use of,
-          or inability to access or use the Service.
+          The Service and its original content, features, and functionality are owned by PackFit and are protected by international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.
         </p>
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">5. Modifications to Service</h2>
+        <h2>5. Advertising and Links</h2>
         <p>
-          We reserve the right at any time and from time to time to modify or discontinue, temporarily or
-          permanently, the Service (or any part thereof) with or without notice.
+          Our Service contains links to third-party web sites or services that are not owned or controlled by us, including display advertisements. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third party web sites or services.
         </p>
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">6. Contact Information</h2>
+        <h2>6. Changes to Terms</h2>
+        <p>
+          We reserve the right, at our sole discretion, to modify or replace these Terms at any time. What constitutes a material change will be determined at our sole discretion.
+        </p>
+      </section>
+
+      <section>
+        <h2>7. Contact Us</h2>
         <p>
           If you have any questions or concerns regarding these Terms of Service, please contact us via our <a href="/contact" className="text-primary underline">Contact page</a>.
         </p>

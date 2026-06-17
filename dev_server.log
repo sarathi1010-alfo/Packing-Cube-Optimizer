@@ -2,37 +2,165 @@
 > temp-app@0.1.0 dev
 > next dev --turbopack
 
- ⚠ Port 3000 is in use by an unknown process, using available port 3001 instead.
-   ▲ Next.js 15.5.19 (Turbopack)
-   - Local:        http://localhost:3001
-   - Network:      http://192.168.0.2:3001
-
- ✓ Starting...
- ✓ Ready in 1620ms
- ○ Compiling / ...
- ✓ Compiled / in 5.1s
- GET / 200 in 6774ms
- ○ Compiling /calculator ...
- ✓ Compiled /calculator in 2.4s
- GET /calculator 200 in 2938ms
- ○ Compiling /blog ...
- ✓ Compiled /blog in 660ms
- GET /blog 200 in 1089ms
- ○ Compiling /blog/[slug] ...
- ✓ Compiled /blog/[slug] in 720ms
- GET /blog/how-to-pack-7-day-trip-carry-on 200 in 2112ms
- ✓ Compiled in 414ms
- ⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
-   ▲ Next.js 15.5.19 (Turbopack)
-   - Local:        http://localhost:3001
-   - Network:      http://192.168.0.2:3001
-
- ✓ Starting...
- ✓ Ready in 4.1s
- the server to apply the changes...
    ▲ Next.js 15.5.19 (Turbopack)
    - Local:        http://localhost:3000
    - Network:      http://192.168.0.2:3000
 
  ✓ Starting...
- ✓ Ready in 4.1s
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 1522ms
+ ○ Compiling /robots.txt ...
+ ✓ Compiled /robots.txt in 2.8s
+ HEAD /robots.txt 200 in 3404ms
+ ✓ Compiled /sitemap.xml in 171ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/app/.next/server/app/sitemap.xml/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/app/sitemap.xml/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.8s
+ HEAD /sitemap.xml 500 in 3472ms
+ ○ Compiling /_not-found/page ...
+ ✓ Compiled /_not-found/page in 5.3s
+ HEAD /sitemap.xml 404 in 6398ms
+ HEAD /sitemap.xml 404 in 178ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/app/.next/server/app/sitemap.xml/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/app/sitemap.xml/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ HEAD /sitemap.xml 500 in 222ms
+ ✓ Compiled /api/sitemap-index in 181ms
+ HEAD /api/sitemap-index 200 in 503ms
+ ⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+   ▲ Next.js 15.5.19 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.2:3000
+
+ ✓ Starting...
+ ✓ Ready in 1474ms
+ ○ Compiling /api/sitemap-index ...
+ ✓ Compiled /api/sitemap-index in 2.5s
+ HEAD /sitemap.xml 200 in 2943ms
+ ✓ Compiled /robots.txt in 272ms
+ HEAD /robots.txt 200 in 561ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 3.2s
+ HEAD /sitemap.xml 500 in 3820ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ HEAD /sitemap.xml 500 in 111ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ GET /sitemap.xml 500 in 106ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/app/.next/server/pages/_app/build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/pages/_app/build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/app/.next/server/pages/_app/build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/pages/_app/build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/app/.next/server/pages/_app/build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/pages/_app/build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/app/.next/server/pages/_app/build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/pages/_app/build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/app/.next/server/pages/_app/build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/pages/_app/build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/app/.next/server/pages/_app/build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/pages/_app/build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/app/.next/server/pages/_app/build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/pages/_app/build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/app/api/sitemap-index/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/app/.next/server/pages/_app/build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/pages/_app/build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/app/.next/server/pages/_app/build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/.next/server/pages/_app/build-manifest.json'
+}
