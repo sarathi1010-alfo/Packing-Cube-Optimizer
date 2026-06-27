@@ -2,28 +2,30 @@
 
 import { useDroppable } from "@dnd-kit/core";
 import { Airline } from "@/lib/data/schema";
+import { Container } from "./index";
 
 interface SuitcaseCanvasProps {
   airline: Airline;
+  container: Container;
   scale: number; // Pixels per cm
   children: React.ReactNode;
 }
 
-export function SuitcaseCanvas({ airline, scale, children }: SuitcaseCanvasProps) {
+export function SuitcaseCanvas({ airline, container, scale, children }: SuitcaseCanvasProps) {
   const { isOver, setNodeRef } = useDroppable({
     id: "suitcase-canvas",
   });
 
-  // Calculate pixel dimensions of the suitcase based on airline limits
-  const widthPx = airline.carryOn.width * scale;
-  const heightPx = airline.carryOn.height * scale;
+  // Calculate pixel dimensions of the suitcase based on container limits
+  const widthPx = container.width * scale;
+  const heightPx = container.height * scale;
 
   return (
     <div className="flex flex-col items-center justify-center bg-brand-sand/10 rounded-2xl p-8 border border-brand-beige">
       <div className="mb-4 text-center">
-        <h3 className="font-semibold text-brand-navy">{airline.name} Cabin Bag</h3>
+        <h3 className="font-semibold text-brand-navy">{airline.name} - {container.name}</h3>
         <p className="text-sm text-muted-foreground">
-          {airline.carryOn.height} x {airline.carryOn.width} cm limit
+          {container.height} x {container.width} cm limit
         </p>
       </div>
 
