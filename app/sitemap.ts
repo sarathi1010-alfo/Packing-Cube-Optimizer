@@ -59,6 +59,7 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
     }));
 
     const blogRoutes = [
+      '/blog/avoid-overweight-baggage-fees',
       '/blog/how-to-pack-7-day-trip-carry-on'
     ].map((route) => ({
       url: `${BASE_URL}${route}`,
@@ -67,7 +68,23 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
       priority: 0.7,
     }));
 
-    routes = [...coreRoutes, ...airlines, ...templates, ...blogRoutes];
+    const programmaticGuides = [
+      '/trip-types/backpacking-europe',
+      '/trip-types/beach-vacation',
+      '/trip-types/business-trip',
+      '/trip-types/winter-ski-trip',
+      '/trip-types/camping-hiking',
+      '/destinations/asia-packing-guide',
+      '/destinations/europe-packing-guide',
+      '/packing-lists/weekend-getaway'
+    ].map((route) => ({
+      url: `${BASE_URL}${route}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    }));
+
+    routes = [...coreRoutes, ...airlines, ...templates, ...blogRoutes, ...programmaticGuides];
   }
 
   // Programmatic SEO Pages
