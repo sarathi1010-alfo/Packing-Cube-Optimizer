@@ -20,12 +20,17 @@ const PAGES = {
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
         <p class="font-medium text-brand-navy m-0">Pack for a weekend getaway by using a single personal item-sized bag, packing just two versatile outfits, using one small packing cube for clothing and a clear TSA-approved bag for toiletries.</p>
       </div>
-      <p>A weekend trip shouldn't require a large suitcase. The goal is to travel 'Personal Item Only' to breeze through the airport. Stick to a strict limit: the clothes on your back, one extra outfit, sleepwear, and basic toiletries.</p>
+      <p>A weekend trip shouldn't require a large suitcase. The goal is to travel 'Personal Item Only' to breeze through the airport and avoid any potential baggage fees. The secret is to stick to a strict limit: the clothes on your back, one extra versatile outfit, sleepwear, and your most basic toiletries. By utilizing a single, well-organized personal item bag, you can skip the overhead bin and have everything you need right at your feet.</p>
+      <p>Organization is key when space is at such a premium. Use one small packing cube for all your clothing and a clear, TSA-approved 3-1-1 bag for your liquids. This not only keeps your bag tidy but also speeds up your journey through security. Remember, for a 48-to-72-hour trip, you really only need the essentials.</p>
     `,
     faqs: [
       {
         question: "Can I pack for a weekend in just a backpack?",
-        answer: "Absolutely. A standard 25L to 30L backpack is plenty of space for 2-3 days if you roll your clothes and use a small packing cube to organize them."
+        answer: "Absolutely. A standard 25L to 30L backpack is plenty of space for 2-3 days if you roll your clothes and use a small packing cube to organize them. It also allows you to fit your bag under the seat on most airlines."
+      },
+      {
+        question: "What are the most versatile items for a weekend trip?",
+        answer: "Focus on items like dark-wash jeans that can be dressed up or down, a comfortable pair of sneakers, and a lightweight layer like a cardigan or denim jacket that works with multiple outfits."
       }
     ]
   }
