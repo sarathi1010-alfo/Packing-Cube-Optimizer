@@ -15,7 +15,7 @@ export default function AirlinesPage() {
       <div className="space-y-4 mb-12">
         <h1 className="text-4xl md:text-5xl font-bold text-brand-navy">Airline Carry-On Rules</h1>
         <p className="text-xl text-muted-foreground max-w-3xl">
-          Don&#39;t get caught at the gate. Check the exact carry-on and personal item dimensions for major global airlines to ensure your packing cubes fit perfectly.
+          Don&#39;t get caught at the gate. Check the exact carry-on and personal item dimensions for major global airlines to ensure your packing cubes fit perfectly. For more in-depth strategies, read our guide on <Link href="/blog/avoid-overweight-baggage-fees" className="text-brand-orange underline font-semibold">how to pack efficiently to avoid overweight baggage fees</Link>.
         </p>
       </div>
 

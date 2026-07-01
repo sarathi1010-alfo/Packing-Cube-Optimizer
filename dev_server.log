@@ -7,8 +7,45 @@
    - Network:      http://192.168.0.2:3000
 
  ✓ Starting...
- ✓ Ready in 1513ms
+ ✓ Ready in 1531ms
+ ○ Compiling / ...
+ ✓ Compiled / in 7s
+ GET / 200 in 8943ms
+ ○ Compiling /blog/[slug] ...
+ ✓ Compiled /blog/[slug] in 736ms
+ GET /blog/avoid-overweight-baggage-fees 200 in 2274ms
+ ○ Compiling /trip-types/[slug] ...
+ ✓ Compiled /trip-types/[slug] in 689ms
+ GET /trip-types/backpacking-europe 200 in 2168ms
+ GET /blog/how-to-pack-7-day-trip-carry-on 200 in 481ms
+ GET / 200 in 932ms
+ GET /blog/avoid-overweight-baggage-fees 200 in 713ms
+ GET /trip-types/backpacking-europe 200 in 387ms
+ GET /blog/how-to-pack-7-day-trip-carry-on 200 in 478ms
  ○ Compiling /simulator ...
- ✓ Compiled /simulator in 7.9s
- GET /simulator 200 in 9905ms
- GET /simulator 200 in 498ms
+ ✓ Compiled /simulator in 2.1s
+ GET /simulator 200 in 2752ms
+ ✓ Compiled in 219ms
+ GET / 200 in 892ms
+ ✓ Compiled /blog/[slug] in 61ms
+ GET /blog/avoid-overweight-baggage-fees 200 in 1551ms
+ GET /trip-types/backpacking-europe 200 in 1077ms
+ GET /blog/how-to-pack-7-day-trip-carry-on 200 in 575ms
+ ○ Compiling /airlines ...
+ ✓ Compiled /airlines in 1791ms
+ GET /airlines 200 in 2514ms
+ GET /simulator 200 in 376ms
+ ✓ Compiled in 154ms
+ GET / 200 in 569ms
+ GET /blog/avoid-overweight-baggage-fees 200 in 548ms
+ ✓ Compiled /trip-types/[slug] in 45ms
+ GET /trip-types/backpacking-europe 200 in 771ms
+ GET /blog/how-to-pack-7-day-trip-carry-on 200 in 513ms
+ GET /airlines 200 in 675ms
+ GET /simulator 200 in 427ms
+ GET / 200 in 482ms
+ GET /blog/avoid-overweight-baggage-fees 200 in 612ms
+ GET /trip-types/backpacking-europe 200 in 439ms
+ GET /blog/how-to-pack-7-day-trip-carry-on 200 in 474ms
+ GET /airlines 200 in 650ms
+ GET /simulator 200 in 575ms

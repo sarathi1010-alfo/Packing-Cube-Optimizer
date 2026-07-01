@@ -20,7 +20,8 @@ const PAGES = {
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
         <p class="font-medium text-brand-navy m-0">When packing for Asia, prioritize ultra-breathable, moisture-wicking clothing for humidity, slip-on shoes for temple visits, a modest outfit that covers shoulders and knees, and a robust universal power adapter.</p>
       </div>
-      <p>Traveling across Asia often means navigating diverse climates, from the sweltering heat of Southeast Asia to the crisp mountain air in parts of East Asia. The key is lightweight versatility. Roll your clothes to save space and organize them by outfit or function using standard packing cubes.</p>
+      <p>Traveling across Asia often means navigating diverse climates, from the sweltering heat and high humidity of Southeast Asia to the crisp mountain air in parts of East Asia or the bustling urban environments of Tokyo and Seoul. The key is lightweight versatility. Choose ultra-breathable, moisture-wicking fabrics that keep you cool and dry. Roll your clothes to save space and organize them by outfit or function using standard packing cubes, which also makes navigating different accommodations much easier.</p>
+      <p>Cultural sensitivity is also paramount. Many of Asia's most beautiful sites are religious in nature, requiring modest dress. Always have a lightweight scarf or sarong in your daypack to cover your shoulders or knees, and opt for slip-on shoes to make the frequent shoe-removal at temples and homes a breeze.</p>
     `,
     faqs: [
       {
@@ -29,7 +30,11 @@ const PAGES = {
       },
       {
         question: "Do I need a mosquito net?",
-        answer: "Unless you are trekking in very remote jungles, most accommodations provide nets if necessary. Instead, focus on packing a high-quality DEET or Picaridin insect repellent."
+        answer: "Unless you are trekking in very remote jungles, most accommodations provide nets if necessary. Instead, focus on packing a high-quality DEET or Picaridin insect repellent and wearing long sleeves at dusk."
+      },
+      {
+        question: "What type of power adapter do I need for Asia?",
+        answer: "Asia uses a variety of plug types (A, C, G, and I are common). A high-quality universal travel adapter with multiple USB ports is your best investment to ensure all your devices stay charged across different countries."
       }
     ]
   },
@@ -41,12 +46,17 @@ const PAGES = {
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
         <p class="font-medium text-brand-navy m-0">Essential items for Europe include a comfortable pair of stylish walking shoes, a versatile capsule wardrobe in neutral colors, a secure cross-body bag for anti-theft, and a travel adapter for EU/UK outlets.</p>
       </div>
-      <p>Europe is best explored with a carry-on. Trains have limited luggage space, and dragging heavy bags over cobblestones is a quick way to ruin your trip. Focus on a capsule wardrobe—items that easily mix and match—and use compression packing cubes to fit it all into a 40L backpack or small roller.</p>
+      <p>Europe is best explored with a carry-on mindset. Trains often have limited luggage storage, and dragging heavy, oversized bags over ancient cobblestone streets is a quick way to turn your dream vacation into a logistical nightmare. Focus on a capsule wardrobe—curate 10-12 items that easily mix and match to create dozens of outfits. Use compression packing cubes to maximize every inch of your 40L backpack or international-sized roller bag.</p>
+      <p>Beyond clothing, prioritize security and connectivity. European cities are generally safe, but pickpocketing can be common in high-traffic tourist areas. Use a secure cross-body bag with locking zippers for your daily essentials. Finally, ensure you have the correct travel adapters for both the Type C (Europlug) and Type G (UK/Ireland) outlets if your itinerary spans the continent.</p>
     `,
     faqs: [
       {
         question: "What kind of shoes should I pack for Europe?",
-        answer: "Comfort is king. Bring a stylish but highly supportive walking shoe or sneaker. Avoid high heels completely due to cobblestone streets. Bring a second, slightly dressier pair of flats or loafers for evenings."
+        answer: "Comfort is king. Bring a stylish but highly supportive walking shoe or sneaker that you've already broken in. Avoid high heels completely due to cobblestones. Bring a second, slightly dressier pair of flats, loafers, or Chelsea boots for nice dinners."
+      },
+      {
+        question: "How do I avoid looking like a tourist in Europe?",
+        answer: "Stick to neutral colors, well-fitted clothing, and avoid overly sporty activewear or 'backpacker' gear when in major cities. A simple, classic wardrobe helps you blend in with the locals while still being comfortable for sightseeing."
       }
     ]
   }
