@@ -13,7 +13,7 @@ export default function TemplatesPage() {
       <div className="space-y-4 mb-12 text-center max-w-3xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold text-brand-navy">Packing Templates</h1>
         <p className="text-xl text-muted-foreground">
-          Don&#39;t start from scratch. Steal our proven packing layouts designed for specific trips, climates, and travel styles.
+          Don&#39;t start from scratch. Steal our proven packing layouts designed for specific trips, climates, and travel styles. Learn how to use these templates and <Link href="/blog/avoid-overweight-baggage-fees" className="text-brand-orange underline font-semibold">pack efficiently to avoid overweight baggage fees</Link>.
         </p>
       </div>
 
