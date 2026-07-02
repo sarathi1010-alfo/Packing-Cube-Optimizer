@@ -44,12 +44,14 @@ export function Navbar() {
         {/* Mobile Navigation */}
         <div className="md:hidden">
           <Sheet>
-            <SheetTrigger>
-              <Button variant="ghost" size="icon">
-                <Menu className="h-6 w-6" />
-                <span className="sr-only">Toggle navigation menu</span>
-              </Button>
-            </SheetTrigger>
+            <SheetTrigger
+              render={
+                <Button variant="ghost" size="icon">
+                  <Menu className="h-6 w-6" />
+                  <span className="sr-only">Toggle navigation menu</span>
+                </Button>
+              }
+            />
             <SheetContent side="right">
               <nav className="flex flex-col gap-4 mt-8">
                 <Link href="/blog" className="text-lg font-medium">
