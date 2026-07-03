@@ -18,7 +18,7 @@ const PAGES = {
     content: `
       <h2>How to pack for backpacking in Europe?</h2>
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
-        <p class="font-medium text-brand-navy m-0">To pack for backpacking in Europe, prioritize a lightweight 40L travel backpack, use compression packing cubes for space efficiency, build a capsule wardrobe with versatile, quick-dry fabrics, and rely on our tool to simulate your pack layout.</p>
+        <p class="font-medium text-brand-navy m-0">To pack for backpacking in Europe, prioritize a lightweight 40L travel backpack, use compression packing cubes for space efficiency, build a capsule wardrobe with versatile, quick-dry fabrics, and rely on our visual simulator tool.</p>
       </div>
       <p>Backpacking Europe requires a strategic approach to packing to avoid dragging a heavy suitcase across cobblestone streets. Opt for a carry-on size backpack to save on budget airline fees and maximize mobility. Pack layerable clothing, comfortable walking shoes, and use packing cubes to compartmentalize your gear.</p>
     `,
@@ -39,7 +39,7 @@ const PAGES = {
     content: `
       <h2>What should you pack for a beach vacation?</h2>
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
-        <p class="font-medium text-brand-navy m-0">For a beach vacation, pack multiple swimsuits, lightweight cover-ups, reef-safe sunscreen, a packable sun hat, polarized sunglasses, and breathable evening wear, organized using medium standard packing cubes.</p>
+        <p class="font-medium text-brand-navy m-0">For a beach vacation, pack multiple swimsuits, lightweight cover-ups, reef-safe sunscreen, a packable sun hat, polarized sunglasses, and breathable evening wear, organized using medium standard packing cubes to maximize space.</p>
       </div>
       <p>Packing for the beach is all about lightweight fabrics and sun protection. Roll your beachwear and use standard packing cubes. Don't forget a dedicated wet bag or water-resistant cube for damp swimsuits on your journey home.</p>
     `,
@@ -56,7 +56,7 @@ const PAGES = {
     content: `
       <h2>How to pack efficiently for a business trip?</h2>
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
-        <p class="font-medium text-brand-navy m-0">Efficient business trip packing involves using a garment folder for dress shirts, a tube cube for ties and belts, a dedicated tech organizer for chargers, and prioritizing a carry-on to skip the baggage carousel.</p>
+        <p class="font-medium text-brand-navy m-0">Efficient business trip packing involves using a garment folder for dress shirts, a tube cube for ties/belts, a tech organizer for chargers, and prioritizing a carry-on bag to skip the baggage carousel entirely.</p>
       </div>
       <p>Business travel demands efficiency. Utilize structured packing cubes to keep professional attire wrinkle-free. Always pack your essential tech and documents in an easily accessible personal item.</p>
     `,
@@ -73,7 +73,7 @@ const PAGES = {
     content: `
       <h2>How to pack bulky gear for a winter ski trip?</h2>
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
-        <p class="font-medium text-brand-navy m-0">To pack for a ski trip, use large compression cubes for bulky base layers and sweaters, rent heavy gear at the destination if possible, and wear your bulkiest winter coat on the plane.</p>
+        <p class="font-medium text-brand-navy m-0">For a winter ski trip, use large compression cubes for bulky base layers, rent heavy gear at your destination, and wear your bulkiest winter coat on the plane to save luggage space.</p>
       </div>
       <p>Winter trips are notoriously difficult to pack for due to the sheer volume of the clothing. Compression packing cubes are absolutely mandatory here to squeeze the air out of fleeces and base layers.</p>
     `,
@@ -90,7 +90,7 @@ const PAGES = {
     content: `
       <h2>What are the packing essentials for camping and hiking?</h2>
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
-        <p class="font-medium text-brand-navy m-0">For camping and hiking, prioritize moisture-wicking layers, a reliable waterproof shell, sturdy footwear, a first-aid kit, and use ultralight dry sacks or weather-resistant cubes for organization.</p>
+        <p class="font-medium text-brand-navy m-0">For camping and hiking, prioritize moisture-wicking layers, a reliable waterproof shell, sturdy footwear, a first-aid kit, and use ultralight dry sacks or weather-resistant cubes for organization and protection from the elements.</p>
       </div>
       <p>When heading into the outdoors, every ounce matters. Focus on synthetic or merino wool layers that dry quickly and resist odors.</p>
     `,
