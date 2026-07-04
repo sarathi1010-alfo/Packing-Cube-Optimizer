@@ -10,6 +10,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "avoid-overweight-baggage-fees",
+    title: "How to pack efficiently to avoid overweight baggage fees",
+    excerpt: "Learn how to pack efficiently to avoid overweight baggage fees, including tips on weighing luggage, rolling vs. folding, weight distribution, and spatial optimization.",
+    date: new Date().toISOString().split('T')[0],
+    category: "Guides"
+  },
+  {
     slug: "how-to-pack-7-day-trip-carry-on",
     title: "How to pack for a 7-day trip in a carry-on",
     excerpt: "Learn the exact packing cube configuration and folding techniques to fit a full week of clothes into a standard budget airline carry-on without paying extra baggage fees.",

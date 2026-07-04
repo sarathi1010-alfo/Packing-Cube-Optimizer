@@ -18,7 +18,7 @@ const PAGES = {
     content: `
       <h2>How to pack for a trip to Asia?</h2>
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
-        <p class="font-medium text-brand-navy m-0">When packing for Asia, prioritize ultra-breathable, moisture-wicking clothing for humidity, slip-on shoes for temple visits, a modest outfit that covers shoulders and knees, and a robust universal power adapter.</p>
+        <p class="font-medium text-brand-navy m-0">When packing for Asia, prioritize ultra-breathable clothing for humidity, slip-on shoes for temple visits, and a modest outfit that covers shoulders and knees. Use a universal power adapter and plan your layout using our visual optimizer.</p>
       </div>
       <p>Traveling across Asia often means navigating diverse climates, from the sweltering heat of Southeast Asia to the crisp mountain air in parts of East Asia. The key is lightweight versatility. Roll your clothes to save space and organize them by outfit or function using standard packing cubes.</p>
     `,

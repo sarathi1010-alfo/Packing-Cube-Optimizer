@@ -1,4 +1,4 @@
-# Google Search Console (GSC) Coverage Fix Plan
+# Google Search Console (GSC) Coverage Fix Plan (Updated: 2025-05-22)
 
 **Property:** `https://packfit.alfo.online`
 
