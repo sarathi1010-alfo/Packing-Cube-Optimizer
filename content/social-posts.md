@@ -1,5 +1,7 @@
 # Social Media Posts for: "How to pack efficiently to avoid overweight baggage fees"
 
+**Status: Ready for Distribution**
+
 ## Twitter / X (Short & Punchy)
 1. Stop paying the "hidden travel tax" 💸! Overweight baggage fees are out of control. Learn the 8 strategies to pack efficiently, weigh less, and travel smarter. Read our new guide on PackFit: [Link] #TravelHacks #PackingTips
 2. Rolling vs. Folding? 🤔 For saving space, roll softer fabrics (t-shirts) and fold stiffer items (jeans/jackets). Master the art of packing with PackFit's latest guide! [Link] #TravelSmart #Luggage

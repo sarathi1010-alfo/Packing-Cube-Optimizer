@@ -20,7 +20,7 @@ const PAGES = {
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
         <p class="font-medium text-brand-navy m-0">To pack for backpacking in Europe, prioritize a lightweight 40L travel backpack, use compression packing cubes for space efficiency, build a capsule wardrobe with versatile, quick-dry fabrics, and rely on our tool to simulate your pack layout.</p>
       </div>
-      <p>Backpacking Europe requires a strategic approach to packing to avoid dragging a heavy suitcase across cobblestone streets. Opt for a carry-on size backpack to save on budget airline fees and maximize mobility. Pack layerable clothing, comfortable walking shoes, and use packing cubes to compartmentalize your gear.</p>
+      <p>Backpacking Europe requires a strategic approach to packing to avoid dragging a heavy suitcase across cobblestone streets. Opt for a carry-on size backpack to save on budget airline fees and maximize mobility. Pack layerable clothing, comfortable walking shoes, and use packing cubes to compartmentalize your gear. For more tips on weight management, see our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">how to pack efficiently to avoid overweight baggage fees</a>.</p>
     `,
     faqs: [
       {
@@ -39,7 +39,7 @@ const PAGES = {
     content: `
       <h2>What should you pack for a beach vacation?</h2>
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
-        <p class="font-medium text-brand-navy m-0">For a beach vacation, pack multiple swimsuits, lightweight cover-ups, reef-safe sunscreen, a packable sun hat, polarized sunglasses, and breathable evening wear, organized using medium standard packing cubes.</p>
+        <p class="font-medium text-brand-navy m-0">For a beach vacation, pack multiple swimsuits, lightweight cover-ups, reef-safe sunscreen, a packable sun hat, polarized sunglasses, and breathable evening wear. Use medium standard packing cubes for organization and our tool to simulate your luggage space before you fly.</p>
       </div>
       <p>Packing for the beach is all about lightweight fabrics and sun protection. Roll your beachwear and use standard packing cubes. Don't forget a dedicated wet bag or water-resistant cube for damp swimsuits on your journey home.</p>
     `,
@@ -90,7 +90,7 @@ const PAGES = {
     content: `
       <h2>What are the packing essentials for camping and hiking?</h2>
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
-        <p class="font-medium text-brand-navy m-0">For camping and hiking, prioritize moisture-wicking layers, a reliable waterproof shell, sturdy footwear, a first-aid kit, and use ultralight dry sacks or weather-resistant cubes for organization.</p>
+        <p class="font-medium text-brand-navy m-0">For camping and hiking, prioritize moisture-wicking layers, a reliable waterproof shell, sturdy footwear, and a first-aid kit. Use ultralight dry sacks or weather-resistant cubes for organization and optimize your pack weight using our visual simulator.</p>
       </div>
       <p>When heading into the outdoors, every ounce matters. Focus on synthetic or merino wool layers that dry quickly and resist odors.</p>
     `,
