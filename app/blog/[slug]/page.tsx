@@ -16,7 +16,7 @@ const POSTS = {
   "avoid-overweight-baggage-fees": {
     title: "How to pack efficiently to avoid overweight baggage fees",
     description: "Learn how to pack efficiently to avoid overweight baggage fees, including tips on weighing luggage, rolling vs. folding, weight distribution, and spatial optimization.",
-    date: new Date().toISOString().split('T')[0],
+    date: "2025-01-24",
     content: `
       <h2>How to pack efficiently to avoid overweight baggage fees?</h2>
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
@@ -94,7 +94,7 @@ const POSTS = {
       <p>By planning your spatial arrangement beforehand in your <a href="/dashboard" class="text-brand-orange underline font-semibold">Workspace Dashboard</a>, you can ensure everything fits perfectly without overstuffing. This proactive approach eliminates the 'last-minute sit-on-the-suitcase' ritual and ensures you stay well under the airline's weight limits.</p>
 
       <h2>8. Essential Items Checklist: Curating vs. Packing Everything</h2>
-      <p>Overpacking usually happens because of \"what if\" scenarios. \"What if it rains?\" \"What if I go to a fancy dinner?\" Counteract this by creating a strict checklist of essential items and sticking to it. A structured workflow helps reinforce this habit.</p>
+      <p>Overpacking usually happens because of \"what if\" scenarios. \"What if it rains?\" \"What if I go to a fancy dinner?\" Counteract this by creating a strict checklist of essential items and sticking to it. A structured workflow helps reinforce this habit. You can start with one of our <a href="/templates" class="text-brand-orange underline font-semibold">Pre-built Packing Checklists</a> to ensure you don't miss anything vital.</p>
 
       <h3>The 5-4-3-2-1 Rule</h3>
       <p>A classic minimalist strategy for a week-long trip that keeps weight low:
@@ -117,7 +117,7 @@ const POSTS = {
   "how-to-pack-7-day-trip-carry-on": {
     title: "How to pack for a 7-day trip in a carry-on",
     description: "Learn the exact packing cube configuration and folding techniques to fit a full week of clothes into a standard budget airline carry-on without paying extra baggage fees.",
-    date: new Date().toISOString().split('T')[0],
+    date: "2025-01-24",
     content: `
       <p>Traveling with just a carry-on for a 7-day trip is the ultimate travel flex. It means no waiting at the baggage carousel, no lost luggage, and <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoiding those dreaded $60+ checked bag fees</a>. The secret? Packing cubes and spatial optimization.</p>
 
