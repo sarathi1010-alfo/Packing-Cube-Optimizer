@@ -98,6 +98,20 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="py-16 bg-white">
+        <div className="container mx-auto max-w-4xl px-4 text-center">
+          <h2 className="text-3xl font-bold text-brand-navy mb-6">Master the Art of Packing</h2>
+          <p className="text-lg text-muted-foreground mb-8">
+            Learn the expert strategies used by professional travelers to maximize space and minimize stress.
+          </p>
+          <Link href="/blog/avoid-overweight-baggage-fees">
+            <Button variant="outline" size="lg" className="border-brand-orange text-brand-orange hover:bg-brand-orange/10 rounded-full">
+              Read: How to Avoid Overweight Baggage Fees <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+          </Link>
+        </div>
+      </section>
+
       <RelatedTools />
     </div>
   );

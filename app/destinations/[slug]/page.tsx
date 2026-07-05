@@ -103,6 +103,7 @@ export default async function DestinationPage({ params }: PageProps) {
   return (
     <article className="container max-w-3xl py-12 px-4 mx-auto">
       <JsonLd data={faqSchema} />
+      {/* Last Published: 2025-01-24 */}
       <div className="mb-8">
         <Link href="/" className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-brand-orange mb-8 transition-colors">
           <ArrowLeft className="w-4 h-4 mr-2" /> Back to Home
