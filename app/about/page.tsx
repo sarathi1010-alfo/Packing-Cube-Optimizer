@@ -22,7 +22,7 @@ export default function AboutPage() {
           <h2 className="text-2xl font-bold mb-4">Why we built this</h2>
           <p className="text-muted-foreground mb-4">
             Travelers constantly struggle with a simple spatial problem: <em>&quot;Will all this fit in my carry-on?&quot;</em>
-            Instead of guessing, over-packing, or dealing with stressful gate-checking fees, we realized the solution
+            Instead of guessing, over-packing, or dealing with stressful <Link href="/blog/avoid-overweight-baggage-fees" className="text-primary hover:underline">overweight baggage fees</Link>, we realized the solution
             was right in front of us—packing cubes.
           </p>
           <p className="text-muted-foreground">

@@ -11,12 +11,11 @@ interface PageProps {
   }>;
 }
 
-// In a real app, this would come from a CMS or markdown files.
 const POSTS = {
   "avoid-overweight-baggage-fees": {
     title: "How to pack efficiently to avoid overweight baggage fees",
     description: "Learn how to pack efficiently to avoid overweight baggage fees, including tips on weighing luggage, rolling vs. folding, weight distribution, and spatial optimization.",
-    date: new Date().toISOString().split('T')[0],
+    date: "2025-01-20",
     content: `
       <h2>How to pack efficiently to avoid overweight baggage fees?</h2>
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
@@ -94,7 +93,7 @@ const POSTS = {
       <p>By planning your spatial arrangement beforehand in your <a href="/dashboard" class="text-brand-orange underline font-semibold">Workspace Dashboard</a>, you can ensure everything fits perfectly without overstuffing. This proactive approach eliminates the 'last-minute sit-on-the-suitcase' ritual and ensures you stay well under the airline's weight limits.</p>
 
       <h2>8. Essential Items Checklist: Curating vs. Packing Everything</h2>
-      <p>Overpacking usually happens because of \"what if\" scenarios. \"What if it rains?\" \"What if I go to a fancy dinner?\" Counteract this by creating a strict checklist of essential items and sticking to it. A structured workflow helps reinforce this habit.</p>
+      <p>Overpacking usually happens because of \"what if\" scenarios. \"What if it rains?\" \"What if I go to a fancy dinner?\" Counteract this by using a structured <a href="/templates" class="text-brand-orange underline font-semibold">Packing Checklist</a> and sticking to it. A structured workflow helps reinforce this habit.</p>
 
       <h3>The 5-4-3-2-1 Rule</h3>
       <p>A classic minimalist strategy for a week-long trip that keeps weight low:
@@ -117,7 +116,7 @@ const POSTS = {
   "how-to-pack-7-day-trip-carry-on": {
     title: "How to pack for a 7-day trip in a carry-on",
     description: "Learn the exact packing cube configuration and folding techniques to fit a full week of clothes into a standard budget airline carry-on without paying extra baggage fees.",
-    date: new Date().toISOString().split('T')[0],
+    date: "2025-01-20",
     content: `
       <p>Traveling with just a carry-on for a 7-day trip is the ultimate travel flex. It means no waiting at the baggage carousel, no lost luggage, and <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoiding those dreaded $60+ checked bag fees</a>. The secret? Packing cubes and spatial optimization.</p>
 
@@ -141,7 +140,7 @@ const POSTS = {
       <p>Don't guess if this combination will fit. Use our <a href="/calculator" class="text-brand-orange underline font-semibold">Packing Cube Calculator</a> to simulate your exact luggage dimensions.</p>
 
       <h2>3. Rolling vs. Folding</h2>
-      <p>Inside your cubes, <strong>always roll your softer clothes</strong> (t-shirts, cotton dresses, activewear). This prevents wrinkles and maximizes density. For stiffer items like jeans or blazers, fold them flat at the bottom of the compression cube before adding the rolled items on top.</p>
+      <p>Inside your cubes, <strong>always roll your softer clothes</strong> (t-shirts, cotton dresses, activewear). This prevents wrinkles and maximizes density. For stiffer items like jeans or blazers, fold them flat at the bottom of the compression cube before adding the rolled items on top. This is a key part of <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">packing efficiently to stay under weight limits</a>.</p>
 
       <h2>4. Airline Specific Dimensions</h2>
       <p>A \"carry-on\" for Delta is not the same as a \"carry-on\" for Ryanair. Budget European airlines have notoriously strict sizers. Always double check your bag's actual measurements (including wheels and handles) against our <a href="/airlines" class="text-brand-orange underline font-semibold">Airline Rules Database</a>. For more in-depth strategies, read our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">how to pack efficiently to avoid overweight baggage fees</a>.</p>
