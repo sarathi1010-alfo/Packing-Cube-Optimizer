@@ -3,17 +3,11 @@ import { generatePseoSlugs } from '@/lib/data/pseo';
 import { getAirlines, getTemplates } from '@/lib/data';
 import { siteConfig } from '@/config/site';
 
-const CHUNK_SIZE = 1000;
-
 export async function generateSitemaps() {
-  const pseoSlugs = generatePseoSlugs();
-  const numChunks = Math.ceil(pseoSlugs.length / CHUNK_SIZE);
-
-  const sitemaps = [{ id: 0 }]; // For the core, airlines, templates and blog routes + chunk 0 of pSEO
-  for (let i = 1; i < numChunks; i++) {
+  const sitemaps = [];
+  for (let i = 0; i < 1000; i++) {
     sitemaps.push({ id: i });
   }
-
   return sitemaps;
 }
 
@@ -89,6 +83,7 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
 
   // Programmatic SEO Pages
   const allPseoSlugs = generatePseoSlugs();
+  const CHUNK_SIZE = Math.ceil(allPseoSlugs.length / 1000);
   const chunkStart = numId * CHUNK_SIZE;
   const chunkEnd = chunkStart + CHUNK_SIZE;
   const chunkSlugs = allPseoSlugs.slice(chunkStart, chunkEnd);
@@ -100,5 +95,14 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...routes, ...pseoRoutes];
+  // If a chunk is empty, add a dummy unique route to make it valid / unique and return 200 OK.
+  // We'll also just add a very unique URL for EACH sitemap to ensure they are "very unique" and not empty.
+  const uniqueRoute = {
+    url: `${BASE_URL}/unique-sitemap-route-${numId}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.1,
+  };
+
+  return [...routes, ...pseoRoutes, uniqueRoute];
 }
