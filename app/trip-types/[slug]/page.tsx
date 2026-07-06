@@ -154,7 +154,6 @@ export default async function TripTypePage({ params }: PageProps) {
   return (
     <article className="container max-w-3xl py-12 px-4 mx-auto">
       <JsonLd data={faqSchema} />
-      {/* Last Updated: {new Date().toISOString().split('T')[0]} */}
       <div className="mb-8">
         <Link href="/" className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-brand-orange mb-8 transition-colors">
           <ArrowLeft className="w-4 h-4 mr-2" /> Back to Home
