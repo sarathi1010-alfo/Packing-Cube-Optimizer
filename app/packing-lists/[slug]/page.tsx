@@ -90,6 +90,7 @@ export default async function PackingListPage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 7, 2026</div>
       </div>
 
       <div
