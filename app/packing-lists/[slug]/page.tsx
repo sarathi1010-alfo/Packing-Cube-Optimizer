@@ -28,6 +28,74 @@ const PAGES = {
         answer: "Absolutely. A standard 25L to 30L backpack is plenty of space for 2-3 days if you roll your clothes and use a small packing cube to organize them."
       }
     ]
+  },
+  "business-trip-checklist": {
+    title: "Business Trip Checklist: Professional & Portable",
+    description: "The ultimate business trip checklist for professionals who want to travel with a single carry-on and keep their attire wrinkle-free.",
+    content: `
+      <h2>What's on the essential business trip checklist?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">The essential business checklist includes 2-3 dress shirts in a garment folder, 1 tailored blazer, 2 pairs of trousers, a dedicated tech organizer for adapters, and a professional-grade carry-on bag.</p>
+      </div>
+      <p>Business travel is all about efficiency. Your checklist should prioritize high-quality fabrics that resist wrinkling and a streamlined tech setup that allows you to work from anywhere.</p>
+    `,
+    faqs: [
+      {
+        question: "How do I pack a suit without a garment bag?",
+        answer: "Turn the jacket inside out, fold it in half, and roll it loosely around soft items like t-shirts. This minimizes sharp creases and protects the outer fabric."
+      }
+    ]
+  },
+  "digital-nomad-packing-list": {
+    title: "Digital Nomad Packing List: Long-Term Essentials",
+    description: "Pack for a life on the road. The essential gear, tech, and clothing for digital nomads living out of a single bag.",
+    content: `
+      <h2>What should a digital nomad pack for long-term travel?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">Digital nomads should pack a high-performance laptop, universal power adapter, noise-canceling headphones, a versatile 5-4-3-2-1 capsule wardrobe, and a secure cloud backup system for all work data.</p>
+      </div>
+      <p>When your home is in your bag, quality matters more than quantity. Invest in durable, high-performance gear that can withstand daily use across different climates and environments.</p>
+    `,
+    faqs: [
+      {
+        question: "How much clothing does a digital nomad really need?",
+        answer: "Enough for 7-10 days. Rely on regular laundry and choose items that can be layered to suit different weather conditions."
+      }
+    ]
+  },
+  "ultralight-backpacking-list": {
+    title: "Ultralight Backpacking List: Every Ounce Counts",
+    description: "Cut your pack weight and move faster. The ultimate ultralight backpacking list for serious travelers.",
+    content: `
+      <h2>How do I create an ultralight packing list?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">An ultralight list prioritizes multi-functional gear, minimalist toiletries, lightweight synthetic or merino fabrics, and a streamlined 'personal item only' approach whenever possible.</p>
+      </div>
+      <p>Ultralight travel is a mindset. Every item must earn its place in your bag. If an item only has one use and isn't vital, it's a candidate for removal.</p>
+    `,
+    faqs: [
+      {
+        question: "Is ultralight travel expensive?",
+        answer: "It can be, as high-tech, lightweight materials often cost more. However, you can also travel ultralight by simply bringing less stuff, which costs nothing!"
+      }
+    ]
+  },
+  "winter-getaway-checklist": {
+    title: "Winter Getaway Checklist: Bulk-Free Warmth",
+    description: "Stay warm without the bulk. The essential winter getaway checklist for traveling light in cold climates.",
+    content: `
+      <h2>What's on the winter getaway checklist?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">The winter checklist focuses on high-quality thermal base layers, a packable down jacket, waterproof footwear, and using large compression cubes to manage the volume of bulky sweaters.</p>
+      </div>
+      <p>Winter packing doesn't have to mean giant suitcases. By choosing the right materials and using compression technology, you can stay warm while still traveling with just a carry-on.</p>
+    `,
+    faqs: [
+      {
+        question: "How do I fit a heavy coat in a carry-on?",
+        answer: "Don't! Wear your bulkiest coat on the plane. It saves massive space and weight in your bag, and you can use it as a pillow or blanket during the flight."
+      }
+    ]
   }
 };
 

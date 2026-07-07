@@ -43,6 +43,40 @@ const PAGES = {
       }
     ]
   },
+  "family-vacation": {
+    title: "Family Vacation Packing Guide",
+    description: "Expert tips for packing when traveling with kids. How to organize multiple people in a single bag and ensure you have all the essentials.",
+    content: `
+      <h2>How to pack for a family vacation?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">Pack for a family vacation by using color-coded packing cubes for each child, prioritizing a dedicated 'essentials bag' for mid-flight needs, and utilizing the 5-4-3-2-1 rule to keep clothing volume manageable for everyone.</p>
+      </div>
+      <p>Family travel can be chaotic, but your packing doesn't have to be. The secret is compartmentalization. Assign each family member a specific color of packing cube. This makes it instantly clear whose clothes are whose when you arrive at your destination.</p>
+    `,
+    faqs: [
+      {
+        question: "How do I minimize luggage when traveling with kids?",
+        answer: "Pack versatile layers and plan for laundry. You don't need a fresh outfit for every day if you can do a quick wash. Focus on multi-purpose items and share toiletries where possible."
+      }
+    ]
+  },
+  "solo-travel": {
+    title: "Solo Travel Packing Guide",
+    description: "The ultimate guide for solo travelers focusing on safety gear, minimalist packing, and keeping your valuables secure.",
+    content: `
+      <h2>What are the solo travel packing essentials?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">Solo travelers should prioritize a portable door lock for security, a lightweight power bank, a paper backup of important documents, and a minimalist capsule wardrobe organized in compression cubes for maximum mobility.</p>
+      </div>
+      <p>When you're on your own, you have to be your own backup. Packing light is a safety feature—it allows you to move quickly and keep your hands free. Use compression cubes to keep your pack small and manageable.</p>
+    `,
+    faqs: [
+      {
+        question: "Is it safe to travel solo with just a carry-on?",
+        answer: "Yes, it's actually safer. You never have to leave your bag unattended at a carousel, and you can easily keep your eyes on all your belongings at all times."
+      }
+    ]
+  },
   "beach-vacation": {
     title: "Beach Vacation Packing Guide",
     description: "Everything you need to pack for a perfect beach vacation, from swimwear and sun protection to evening resort wear.",
