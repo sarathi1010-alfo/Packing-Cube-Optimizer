@@ -21,6 +21,12 @@ const PAGES = {
         <p class="font-medium text-brand-navy m-0">To pack for backpacking in Europe, prioritize a lightweight 40L travel backpack, use compression packing cubes for space efficiency, build a capsule wardrobe with versatile, quick-dry fabrics, and rely on our tool to simulate your pack layout.</p>
       </div>
       <p>Backpacking Europe requires a strategic approach to packing to avoid dragging a heavy suitcase across cobblestone streets. Opt for a carry-on size backpack to save on budget airline fees and maximize mobility. Pack layerable clothing, comfortable walking shoes, and use packing cubes to compartmentalize your gear.</p>
+
+      <h3>Essential Gear for European Hostels</h3>
+      <p>When staying in hostels, certain items become indispensable. A quick-dry microfiber towel saves space and dries overnight. High-quality earplugs and an eye mask are non-negotiable for shared dorms. Additionally, a small padlock for your locker ensures your valuables stay secure while you explore the city.</p>
+
+      <h3>The Capsule Wardrobe Strategy</h3>
+      <p>Select 3-4 tops and 2-3 bottoms that all match each other. Stick to neutral colors and breathable fabrics like merino wool, which resists odors and dries quickly. This allows you to create over a dozen different outfits from just a handful of items, significantly reducing the weight of your pack.</p>
     `,
     faqs: [
       {
@@ -30,6 +36,44 @@ const PAGES = {
       {
         question: "Do I need packing cubes for backpacking?",
         answer: "Yes, packing cubes are essential for backpacking. They keep your backpack organized, compress clothing to save space, and make finding specific items much easier without unpacking everything."
+      },
+      {
+        question: "How do I avoid pickpockets in European cities?",
+        answer: "Use a money belt or a secure cross-body bag. Be particularly vigilant in crowded areas like metro stations and major tourist landmarks. Avoid keeping your phone or wallet in your back pocket."
+      }
+    ]
+  },
+  "family-vacation": {
+    title: "Family Vacation Packing Guide",
+    description: "Expert tips for packing when traveling with kids. How to organize multiple people in a single bag and ensure you have all the essentials.",
+    content: `
+      <h2>How to pack for a family vacation?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">Pack for a family vacation by using color-coded packing cubes for each child, prioritizing a dedicated 'essentials bag' for mid-flight needs, and utilizing the 5-4-3-2-1 rule to keep clothing volume manageable for everyone.</p>
+      </div>
+      <p>Family travel can be chaotic, but your packing doesn't have to be. The secret is compartmentalization. Assign each family member a specific color of packing cube. This makes it instantly clear whose clothes are whose when you arrive at your destination.</p>
+    `,
+    faqs: [
+      {
+        question: "How do I minimize luggage when traveling with kids?",
+        answer: "Pack versatile layers and plan for laundry. You don't need a fresh outfit for every day if you can do a quick wash. Focus on multi-purpose items and share toiletries where possible."
+      }
+    ]
+  },
+  "solo-travel": {
+    title: "Solo Travel Packing Guide",
+    description: "The ultimate guide for solo travelers focusing on safety gear, minimalist packing, and keeping your valuables secure.",
+    content: `
+      <h2>What are the solo travel packing essentials?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">Solo travelers should prioritize a portable door lock for security, a lightweight power bank, a paper backup of important documents, and a minimalist capsule wardrobe organized in compression cubes for maximum mobility.</p>
+      </div>
+      <p>When you're on your own, you have to be your own backup. Packing light is a safety feature—it allows you to move quickly and keep your hands free. Use compression cubes to keep your pack small and manageable.</p>
+    `,
+    faqs: [
+      {
+        question: "Is it safe to travel solo with just a carry-on?",
+        answer: "Yes, it's actually safer. You never have to leave your bag unattended at a carousel, and you can easily keep your eyes on all your belongings at all times."
       }
     ]
   },
@@ -162,6 +206,7 @@ export default async function TripTypePage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 7, 2026</div>
       </div>
 
       <div

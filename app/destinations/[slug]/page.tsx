@@ -33,6 +33,40 @@ const PAGES = {
       }
     ]
   },
+  "japan-packing-guide": {
+    title: "Japan Packing Guide: Travel Smart",
+    description: "The definitive guide for packing for Japan, from navigating narrow trains to dressing for urban exploration and onsen visits.",
+    content: `
+      <h2>How to pack for a trip to Japan?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">To pack for Japan, prioritize slip-on shoes for frequent removals, a coin purse for the cash-heavy economy, a portable Wi-Fi or eSIM, and a respectful, smart-casual capsule wardrobe.</p>
+      </div>
+      <p>Japan involves a lot of walking and frequent shoe changes. Choose comfortable, stylish sneakers that are easy to slip on and off. Pack light, as train overhead bins and luggage storage areas are often very compact.</p>
+    `,
+    faqs: [
+      {
+        question: "Is Japan a cash-only society?",
+        answer: "While credit cards are increasingly accepted, Japan is still quite cash-heavy, especially for small shops, temples, and vending machines. Always carry a coin purse for 1, 5, 10, 50, 100, and 500 yen coins."
+      }
+    ]
+  },
+  "mexico-packing-guide": {
+    title: "Mexico Packing Guide: Essentials for Every Trip",
+    description: "Whether it's the beach, the city, or the ruins, here's everything you need to pack for Mexico.",
+    content: `
+      <h2>What should I pack for Mexico?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">When packing for Mexico, bring reef-safe sunscreen for the coast, comfortable walking shoes for ruins, lightweight linen layers for the heat, and a robust travel insurance policy.</p>
+      </div>
+      <p>Mexico's climate varies greatly. Coastal areas require light, breathable fabrics, while Mexico City can be surprisingly cool in the evenings. Pack a versatile light jacket or pashmina for temperature drops.</p>
+    `,
+    faqs: [
+      {
+        question: "Do I need to bring my own snorkeling gear?",
+        answer: "Most tours provide it, but for hygiene and better fit, bringing your own mask and snorkel can enhance your experience if you plan to spend a lot of time in the water."
+      }
+    ]
+  },
   "europe-packing-guide": {
     title: "Europe Packing Guide: Essentials and Tips",
     description: "Learn how to pack for Europe like a pro. Tips on blending in, avoiding cobblestone catastrophes, and traveling light.",
@@ -111,6 +145,7 @@ export default async function DestinationPage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 7, 2026</div>
       </div>
 
       <div

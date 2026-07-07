@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { getAirlines } from "@/lib/data";
 // import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -47,7 +48,7 @@ export default function CarryOnCheckerPage() {
       <div className="text-center space-y-4 mb-12">
         <h1 className="text-4xl md:text-5xl font-bold text-brand-navy">Carry-On Compatibility Checker</h1>
         <p className="text-xl text-muted-foreground">
-          Compare your suitcase dimensions directly against airline limits to avoid gate-check fees.
+          Compare your suitcase dimensions directly against airline limits to avoid gate-check fees. Learn how to <Link href="/blog/avoid-overweight-baggage-fees" className="text-brand-orange underline font-semibold">pack efficiently to avoid overweight baggage fees</Link> completely.
         </p>
       </div>
 

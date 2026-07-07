@@ -18,7 +18,7 @@ export default function Home() {
             Never forget essentials again.
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            PackFit is your habit-forming workflow companion. Travel lighter, smarter, and with complete peace of mind using scenario-based packing and smart local heuristics.
+            PackFit is your habit-forming workflow companion. Travel lighter, smarter, and with complete peace of mind using scenario-based packing and smart local heuristics. Learn <Link href="/blog/avoid-overweight-baggage-fees" className="text-brand-orange underline font-semibold">how to pack efficiently</Link> to stay under airline limits.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-6">
             <Link href="/dashboard">

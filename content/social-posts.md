@@ -20,3 +20,18 @@
 
 ## Facebook (Community Focused & Conversational)
 10. We've all been there—holding our breath at the check-in counter while the agent weighs our bag. 😬 With airlines getting stricter, overweight baggage fees are a real budget-killer. We just dropped a comprehensive guide on how to pack efficiently to *never* pay those fees again. From strategic weight distribution to utilizing PackFit's visual planner, we've got you covered. What's your #1 tip for packing light? Let us know in the comments and read the full guide here: [Link] ✈️🌍 #TravelCommunity #PackingAdvice #PackFit
+
+## Facebook / Groups (Community Value)
+11. Packing for a 7-day trip in just a carry-on? 🎒 It's possible! We've mapped out the exact 5-4-3-2-1 rule and packing cube strategy to make it happen. Skip the fees and the wait at the carousel. Check out our latest guide and start packing smarter today: [Link] #CarryOnOnly #TravelSmart #PackFit
+
+## Tier 3 - New Social Content (July 7, 2026)
+12. 🚫 Stop being the person frantic at the airport scale! Our new guide covers 8 pro tips to avoid overweight baggage fees. Tip #1: A portable scale is your best friend. [Link]
+13. 👕 Rolling vs. Folding? We settled the debate for good. See how to save 30% more space in your carry-on with our visual guide. [Link]
+14. 🧥 Pro Tip: Wear your heaviest items on the plane. Those boots and that winter coat belong on you, not the baggage scale! Read more: [Link]
+15. 🧩 Spatial optimization isn't just for Tetris. Use our visual simulator to plan your packing cubes before you even touch your bag. [Link]
+16. 🎒 Backpacking Europe? Don't let cobblestones and baggage fees ruin your vibe. Here's our essential packing guide for the ultimate light trip. [Link]
+17. 💼 Business travelers: Keep your suits wrinkle-free and your stress levels low with our streamlined 7-day carry-on system. [Link]
+18. 🏖️ Heading to the beach? Don't forget the dedicated wet bag! Check out our full beach vacation packing list for more essentials. [Link]
+19. ⛷️ Ski trip on the horizon? Learn how to compress bulky base layers and when it's smarter to just rent your gear at the destination. [Link]
+20. 🏕️ Ultralight hiking is all about the ounces. See our new guide on moisture-wicking layers and smart weight distribution. [Link]
+21. 🏙️ Weekend getaway? Challenge yourself to "Personal Item Only". We show you exactly how to fit a full weekend into one small bag. [Link]
