@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "About | Packing Cube Optimizer",
   description: "Learn about Packing Cube Optimizer, why it exists, and how it helps you travel smarter.",
   other: {
-    "last-modified": "2026-07-07"
+    "last-modified": "2026-07-08"
   }
 };
 

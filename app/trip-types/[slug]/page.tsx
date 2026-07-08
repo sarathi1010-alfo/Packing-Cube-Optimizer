@@ -27,6 +27,36 @@ const PAGES = {
 
       <h3>The Capsule Wardrobe Strategy</h3>
       <p>Select 3-4 tops and 2-3 bottoms that all match each other. Stick to neutral colors and breathable fabrics like merino wool, which resists odors and dries quickly. This allows you to create over a dozen different outfits from just a handful of items, significantly reducing the weight of your pack.</p>
+
+      <h3>Recommended Packing Cube Configuration</h3>
+      <div class="overflow-x-auto my-6">
+        <table class="min-w-full divide-y divide-brand-beige border border-brand-beige rounded-lg overflow-hidden">
+          <thead class="bg-brand-sand/50">
+            <tr>
+              <th class="px-4 py-3 text-left text-sm font-semibold text-brand-navy uppercase tracking-wider">Cube Size</th>
+              <th class="px-4 py-3 text-left text-sm font-semibold text-brand-navy uppercase tracking-wider">Contents</th>
+              <th class="px-4 py-3 text-left text-sm font-semibold text-brand-navy uppercase tracking-wider">Strategy</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-brand-beige">
+            <tr>
+              <td class="px-4 py-3 text-sm text-foreground font-medium">Large Compression</td>
+              <td class="px-4 py-3 text-sm text-muted-foreground">Jeans, Jacket, Sweaters</td>
+              <td class="px-4 py-3 text-sm text-muted-foreground">Max compression for bulky items</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 text-sm text-foreground font-medium">Medium Standard</td>
+              <td class="px-4 py-3 text-sm text-muted-foreground">T-shirts, Blouses, Dresses</td>
+              <td class="px-4 py-3 text-sm text-muted-foreground">Roll items vertically (file-style)</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 text-sm text-foreground font-medium">Small Tube Cube</td>
+              <td class="px-4 py-3 text-sm text-muted-foreground">Socks, Underwear, Swimwear</td>
+              <td class="px-4 py-3 text-sm text-muted-foreground">Stuff into corners of the backpack</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     `,
     faqs: [
       {
@@ -206,7 +236,7 @@ export default async function TripTypePage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 7, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 8, 2026</div>
       </div>
 
       <div

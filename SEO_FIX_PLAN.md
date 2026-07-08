@@ -7,7 +7,7 @@ Based on the review of Google Search Console (GSC) coverage reports and technica
 **Root Cause:** Low internal link depth and crawl budget allocation.
 **Fixes:**
 - [x] Added internal link from `/about` to the new Tier 1 article.
-- [x] Published 8 unique Tier 2 programmatic pages with AI Snapshots and FAQ Schema (2026-07-07).
+- [x] Published 8 unique Tier 2 programmatic pages with AI Snapshots and FAQ Schema (2026-07-08).
 - [x] Triggered IndexNow API for all new Tier 2 URLs.
 - [ ] Implement a "Featured Guides" section on the homepage (`/`) that randomly cycles or lists the latest 5 programmatic guides.
 - [ ] Add a "Related Guides" component to the bottom of all Tier 2 pages to increase cross-linking between programmatic entities.

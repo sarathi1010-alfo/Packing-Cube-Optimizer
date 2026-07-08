@@ -35,3 +35,15 @@
 19. ⛷️ Ski trip on the horizon? Learn how to compress bulky base layers and when it's smarter to just rent your gear at the destination. [Link]
 20. 🏕️ Ultralight hiking is all about the ounces. See our new guide on moisture-wicking layers and smart weight distribution. [Link]
 21. 🏙️ Weekend getaway? Challenge yourself to "Personal Item Only". We show you exactly how to fit a full weekend into one small bag. [Link]
+
+## Tier 3 - New Social Content (July 8, 2026)
+22. Twitter: Tired of the $100+ 'overweight surprise' at the airport? 😱 We've decoded the 8 secrets to packing light and staying under the limit. Master your luggage weight today! [Link] #TravelSmart #LuggageHacks
+23. Instagram: The scale doesn't lie, but it doesn't have to be your enemy! ⚖️ Our latest guide shows you how to distribute weight like a pro. Pro tip: Heavy items near the wheels! 🧳 Read the full breakdown in our bio! #PackFit #TravelPrep #SmartPacking
+24. Facebook: Is your suitcase a disorganized mess? 🌪️ We show you how to use packing cubes and spatial optimization to fit 30% more while actually weighing less. Check out our new deep dive! [Link] #TravelTips #Organization
+25. Pinterest: How to fit a week into a carry-on and never pay for bags again. 🎒 The ultimate checklist for efficient travel. #MinimalistTravel #PackingList
+26. Twitter: Rolling vs. Folding: The final verdict is in! 👕 See why a hybrid approach is the real secret to wrinkle-free, space-saving packing. [Link] #PackingCubes #TravelHacks
+27. Instagram: Don't just pack—optimize. 🧩 Use our visual simulator to plan your bag before you even pull it out of the closet. See the link in bio for our new guide! #TravelTech #PackFit
+28. Facebook: What's the #1 thing you always overpack? 👠 For us, it's shoes. Learn the 5-4-3-2-1 rule to keep your wardrobe lean and your bag light. [Link] #TravelCommunity #PackingAdvice
+29. Twitter: Pro Tip: Wear your heaviest boots and coat on the plane. 🧥 It's the easiest way to 'delete' 3kg from your checked bag instantly! Read more: [Link] #BudgetTravel #AirTravel
+30. Pinterest: 8 Expert Strategies to Avoid Overweight Baggage Fees. 🚫💸 Stop wasting money on airline penalties. #TravelExpert #SavingMoney
+31. Instagram: Spatial planning isn't just for architects. 🏙️ It's for smart travelers. Plan your next trip with PackFit and travel with peace of mind. [Link] #Wanderlust #PackLight
