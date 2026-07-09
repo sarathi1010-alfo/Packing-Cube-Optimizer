@@ -35,5 +35,6 @@ Based on the review of Google Search Console (GSC) coverage reports and technica
 - [x] Confirmed `siteConfig.url` is used for all canonical tags.
 
 ## 5. Monitoring & Validation
-- [ ] Re-submit the sitemap index to GSC after today's deployment.
+- [x] Re-submitted the sitemap index to GSC via `scripts/ping-sitemap.sh` (2026-07-08).
 - [ ] Monitor the "Indexing" report for a 20% increase in indexed URLs over the next 7 days.
+- [x] Verified 200 OK status and JSON-LD integrity for all 9 new routes.
