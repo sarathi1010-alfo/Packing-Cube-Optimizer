@@ -83,6 +83,57 @@ const PAGES = {
         answer: "Comfort is king. Bring a stylish but highly supportive walking shoe or sneaker. Avoid high heels completely due to cobblestone streets. Bring a second, slightly dressier pair of flats or loafers for evenings."
       }
     ]
+  },
+  "thailand-packing-guide": {
+    title: "Thailand Packing Guide: Tropics and Temples",
+    description: "What to bring to Thailand. From the humid streets of Bangkok to the pristine beaches of the south.",
+    content: `
+      <h2>How to pack for Thailand?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">Pack for Thailand with ultra-lightweight linen clothing, a modest outfit for temples (covering shoulders/knees), high-SPF reef-safe sunscreen, and waterproof bags for island hopping.</p>
+      </div>
+      <p>Thailand's humidity is legendary. Natural, breathable fabrics are your best friend. Don't forget to use <a href="/" class="text-brand-orange underline font-semibold">PackFit</a> to plan your luggage for those domestic island hopper flights!</p>
+    `,
+    faqs: [
+      {
+        question: "What should I wear to the Grand Palace?",
+        answer: "Strict dress codes apply. Men must wear long pants and shirts with sleeves. Women must be modestly dressed, covering shoulders and knees. No flip-flops are allowed."
+      }
+    ]
+  },
+  "iceland-packing-guide": {
+    title: "Iceland Packing Guide: Layering for the Elements",
+    description: "The ultimate guide to packing for Iceland's unpredictable weather. Master the three-layer system.",
+    content: `
+      <h2>What are the essentials for Iceland?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For Iceland, prioritize a high-quality waterproof shell, thermal base layers, sturdy hiking boots, and a swimsuit for the hot springs. Use compression cubes for bulky wool sweaters.</p>
+      </div>
+      <p>Weather in Iceland changes every five minutes. The key is versatile layering. See our <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">efficiency guide</a> for tips on managing heavy winter gear.</p>
+    `,
+    faqs: [
+      {
+        question: "Do I need an umbrella in Iceland?",
+        answer: "No. Iceland is too windy for umbrellas. Invest in high-quality waterproof outerwear with a good hood instead."
+      }
+    ]
+  },
+  "bali-packing-guide": {
+    title: "Bali Packing Guide: Island Life Essentials",
+    description: "Pack for paradise. What to bring for Bali's beaches, jungles, and spiritual retreats.",
+    content: `
+      <h2>What should I pack for Bali?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">When packing for Bali, bring multiple swimsuits, lightweight cover-ups, a reusable water bottle, insect repellent, and a sarong for temple visits. Use standard packing cubes for organization.</p>
+      </div>
+      <p>Bali is casual and tropical. Focus on swimwear and light evening wear. Plan your exact bag layout with our <a href="/" class="text-brand-orange underline font-semibold">free simulator</a>.</p>
+    `,
+    faqs: [
+      {
+        question: "Do I need to bring my own sarong to Bali?",
+        answer: "It's a great multi-purpose item to have, but you can also easily buy beautiful local sarongs at any market or rent them at temple entrances."
+      }
+    ]
   }
 };
 
@@ -145,7 +196,7 @@ export default async function DestinationPage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 8, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 10, 2026</div>
       </div>
 
       <div

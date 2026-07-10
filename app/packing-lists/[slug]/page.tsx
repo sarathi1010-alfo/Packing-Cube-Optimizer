@@ -96,6 +96,40 @@ const PAGES = {
         answer: "Don't! Wear your bulkiest coat on the plane. It saves massive space and weight in your bag, and you can use it as a pillow or blanket during the flight."
       }
     ]
+  },
+  "summer-camp-checklist": {
+    title: "Summer Camp Packing Checklist",
+    description: "Everything your child needs for a successful summer camp experience. Stay organized and label everything!",
+    content: `
+      <h2>What's on the summer camp checklist?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">A summer camp checklist should include durable outdoor clothing, swimwear, a sleeping bag, toiletries, a flashlight, and plenty of extra socks and underwear, all organized in color-coded cubes.</p>
+      </div>
+      <p>Organization is key for kids at camp. Use color-coded packing cubes to keep different categories of gear separate. Check out our <a href="/templates" class="text-brand-orange underline font-semibold">Packing Checklist</a> section for more templates.</p>
+    `,
+    faqs: [
+      {
+        question: "How do I prevent my child from losing their gear?",
+        answer: "Label everything with their name using a permanent marker or iron-on labels. Using distinctively colored packing cubes also helps them identify their belongings quickly."
+      }
+    ]
+  },
+  "cruise-ship-packing-list": {
+    title: "Cruise Ship Packing List: Sea & Shore",
+    description: "Master the art of packing for a cruise. From formal nights to tropical excursions.",
+    content: `
+      <h2>How to pack for a cruise?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For a cruise, pack a mix of casual daywear, a formal outfit for dinner, comfortable excursion shoes, a small daypack for ports, and a magnetic hook for extra cabin storage.</p>
+      </div>
+      <p>Cruise cabins can be compact. Efficient spatial planning is vital. Use our <a href="/" class="text-brand-orange underline font-semibold">simulator</a> to plan your luggage. Read our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoiding baggage fees</a> for your flights to the port.</p>
+    `,
+    faqs: [
+      {
+        question: "Do I need to bring a lot of formal clothes for a cruise?",
+        answer: "Most modern cruises are becoming more casual, but usually have one or two 'formal nights'. Check your specific cruise line's dress code before packing."
+      }
+    ]
   }
 };
 
@@ -158,7 +192,7 @@ export default async function PackingListPage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 8, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 10, 2026</div>
       </div>
 
       <div

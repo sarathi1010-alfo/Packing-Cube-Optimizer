@@ -47,3 +47,15 @@
 29. Twitter: Pro Tip: Wear your heaviest boots and coat on the plane. 🧥 It's the easiest way to 'delete' 3kg from your checked bag instantly! Read more: [Link] #BudgetTravel #AirTravel
 30. Pinterest: 8 Expert Strategies to Avoid Overweight Baggage Fees. 🚫💸 Stop wasting money on airline penalties. #TravelExpert #SavingMoney
 31. Instagram: Spatial planning isn't just for architects. 🏙️ It's for smart travelers. Plan your next trip with PackFit and travel with peace of mind. [Link] #Wanderlust #PackLight
+
+## Tier 3 - New Social Content (July 10, 2026)
+32. Twitter: Stop the baggage scale anxiety! ⚖️ Our new guide reveals 8 expert strategies to pack efficiently and dodge those $100+ overweight fees. [Link] #TravelHacks #PackFit
+33. Instagram: Rolling vs. Folding? 🤔 We reveal the hybrid method that saves 30% more space and keeps your clothes wrinkle-free. Check our link in bio for the full breakdown! #PackingTips #TravelLight
+34. Facebook: Did you know you can 'delete' 3kg from your luggage just by wearing your heaviest boots on the plane? 🧥🥾 More pro tips in our latest guide! [Link] #BudgetTravel #SmartPacking
+35. Pinterest: How to pack for a 7-day trip in a single carry-on. 🎒 The ultimate spatial optimization guide for modern travelers. #MinimalistTravel #TravelChecklist
+36. Twitter: Use our visual simulator to plan your packing cubes *before* you even touch your suitcase. 🧩 Tetris for travelers is here! [Link] #TravelTech #PackFit
+37. Instagram: Heavy items at the bottom, near the wheels! 🧳 Keeping your bag's center of gravity low makes it more stable and easier to maneuver. Read more tips in our bio! #LuggageTips #TravelSmart
+38. Facebook: Backpacking Europe this summer? 🇪🇺 Don't let heavy bags and cobblestones slow you down. Here is our essential lightweight packing guide. [Link] #Wanderlust #Backpacking
+39. Twitter: Traveling for business? 💼 Learn the 'garment folder' secret to keeping your suits crisp and wrinkle-free in a carry-on. [Link] #BusinessTravel #PackFit
+40. Instagram: Planning a beach getaway? 🏖️ Don't forget a dedicated wet bag for your swimsuit on the way home! Full beach packing list in our bio. #BeachVacation #PackingList
+41. Facebook: Ultralight travel is a mindset. 🧘‍♂️ Every ounce counts when you're on the move. See our guide to the 5-4-3-2-1 rule and start traveling lighter today. [Link] #Minimalism #TravelCommunity
