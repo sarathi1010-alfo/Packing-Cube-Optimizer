@@ -15,7 +15,7 @@ const POSTS = {
   "avoid-overweight-baggage-fees": {
     title: "How to pack efficiently to avoid overweight baggage fees",
     description: "Learn how to pack efficiently to avoid overweight baggage fees, including tips on weighing luggage, rolling vs. folding, weight distribution, and spatial optimization.",
-    date: "2026-07-08",
+    date: "2026-07-10",
     content: `
       <h2>How to pack efficiently to avoid overweight baggage fees?</h2>
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
@@ -122,9 +122,11 @@ const POSTS = {
   "how-to-pack-7-day-trip-carry-on": {
     title: "How to pack for a 7-day trip in a carry-on",
     description: "Learn the exact packing cube configuration and folding techniques to fit a full week of clothes into a standard budget airline carry-on without paying extra baggage fees.",
-    date: "2026-07-08",
+    date: "2026-07-10",
     content: `
       <p>Traveling with just a carry-on for a 7-day trip is the ultimate travel flex. It means no waiting at the baggage carousel, no lost luggage, and <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoiding those dreaded $60+ checked bag fees</a>. The secret? Packing cubes and spatial optimization.</p>
+
+      <p>For more in-depth strategies, read our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">how to pack efficiently to avoid overweight baggage fees</a>.</p>
 
       <h2>1. The 5-4-3-2-1 Rule</h2>
       <p>Before you even touch your suitcase, curate your wardrobe using the classic 5-4-3-2-1 packing method:</p>

@@ -158,6 +158,59 @@ const PAGES = {
       }
     ]
   },
+  "digital-nomad-japan": {
+    title: "Digital Nomad Japan Packing Guide",
+    description: "The ultimate packing list for digital nomads heading to Japan. Balance professional gear with lightweight travel essentials.",
+    content: `
+      <h2>How to pack for Japan as a digital nomad?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">Digital nomads in Japan should pack a reliable universal adapter, a portable Wi-Fi device or eSIM, a minimalist capsule wardrobe for urban environments, and high-quality tech organizers for cables and peripherals.</p>
+      </div>
+      <p>Japan is a dream destination for digital nomads, offering high-speed internet and incredible co-working spaces. However, the urban environment requires a smart, professional appearance. Pack a capsule wardrobe that transitions from a cafe to a business meeting. Use <a href="/" class="text-brand-orange underline font-semibold">PackFit</a> to ensure your tech gear and clothing fit perfectly in a single carry-on.</p>
+      <h3>Tech Essentials for Japan</h3>
+      <p>Don't forget a robust power bank, as navigating Tokyo's transit system can drain your phone battery quickly. A portable laptop stand and noise-canceling headphones are also vital for staying productive in busy environments.</p>
+    `,
+    faqs: [
+      {
+        question: "Is Japan friendly for remote workers?",
+        answer: "Yes, Japan has excellent infrastructure, safe public spaces, and an increasing number of nomad-friendly cafes and co-working offices."
+      }
+    ]
+  },
+  "luxury-safari": {
+    title: "Luxury Safari Packing Guide",
+    description: "What to pack for a high-end safari. Practical clothing, essential gear, and how to stay within small plane weight limits.",
+    content: `
+      <h2>What are the essentials for a luxury safari?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For a luxury safari, pack lightweight, neutral-colored layers, high-quality binoculars, reef-safe sunscreen, and a wide-brimmed hat. Use compression cubes to fit everything into soft-sided luggage required for bush flights.</p>
+      </div>
+      <p>Safaris often involve small bush planes with very strict weight and luggage type restrictions (usually soft-sided bags only). Efficiency is key. See our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoiding baggage fees</a> to master lightweight packing.</p>
+    `,
+    faqs: [
+      {
+        question: "Why do safari bags need to be soft-sided?",
+        answer: "Bush planes have small, irregularly shaped cargo holds that cannot accommodate hard-shell suitcases. Soft bags can be squeezed into the available space."
+      }
+    ]
+  },
+  "minimalist-trekking": {
+    title: "Minimalist Trekking Packing Guide",
+    description: "Go further with less. The definitive guide to minimalist trekking gear and packing strategies.",
+    content: `
+      <h2>How to pack for a minimalist trekking trip?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">Minimalist trekking requires prioritizing multi-functional gear, ultralight synthetic fabrics, a compact first-aid kit, and an efficient weight distribution strategy inside a high-quality trekking pack.</p>
+      </div>
+      <p>When you're carrying everything on your back, every gram matters. Focus on high-performance materials like merino wool and silnylon. Use our <a href="/" class="text-brand-orange underline font-semibold">visual simulator</a> to plan your pack's center of gravity.</p>
+    `,
+    faqs: [
+      {
+        question: "How do I reduce my pack weight for trekking?",
+        answer: "Audit every item. If it doesn't serve multiple purposes or isn't vital for safety, leave it behind. Opt for the lightest version of essential gear like tents and sleeping bags."
+      }
+    ]
+  },
   "camping-hiking": {
     title: "Camping & Hiking Packing Guide",
     description: "Essential packing strategies for camping and hiking trips, focusing on ultralight gear and weatherproof clothing.",
@@ -236,7 +289,7 @@ export default async function TripTypePage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 8, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 10, 2026</div>
       </div>
 
       <div
