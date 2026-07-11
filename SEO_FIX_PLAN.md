@@ -10,7 +10,7 @@ Based on the review of Google Search Console (GSC) coverage reports and technica
 - [x] Published 8 unique Tier 2 programmatic pages with AI Snapshots and FAQ Schema (2026-07-10).
 - [x] Triggered IndexNow API for all new Tier 2 URLs (2026-07-10).
 - [ ] Implement a "Featured Guides" section on the homepage (`/`) that randomly cycles or lists the latest 5 programmatic guides.
-- [ ] Add a "Related Guides" component to the bottom of all Tier 2 pages to increase cross-linking between programmatic entities.
+- [x] Add a "Related Guides" component to the bottom of all Tier 2 pages to increase cross-linking between programmatic entities (2026-07-12).
 - [x] Verified `sitemap.ts` includes all 8 primary programmatic guides in the first sitemap chunk (id=0).
 
 ## 2. Address "Crawled - currently not indexed" (Thin Content)

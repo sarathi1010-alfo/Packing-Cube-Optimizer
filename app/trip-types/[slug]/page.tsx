@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { JsonLd } from "@/components/seo/JsonLd";
+import { RelatedPages } from "@/components/seo/RelatedPages";
 
 
 interface PageProps {
@@ -261,6 +262,61 @@ const PAGES = {
         answer: "A 20L to 30L backpack or a structured duffel bag is perfect for a 2-3 day trip. It's easy to carry and fits under the seat of most airplanes."
       }
     ]
+  },
+  "honeymoon-maldives": {
+    title: "Honeymoon Maldives Packing Guide",
+    description: "Pack for paradise. The ultimate honeymoon packing list for the Maldives, from sunset dinners to snorkeling adventures.",
+    content: `
+      <h2>How to pack for a Maldives honeymoon?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For a Maldives honeymoon, pack lightweight resort wear, multiple swimsuits, reef-safe sunscreen, and elegant evening attire. Use standard packing cubes to organize your luxury items and keep them wrinkle-free.</p>
+      </div>
+      <p>The Maldives is the epitome of tropical luxury. Your packing should reflect a mix of relaxation and elegance. Focus on breathable fabrics like linen and silk. Since most resorts are on private islands, you'll want to ensure you have everything you need before you arrive.</p>
+      <h3>Island Essentials</h3>
+      <p>Don't forget high-quality polarized sunglasses and a wide-brimmed hat to protect yourself from the intense equatorial sun. A waterproof dry bag is also essential for boat transfers and snorkeling trips.</p>
+    `,
+    faqs: [
+      {
+        question: "Do I need dressy clothes for a Maldives resort?",
+        answer: "Most high-end resorts have a 'smart casual' dress code for dinner. Think linen trousers and collared shirts for men, and sundresses or elegant separates for women."
+      }
+    ]
+  },
+  "music-festival-guide": {
+    title: "Music Festival Packing Guide: Survival & Style",
+    description: "Don't just survive the festival—thrive! The ultimate packing list for music festivals, focusing on comfort, hydration, and essentials.",
+    content: `
+      <h2>What are the music festival packing essentials?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For a music festival, prioritize comfortable footwear, a hydration pack, sun protection, portable chargers, and weather-appropriate layers. Use color-coded packing cubes to keep your gear organized in a crowded tent or van.</p>
+      </div>
+      <p>Festival packing is a balancing act between style and utility. You'll be on your feet for hours, often in unpredictable weather. Plan your outfits in advance and use our <a href="/" class="text-brand-orange underline font-semibold">visual simulator</a> to ensure your hydration pack and essentials fit perfectly in your daypack.</p>
+      <h3>Festival Hygiene Tips</h3>
+      <p>Pack a dedicated 'hygiene cube' with wet wipes, hand sanitizer, and dry shampoo. Staying fresh in a festival environment significantly improves your overall experience.</p>
+    `,
+    faqs: [
+      {
+        question: "What is the best footwear for a music festival?",
+        answer: "Broken-in boots or supportive sneakers are best. Avoid brand-new shoes or flip-flops, as you'll be walking and standing on varied terrain all day."
+      }
+    ]
+  },
+  "photography-expedition": {
+    title: "Photography Expedition Packing Guide",
+    description: "Protect your gear and capture the shot. The essential packing guide for photography-focused travel.",
+    content: `
+      <h2>How to pack for a photography expedition?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">Photography expeditions require a dedicated tech organizer for cables, padded inserts for camera bodies and lenses, extra batteries, and a rugged, weather-resistant backpack. Use our tool to balance the weight of your gear.</p>
+      </div>
+      <p>When traveling for photography, your gear is your priority. Distributing the weight of heavy lenses and tripods is crucial for long days of shooting. Use <a href="/" class="text-brand-orange underline font-semibold">PackFit</a> to ensure your camera bag remains balanced and within carry-on limits.</p>
+    `,
+    faqs: [
+      {
+        question: "How do I protect my camera gear while traveling?",
+        answer: "Use padded camera cubes or inserts that fit securely inside your backpack. Always carry your most expensive gear (bodies and lenses) in your carry-on, never in checked luggage."
+      }
+    ]
   }
 };
 
@@ -352,6 +408,8 @@ export default async function TripTypePage({ params }: PageProps) {
           </Button>
         </Link>
       </div>
+
+      <RelatedPages currentSlug={resolvedParams.slug} currentCluster="trip-types" />
     </article>
   );
 }

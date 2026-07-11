@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { JsonLd } from "@/components/seo/JsonLd";
+import { RelatedPages } from "@/components/seo/RelatedPages";
 
 
 interface PageProps {
@@ -134,6 +135,76 @@ const PAGES = {
         answer: "It's a great multi-purpose item to have, but you can also easily buy beautiful local sarongs at any market or rent them at temple entrances."
       }
     ]
+  },
+  "italy-packing-guide": {
+    title: "Italy Packing Guide: Style & Comfort",
+    description: "Experience La Dolce Vita with our comprehensive Italy packing guide. Tips for cities, coastlines, and countryside.",
+    content: `
+      <h2>How to pack for a trip to Italy?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">When packing for Italy, prioritize stylish but comfortable walking shoes, versatile layers in neutral tones, a modest outfit for church visits, and a high-quality cross-body bag for security.</p>
+      </div>
+      <p>Italy is a destination where style meets history. You'll be doing a lot of walking on cobblestone streets, so your footwear must be supportive yet elegant. Focus on a capsule wardrobe that can transition from a museum visit to a late-night trattoria dinner.</p>
+      <h3>Italian Church Etiquette</h3>
+      <p>Many major sites like St. Peter's Basilica or the Pantheon require modest dress. Ensure your shoulders and knees are covered. A lightweight silk scarf is a perfect, packable solution for women to drape over their shoulders.</p>
+    `,
+    faqs: [
+      {
+        question: "Can I wear sneakers in Italy?",
+        answer: "Yes, but opt for stylish, clean 'fashion sneakers' rather than bulky gym shoes. Italians appreciate a polished look even when casual."
+      }
+    ]
+  },
+  "australia-packing-guide": {
+    title: "Australia Packing Guide: The Land Down Under",
+    description: "From the Outback to the Great Barrier Reef, here's everything you need for an Australian adventure.",
+    content: `
+      <h2>What are the essentials for an Australia packing list?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">To pack for Australia, prioritize high-SPF sunscreen, a broad-brimmed hat, comfortable activewear for hiking, swimwear for the coast, and an Australian power adapter (Type I).</p>
+      </div>
+      <p>Australia is vast and the climate varies significantly between the tropical north and the temperate south. Always pack for sun protection, as the UV index is very high. If you're visiting during the Australian winter (June-August), don't forget warmer layers for cities like Melbourne or Sydney.</p>
+    `,
+    faqs: [
+      {
+        question: "Is the sun really that strong in Australia?",
+        answer: "Yes. Sun protection is vital. Use SPF 50+, wear a hat, and seek shade during the middle of the day to avoid severe sunburn."
+      }
+    ]
+  },
+  "egypt-packing-guide": {
+    title: "Egypt Packing Guide: Temples & Tides",
+    description: "Navigate the Nile and explore the pyramids with our essential Egypt packing guide.",
+    content: `
+      <h2>How to pack for a trip to Egypt?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">When packing for Egypt, bring breathable cotton or linen clothing, a sturdy pair of walking shoes for desert terrain, a modest outfit for mosques, and a high-quality camera to capture the ancient wonders.</p>
+      </div>
+      <p>Egypt is a land of heat and dust. Light-colored, loose-fitting natural fabrics are your best friends. While coastal areas like Hurghada are casual, cities and historical sites require more modest attire. Use compression cubes to manage your layers for those cool desert nights.</p>
+    `,
+    faqs: [
+      {
+        question: "What should I wear to visit the Pyramids?",
+        answer: "Wear comfortable, closed-toe walking shoes as the terrain is sandy and uneven. A lightweight long-sleeved shirt and a hat will protect you from the intense sun."
+      }
+    ]
+  },
+  "brazil-packing-guide": {
+    title: "Brazil Packing Guide: Carnival to Coast",
+    description: "Everything you need for Brazil. From the vibrant streets of Rio to the lush Amazon rainforest.",
+    content: `
+      <h2>What should I pack for a trip to Brazil?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For Brazil, pack vibrant but casual clothing, multiple swimsuits, reef-safe sunscreen, comfortable walking sandals, and a lightweight waterproof jacket if visiting the Amazon.</p>
+      </div>
+      <p>Brazil's energy is infectious. Pack clothes that are comfortable for exploration but also suitable for the country's lively social scene. If you're heading to the Amazon, specialized moisture-wicking gear and insect repellent are essential. Use <a href="/" class="text-brand-orange underline font-semibold">PackFit</a> to plan your bag for those domestic flights between Rio and Salvador.</p>
+    `,
+    faqs: [
+      {
+        question: "Is it safe to wear jewelry in Brazil?",
+        answer: "It is generally recommended to leave expensive jewelry and watches at home. Stick to simple, low-key accessories to avoid attracting unwanted attention in crowded urban areas."
+      }
+    ]
   }
 };
 
@@ -225,6 +296,8 @@ export default async function DestinationPage({ params }: PageProps) {
           </Button>
         </Link>
       </div>
+
+      <RelatedPages currentSlug={resolvedParams.slug} currentCluster="destinations" />
     </article>
   );
 }

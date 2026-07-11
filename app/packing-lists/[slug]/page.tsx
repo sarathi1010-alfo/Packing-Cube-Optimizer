@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { JsonLd } from "@/components/seo/JsonLd";
+import { RelatedPages } from "@/components/seo/RelatedPages";
 
 
 interface PageProps {
@@ -130,6 +131,40 @@ const PAGES = {
         answer: "Most modern cruises are becoming more casual, but usually have one or two 'formal nights'. Check your specific cruise line's dress code before packing."
       }
     ]
+  },
+  "safari-packing-list": {
+    title: "Ultimate Safari Packing List: Gear & Clothing",
+    description: "Prepare for the adventure of a lifetime with our comprehensive safari packing list. Tips for bush flights and wildlife viewing.",
+    content: `
+      <h2>What's on the essential safari packing list?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">The essential safari checklist includes neutral-colored lightweight layers, high-quality binoculars, a wide-brimmed hat, sturdy closed-toe shoes, and a high-performance camera with a zoom lens.</p>
+      </div>
+      <p>Safari travel often involves small planes with strict weight limits. Choosing the right materials—like moisture-wicking synthetics or breathable cotton—is key. Stick to khakis, tans, and olives to blend in with the environment and avoid attracting insects. Use compression cubes to fit everything into a soft-sided duffel bag as required by bush pilots.</p>
+    `,
+    faqs: [
+      {
+        question: "Why should I avoid bright colors on safari?",
+        answer: "Bright colors can startle the animals. Additionally, dark blue and black can attract tsetse flies. Neutral colors like khaki, beige, and light green are the most practical and respectful choices."
+      }
+    ]
+  },
+  "ski-trip-checklist": {
+    title: "Ski Trip Checklist: Peak Performance Packing",
+    description: "Don't forget a thing! Our ski trip checklist ensures you have all the layers, gear, and après-ski essentials for the mountains.",
+    content: `
+      <h2>What are the must-haves for a ski trip checklist?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">The ultimate ski checklist covers thermal base layers, a waterproof ski jacket and pants, moisture-wicking socks, goggles, gloves, and a warm hat. Use large compression cubes for bulky fleeces and sweaters.</p>
+      </div>
+      <p>Skiing involves a lot of specialized gear. If you're traveling carry-on only, wearing your heaviest jacket and boots on the plane is a must. Plan your packing cube configuration with <a href="/" class="text-brand-orange underline font-semibold">PackFit</a> to maximize every inch of your suitcase. For more tips on managing heavy winter gear, see our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoiding overweight fees</a>.</p>
+    `,
+    faqs: [
+      {
+        question: "How many pairs of ski socks do I need?",
+        answer: "Pack at least 3-4 pairs of high-quality wool or synthetic ski socks for a week-long trip. Never wear two pairs at once as it can restrict circulation and actually make your feet colder."
+      }
+    ]
   }
 };
 
@@ -221,6 +256,8 @@ export default async function PackingListPage({ params }: PageProps) {
           </Button>
         </Link>
       </div>
+
+      <RelatedPages currentSlug={resolvedParams.slug} currentCluster="packing-lists" />
     </article>
   );
 }

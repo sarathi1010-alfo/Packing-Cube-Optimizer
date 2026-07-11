@@ -15,7 +15,7 @@ const POSTS = {
   "avoid-overweight-baggage-fees": {
     title: "How to pack efficiently to avoid overweight baggage fees",
     description: "Learn how to pack efficiently to avoid overweight baggage fees, including tips on weighing luggage, rolling vs. folding, weight distribution, and spatial optimization.",
-    date: "2026-07-10",
+    date: "2026-07-12",
     faqs: [
       {
         question: "How can I avoid overweight baggage fees?",
@@ -128,7 +128,7 @@ const POSTS = {
   "how-to-pack-7-day-trip-carry-on": {
     title: "How to pack for a 7-day trip in a carry-on",
     description: "Learn the exact packing cube configuration and folding techniques to fit a full week of clothes into a standard budget airline carry-on without paying extra baggage fees.",
-    date: "2026-07-10",
+    date: "2026-07-12",
     faqs: [
       {
         question: "How do I pack for 7 days in a carry-on?",
@@ -169,7 +169,7 @@ const POSTS = {
   "ultimate-guide-to-packing-cubes": {
     title: "The Ultimate Guide to Packing Cubes in 2026",
     description: "Everything you need to know about packing cubes. From compression vs. standard to the best materials and configurations for every suitcase size.",
-    date: "2026-07-11",
+    date: "2026-07-12",
     faqs: [
       {
         question: "What are the best packing cubes in 2026?",
@@ -182,7 +182,7 @@ const POSTS = {
         <p class="font-medium text-brand-navy m-0">Packing cubes are fabric containers used to organize and compress clothing inside luggage. They maximize space, prevent wrinkles, and allow for modular packing. In 2026, the best cubes feature ultra-lightweight ripstop nylon and YKK zippers for durability.</p>
       </div>
 
-      <p>Packing cubes have transitioned from a niche travel hack to an essential tool for any organized traveler. Whether you are a minimalist backpacker or a luxury traveler, understanding how to utilize these modular systems can transform your travel experience.</p>
+      <p>Packing cubes have transitioned from a niche travel hack to an essential tool for any organized traveler. Whether you are a minimalist backpacker or a luxury traveler, understanding how to utilize these modular systems can transform your travel experience. They are particularly effective when trying to <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoid overweight baggage fees</a> by organizing your gear efficiently.</p>
 
       <h2>1. Types of Packing Cubes</h2>
       <h3>Standard Packing Cubes</h3>
