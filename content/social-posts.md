@@ -59,3 +59,15 @@
 39. Twitter: Traveling for business? 💼 Learn the 'garment folder' secret to keeping your suits crisp and wrinkle-free in a carry-on. [Link] #BusinessTravel #PackFit
 40. Instagram: Planning a beach getaway? 🏖️ Don't forget a dedicated wet bag for your swimsuit on the way home! Full beach packing list in our bio. #BeachVacation #PackingList
 41. Facebook: Ultralight travel is a mindset. 🧘‍♂️ Every ounce counts when you're on the move. See our guide to the 5-4-3-2-1 rule and start traveling lighter today. [Link] #Minimalism #TravelCommunity
+
+## Tier 3 - New Social Content (July 12, 2026)
+42. Twitter: Stop the baggage scale anxiety! ⚖️ Our new guide reveals 8 expert strategies to pack efficiently and dodge those $100+ overweight fees. [Link] #TravelHacks #PackFit #BudgetTravel
+43. Instagram: Rolling vs. Folding? 🤔 We reveal the hybrid method that saves 30% more space and keeps your clothes wrinkle-free. Check our link in bio for the full breakdown! 🧳 #PackingTips #TravelLight #PackFit
+44. Facebook: Did you know you can 'delete' 3kg from your luggage just by wearing your heaviest boots on the plane? 🧥🥾 More pro tips in our latest guide! [Link] #SmartPacking #TravelCommunity
+45. Pinterest: How to pack for a 7-day trip in a single carry-on. 🎒 The ultimate spatial optimization guide for modern travelers. #MinimalistTravel #TravelChecklist #PackingCubes
+46. Twitter: Use our visual simulator to plan your packing cubes *before* you even touch your suitcase. 🧩 Tetris for travelers is here! [Link] #TravelTech #PackFit #NomadLife
+47. Instagram: Heavy items at the bottom, near the wheels! 🧳 Keeping your bag's center of gravity low makes it more stable and easier to maneuver. Read more tips in our bio! #LuggageTips #TravelSmart #PackFit
+48. Facebook: Heading to Italy this summer? 🇮🇹 Don't let heavy bags and cobblestones slow you down. Here is our essential style & comfort packing guide. [Link] #ItalyTravel #LaDolceVita
+49. Twitter: Traveling for business? 💼 Learn the 'garment folder' secret to keeping your suits crisp and wrinkle-free in a carry-on. [Link] #BusinessTravel #PackFit #LifeHacks
+50. Instagram: Planning a Maldives honeymoon? 🏝️ Don't forget reef-safe sunscreen and elegant resort wear! Full packing list in our bio. #Honeymoon #Maldives #PackingList
+51. Facebook: Music festival season is here! 🎸 Stay hydrated, stay comfortable, and keep your gear organized with our survival packing guide. [Link] #FestivalSeason #MusicFestival #PackFit
