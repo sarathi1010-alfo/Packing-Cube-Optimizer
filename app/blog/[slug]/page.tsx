@@ -16,6 +16,12 @@ const POSTS = {
     title: "How to pack efficiently to avoid overweight baggage fees",
     description: "Learn how to pack efficiently to avoid overweight baggage fees, including tips on weighing luggage, rolling vs. folding, weight distribution, and spatial optimization.",
     date: "2026-07-10",
+    faqs: [
+      {
+        question: "How can I avoid overweight baggage fees?",
+        answer: "To avoid overweight baggage fees, weigh your luggage at home with a portable scale, wear your heaviest items on the plane, and use packing cubes to distribute weight efficiently."
+      }
+    ],
     content: `
       <h2>How to pack efficiently to avoid overweight baggage fees?</h2>
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
@@ -123,6 +129,12 @@ const POSTS = {
     title: "How to pack for a 7-day trip in a carry-on",
     description: "Learn the exact packing cube configuration and folding techniques to fit a full week of clothes into a standard budget airline carry-on without paying extra baggage fees.",
     date: "2026-07-10",
+    faqs: [
+      {
+        question: "How do I pack for 7 days in a carry-on?",
+        answer: "Use the 5-4-3-2-1 rule, roll your clothes, and utilize compression packing cubes to fit a full week of essentials into a standard carry-on."
+      }
+    ],
     content: `
       <p>Traveling with just a carry-on for a 7-day trip is the ultimate travel flex. It means no waiting at the baggage carousel, no lost luggage, and <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoiding those dreaded $60+ checked bag fees</a>. The secret? Packing cubes and spatial optimization.</p>
 
@@ -152,6 +164,112 @@ const POSTS = {
 
       <h2>4. Airline Specific Dimensions</h2>
       <p>A \"carry-on\" for Delta is not the same as a \"carry-on\" for Ryanair. Budget European airlines have notoriously strict sizers. Always double check your bag's actual measurements (including wheels and handles) against our <a href="/airlines" class="text-brand-orange underline font-semibold">Airline Rules Database</a>. For more in-depth strategies, read our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">how to pack efficiently to avoid overweight baggage fees</a>.</p>
+    `
+  },
+  "ultimate-guide-to-packing-cubes": {
+    title: "The Ultimate Guide to Packing Cubes in 2026",
+    description: "Everything you need to know about packing cubes. From compression vs. standard to the best materials and configurations for every suitcase size.",
+    date: "2026-07-11",
+    faqs: [
+      {
+        question: "What are the best packing cubes in 2026?",
+        answer: "The best packing cubes in 2026 are made from 70D ripstop nylon with YKK zippers. Compression cubes from brands like Eagle Creek and Peak Design remain the gold standard for efficiency."
+      }
+    ],
+    content: `
+      <h2>What are packing cubes and why use them?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">Packing cubes are fabric containers used to organize and compress clothing inside luggage. They maximize space, prevent wrinkles, and allow for modular packing. In 2026, the best cubes feature ultra-lightweight ripstop nylon and YKK zippers for durability.</p>
+      </div>
+
+      <p>Packing cubes have transitioned from a niche travel hack to an essential tool for any organized traveler. Whether you are a minimalist backpacker or a luxury traveler, understanding how to utilize these modular systems can transform your travel experience.</p>
+
+      <h2>1. Types of Packing Cubes</h2>
+      <h3>Standard Packing Cubes</h3>
+      <p>Standard cubes are primarily for organization. They help you categorize your clothes (e.g., tops in one, bottoms in another) and keep your suitcase tidy throughout your trip. Brands like **REI** and **Amazon Basics** offer excellent entry-level standard cubes.</p>
+
+      <h3>Compression Packing Cubes</h3>
+      <p>Compression cubes feature a second zipper that squeezes out excess air after the cube is closed. This can reduce the volume of your clothes by up to 40%. **Eagle Creek** and **Peak Design** are leaders in this category, using high-tension materials that won't tear under pressure.</p>
+
+      <h3>Water-Resistant and Specialized Cubes</h3>
+      <p>Specialized cubes include wet/dry bags for swimsuits, shoe bags to protect your clean clothes from dirt, and garment folders for formal wear. **Away** and **Monos** often include these as part of their premium luggage sets.</p>
+
+      <h2>2. Choosing the Right Material</h2>
+      <p>In 2026, the gold standard is **70D Ripstop Nylon**. It's incredibly light but resistant to punctures. Look for mesh panels if you prioritize breathability, or fully enclosed TPU-coated fabrics for leak-proof toiletry storage.</p>
+
+      <h2>3. How to Pack Your Cubes (The Pro Method)</h2>
+      <p>For maximum efficiency, combine packing cubes with the rolling method. Roll each item tightly and place it vertically inside the cube. This "file-style" packing allows you to see every item without digging.</p>
+
+      <h2>Conclusion</h2>
+      <p>Choosing the right packing cube system depends on your travel style. Use <a href="/" class="text-brand-orange underline font-semibold">PackFit</a> to calculate the perfect configuration for your next trip.</p>
+    `
+  },
+  "packing-cubes-vs-rolling-clothes": {
+    title: "Packing Cubes vs Rolling Clothes: Which is Better?",
+    description: "We compare packing cubes and rolling clothes to see which method actually saves more space and keeps your clothes wrinkle-free.",
+    date: "2026-07-11",
+    faqs: [
+      {
+        question: "Does rolling clothes actually save space?",
+        answer: "Yes, rolling clothes saves space by removing the air pockets that occur between flat-folded layers. When combined with packing cubes, it provides the most efficient packing method."
+      }
+    ],
+    content: `
+      <h2>Should you use packing cubes or just roll your clothes?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For maximum efficiency, you should do both. Rolling clothes saves space by removing air pockets, while packing cubes provide organization and further compression. If you must choose one, packing cubes offer better long-term organization during a trip.</p>
+      </div>
+
+      <h3>Comparison Table</h3>
+      <div class="overflow-x-auto my-6">
+        <table class="min-w-full divide-y divide-brand-beige border border-brand-beige rounded-lg">
+          <thead class="bg-brand-sand/50">
+            <tr>
+              <th class="px-4 py-3 text-left text-sm font-semibold text-brand-navy uppercase">Feature</th>
+              <th class="px-4 py-3 text-left text-sm font-semibold text-brand-navy uppercase">Packing Cubes</th>
+              <th class="px-4 py-3 text-left text-sm font-semibold text-brand-navy uppercase">Rolling Only</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-brand-beige">
+            <tr>
+              <td class="px-4 py-3 font-medium">Space Saving</td>
+              <td class="px-4 py-3">Excellent (with compression)</td>
+              <td class="px-4 py-3">Good</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">Organization</td>
+              <td class="px-4 py-3">Elite</td>
+              <td class="px-4 py-3">Poor</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">Wrinkle Prevention</td>
+              <td class="px-4 py-3">High</td>
+              <td class="px-4 py-3">Medium</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>While rolling clothes is a free and effective way to save space, packing cubes act as "drawers" for your suitcase. Use our <a href="/blog/how-to-pack-7-day-trip-carry-on" class="text-brand-orange underline font-semibold">7-day packing guide</a> to see this in action.</p>
+    `
+  },
+  "packing-cubes-vs-folding": {
+    title: "Packing Cubes vs Folding: The Efficiency Showdown",
+    description: "Is it worth the extra step? We analyze the efficiency of packing cubes versus traditional folding.",
+    date: "2026-07-11",
+    faqs: [
+      {
+        question: "Are packing cubes better than folding?",
+        answer: "Yes, packing cubes are superior to traditional folding because they compress clothing and prevent items from shifting and wrinkling during transit."
+      }
+    ],
+    content: `
+      <h2>Is using packing cubes better than traditional folding?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">Yes. Traditional folding creates air gaps and allows clothes to shift and wrinkle. Packing cubes keep items compressed and stationary, making them vastly superior for travel efficiency.</p>
+      </div>
+
+      <p>Traditional folding is fine for your dresser at home, but in a suitcase that is being tossed and turned, it's a recipe for a mess. Packing cubes create a modular system that prevents your stack of folded shirts from becoming a heap of wrinkles.</p>
     `
   }
 };
@@ -211,9 +329,23 @@ export default async function BlogPostPage({ params }: PageProps) {
     }
   };
 
+  const faqSchema = post.faqs ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": post.faqs.map((faq: { question: string; answer: string }) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  } : null;
+
   return (
     <article className="container max-w-3xl py-12 px-4 mx-auto">
       <JsonLd data={articleSchema} />
+      {faqSchema && <JsonLd data={faqSchema} />}
       <div className="mb-8">
         <Link href="/blog" className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-brand-orange mb-8 transition-colors">
           <ArrowLeft className="w-4 h-4 mr-2" /> Back to all articles

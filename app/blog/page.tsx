@@ -22,6 +22,27 @@ const POSTS = [
     excerpt: "Learn the exact packing cube configuration and folding techniques to fit a full week of clothes into a standard budget airline carry-on without paying extra baggage fees.",
     date: "2026-07-10",
     category: "Guides"
+  },
+  {
+    slug: "ultimate-guide-to-packing-cubes",
+    title: "The Ultimate Guide to Packing Cubes in 2026",
+    excerpt: "Everything you need to know about packing cubes. From compression vs. standard to the best materials and configurations for every suitcase size.",
+    date: "2026-07-11",
+    category: "Pillar"
+  },
+  {
+    slug: "packing-cubes-vs-rolling-clothes",
+    title: "Packing Cubes vs Rolling Clothes: Which is Better?",
+    excerpt: "We compare the two most popular space-saving techniques. Discover which method actually saves more space and keeps your clothes wrinkle-free.",
+    date: "2026-07-11",
+    category: "Comparison"
+  },
+  {
+    slug: "packing-cubes-vs-folding",
+    title: "Packing Cubes vs Folding: The Efficiency Showdown",
+    excerpt: "Is it worth the extra step? We analyze the efficiency of packing cubes versus traditional folding to help you decide for your next trip.",
+    date: "2026-07-11",
+    category: "Comparison"
   }
 ];
 
