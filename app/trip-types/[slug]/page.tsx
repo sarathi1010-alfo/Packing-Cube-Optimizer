@@ -227,6 +227,40 @@ const PAGES = {
         answer: "Place heavy items like food and water close to your back and centered. Use colored packing cubes or dry bags to separate camp clothes, trail clothes, and sleeping gear."
       }
     ]
+  },
+  "7-day-trip": {
+    title: "7-Day Trip Packing Guide",
+    description: "The definitive guide for packing for a full week in a carry-on. Master the 5-4-3-2-1 rule and spatial optimization.",
+    content: `
+      <h2>How to pack for a 7-day trip?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">To pack for a 7-day trip in a carry-on, use the 5-4-3-2-1 rule: 5 sets of socks/underwear, 4 tops, 3 bottoms, 2 pairs of shoes, and 1 hat/accessory. Organize these in one large compression cube and two medium standard cubes.</p>
+      </div>
+      <p>A week-long trip is the sweet spot for carry-on travel. It's long enough to require variety, but short enough that you don't need to overpack. The key is coordinating your capsule wardrobe so every piece works with at least two others.</p>
+    `,
+    faqs: [
+      {
+        question: "Can I fit 7 days of clothes in a carry-on?",
+        answer: "Absolutely. By using the rolling method and compression packing cubes, you can easily fit a week's worth of clothing into a standard 40L carry-on bag."
+      }
+    ]
+  },
+  "weekend-getaway": {
+    title: "Weekend Getaway Packing List",
+    description: "Pack light and fast for your next weekend escape. Minimalist tips for 2-3 day trips.",
+    content: `
+      <h2>What should I pack for a weekend getaway?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For a weekend getaway, focus on one versatile outfit per day plus one dressier option for evening. Use two small packing cubes to keep your personal item or small duffel organized and lightweight.</p>
+      </div>
+      <p>Weekend trips are about spontaneity and speed. Don't let heavy luggage slow you down. A small backpack or weekend duffel is all you need if you pack modularly.</p>
+    `,
+    faqs: [
+      {
+        question: "What is the best bag for a weekend trip?",
+        answer: "A 20L to 30L backpack or a structured duffel bag is perfect for a 2-3 day trip. It's easy to carry and fits under the seat of most airplanes."
+      }
+    ]
   }
 };
 
