@@ -4,7 +4,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Packing Guides & Blog | Packing Cube Optimizer",
+  title: "Packing Guides & Blog | Packing Cube Optimizer", // Published: 2026-07-12
   description: "Learn how to pack smarter, travel lighter, and fit more in your carry-on with our expert packing guides.",
 };
 

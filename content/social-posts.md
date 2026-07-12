@@ -60,7 +60,7 @@
 40. Instagram: Planning a beach getaway? 🏖️ Don't forget a dedicated wet bag for your swimsuit on the way home! Full beach packing list in our bio. #BeachVacation #PackingList
 41. Facebook: Ultralight travel is a mindset. 🧘‍♂️ Every ounce counts when you're on the move. See our guide to the 5-4-3-2-1 rule and start traveling lighter today. [Link] #Minimalism #TravelCommunity
 
-## Tier 3 - New Social Content (July 12, 2026)
+## Tier 3 - New Social Content (July 12, 2026) - Published
 42. Twitter: Stop the baggage scale anxiety! ⚖️ Our new guide reveals 8 expert strategies to pack efficiently and dodge those $100+ overweight fees. [Link] #TravelHacks #PackFit #BudgetTravel
 43. Instagram: Rolling vs. Folding? 🤔 We reveal the hybrid method that saves 30% more space and keeps your clothes wrinkle-free. Check our link in bio for the full breakdown! 🧳 #PackingTips #TravelLight #PackFit
 44. Facebook: Did you know you can 'delete' 3kg from your luggage just by wearing your heaviest boots on the plane? 🧥🥾 More pro tips in our latest guide! [Link] #SmartPacking #TravelCommunity

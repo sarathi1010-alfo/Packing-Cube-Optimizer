@@ -38,3 +38,6 @@ Based on the review of Google Search Console (GSC) coverage reports and technica
 - [x] Re-submitted the sitemap index to GSC via `scripts/ping-sitemap.sh` (2026-07-10).
 - [ ] Monitor the "Indexing" report for a 20% increase in indexed URLs over the next 7 days.
 - [x] Verified 200 OK status and JSON-LD integrity for all new routes (2026-07-10).
+- [x] Published Tier 1 Authority article: "How to pack efficiently to avoid overweight baggage fees" (2026-07-12).
+- [x] Generated 8 new Tier 2 programmatic pages across trip types, destinations, and packing lists (2026-07-12).
+- [x] Updated internal links from About and Asia guide to the new Tier 1 article (2026-07-12).
