@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { siteConfig } from "@/config/site";
+import { siteConfig } from "@/config/site"; // Published: 2026-07-12
 
 interface PageProps {
   params: Promise<{

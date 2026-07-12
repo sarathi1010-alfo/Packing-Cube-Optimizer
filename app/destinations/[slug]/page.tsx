@@ -21,7 +21,7 @@ const PAGES = {
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
         <p class="font-medium text-brand-navy m-0">When packing for Asia, prioritize ultra-breathable, moisture-wicking clothing for humidity, slip-on shoes for temple visits, a modest outfit that covers shoulders and knees, and a robust universal power adapter.</p>
       </div>
-      <p>Traveling across Asia often means navigating diverse climates, from the sweltering heat of Southeast Asia to the crisp mountain air in parts of East Asia. The key is lightweight versatility. Roll your clothes to save space and organize them by outfit or function using standard packing cubes.</p>
+      <p>Traveling across Asia often means navigating diverse climates, from the sweltering heat of Southeast Asia to the crisp mountain air in parts of East Asia. The key is lightweight versatility. Roll your clothes to save space and organize them by outfit or function using standard packing cubes. Learn more in our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">how to pack efficiently to avoid overweight baggage fees</a>.</p>
     `,
     faqs: [
       {
@@ -205,6 +205,67 @@ const PAGES = {
         answer: "It is generally recommended to leave expensive jewelry and watches at home. Stick to simple, low-key accessories to avoid attracting unwanted attention in crowded urban areas."
       }
     ]
+  },
+  "costa-rica-packing-guide": {
+    title: "Costa Rica Packing Guide: Jungle to Coast",
+    description: "Prepare for 'Pura Vida'. Everything you need to pack for Costa Rica's rainforests, volcanoes, and pristine beaches.",
+    content: `
+      <h2>How to pack for Costa Rica?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">To pack for Costa Rica, prioritize lightweight quick-dry clothing, sturdy hiking sandals (like Chacos or Tevas), reef-safe sunscreen, a high-quality raincoat, and plenty of insect repellent.</p>
+      </div>
+      <p>Costa Rica is a land of microclimates. While the beaches are hot and humid, the cloud forests of Monteverde can be cool and misty. The key is versatile, moisture-wicking layers. Use standard packing cubes to separate your muddy hiking gear from your clean dinner attire.</p>
+
+      <h3>Rainy Season Essentials</h3>
+      <p>If visiting during the 'green season' (May-November), a lightweight, breathable raincoat is non-negotiable. Don't bother with an umbrella; the tropical downpours are often accompanied by wind that makes them useless. A waterproof dry bag for your electronics is also a wise investment for boat tours and jungle treks.</p>
+    `,
+    faqs: [
+      {
+        question: "What kind of shoes are best for Costa Rica?",
+        answer: "A pair of sturdy, waterproof hiking sandals is ideal for most activities. If you plan on serious trekking, bring lightweight trail runners. Avoid heavy leather boots as they take forever to dry in the humidity."
+      },
+      {
+        question: "Do I need to bring my own snorkeling gear?",
+        answer: "Most tours provide basic gear, but if you have a high-quality mask that fits you well, it's worth bringing to ensure the best experience at spots like Cahuita or Cano Island."
+      }
+    ]
+  },
+  "greece-packing-guide": {
+    title: "Greece Packing Guide: Islands & Antiquities",
+    description: "Pack for the Mediterranean dream. Essentials for exploring Athens, island hopping, and relaxing on Greek beaches.",
+    content: `
+      <h2>What should I pack for a trip to Greece?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For Greece, pack breathable linen clothing, stylish but supportive walking shoes for cobblestones, multiple swimsuits, high-SPF sunscreen, and a versatile light sweater for ferry rides and cool island evenings.</p>
+      </div>
+      <p>Greece involves a lot of walking on uneven surfaces and frequent transitions between ferries and islands. A capsule wardrobe of light-colored natural fabrics will keep you cool and stylish. Use compression packing cubes to manage your outfits and keep your bag manageable on steep island stairs.</p>
+
+      <h3>Dressing for the Heat</h3>
+      <p>The Greek sun is intense. A wide-brimmed hat and polarized sunglasses are essential. If visiting archaeological sites like the Acropolis, ensure your shoes have good grip, as the ancient marble can be surprisingly slippery when worn smooth by millions of feet.</p>
+    `,
+    faqs: [
+      {
+        question: "What is the best luggage for Greek island hopping?",
+        answer: "A sturdy travel backpack or a small, high-quality four-wheel spinner is best. Large, heavy suitcases are difficult to manage on ferries and when navigating the narrow, hilly streets of islands like Santorini."
+      }
+    ]
+  },
+  "vietnam-packing-guide": {
+    title: "Vietnam Packing Guide: North to South",
+    description: "Navigate Vietnam with ease. What to pack for bustling cities, rural highlands, and stunning coastlines.",
+    content: `
+      <h2>How to pack for a trip to Vietnam?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">To pack for Vietnam, bring lightweight moisture-wicking layers, a modest outfit for temples, comfortable walking shoes, a universal power adapter, and a lightweight raincoat for sudden tropical showers.</p>
+      </div>
+      <p>Vietnam spans a huge latitude, meaning the weather in Hanoi can be vastly different from Ho Chi Minh City. Layers are your best friend. In the north, especially during winter, you'll want a light jacket, while the south remains tropical year-round. Use <a href="/" class="text-brand-orange underline font-semibold">PackFit</a> to optimize your bag for the many domestic flights or train journeys you'll likely take.</p>
+    `,
+    faqs: [
+      {
+        question: "Should I pack a lot of warm clothes for Vietnam?",
+        answer: "Only if you are visiting Northern Vietnam (Hanoi, Sapa) between December and February, when temperatures can drop significantly. For the rest of the country and other times of year, lightweight clothing is sufficient."
+      }
+    ]
   }
 };
 
@@ -267,7 +328,7 @@ export default async function DestinationPage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 10, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 12, 2026</div>
       </div>
 
       <div

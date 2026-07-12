@@ -317,6 +317,67 @@ const PAGES = {
         answer: "Use padded camera cubes or inserts that fit securely inside your backpack. Always carry your most expensive gear (bodies and lenses) in your carry-on, never in checked luggage."
       }
     ]
+  },
+  "scuba-diving-trip": {
+    title: "Scuba Diving Trip Packing Guide",
+    description: "Pack for the deep. Essential strategies for transporting dive gear, protective layers, and tropical essentials safely.",
+    content: `
+      <h2>How to pack for a scuba diving trip?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">To pack for a scuba trip, prioritize protecting your dive computer and regulator in your carry-on, use mesh bags for wet gear, and optimize heavy fin placement at the bottom of your bag near the wheels.</p>
+      </div>
+      <p>Scuba diving trips present a unique challenge: heavy, bulky, and often expensive equipment. The key is separating your life-support gear (regulators, computers) from your auxiliary gear (fins, wetsuits). Always carry your most sensitive electronics in your personal item or carry-on. See our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoiding overweight fees</a> to manage the weight of your dive kit.</p>
+
+      <h3>Regulator and Computer Care</h3>
+      <p>Never check your regulator or dive computer. These are delicate instruments that can be damaged by the rough handling of checked luggage. Use a padded regulator bag and keep it with you in the cabin. This ensures that even if your checked bag is delayed, you still have your most critical (and personal) pieces of gear.</p>
+    `,
+    faqs: [
+      {
+        question: "Should I bring my own BCD and fins?",
+        answer: "If you are a frequent diver, bringing your own BCD ensures comfort and familiarity. However, if you are trying to travel light, fins are often the easiest item to rent at your destination to save significant weight and space."
+      },
+      {
+        question: "How do I pack a wet wetsuit for the flight home?",
+        answer: "Use a dedicated waterproof dry bag or a TPU-coated packing cube. Try to dry your gear for at least 24 hours before your flight to minimize weight and prevent mildew."
+      }
+    ]
+  },
+  "yoga-retreat": {
+    title: "Yoga Retreat Packing Guide",
+    description: "Find your zen with a perfectly organized bag. What to pack for a yoga retreat, from sustainable activewear to mindfulness essentials.",
+    content: `
+      <h2>What should I pack for a yoga retreat?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For a yoga retreat, pack 3-4 sets of moisture-wicking yoga gear, a travel-sized mat or mat towel, a reusable water bottle, and comfortable loungewear for meditation and workshops.</p>
+      </div>
+      <p>Yoga retreats are about stripping away the noise, and your packing should reflect that. Focus on a minimalist capsule wardrobe of high-quality, breathable fabrics. Use standard packing cubes to organize your practice gear separately from your evening loungewear.</p>
+
+      <h3>The Travel Mat Solution</h3>
+      <p>If you prefer your own mat, invest in an ultra-thin travel version that can be folded or rolled tightly. Alternatively, a high-quality mat towel can be used over a rented mat at the retreat center, providing a hygienic and familiar surface while taking up minimal space in your bag.</p>
+    `,
+    faqs: [
+      {
+        question: "How many yoga outfits do I need for a week?",
+        answer: "3 to 4 sets are usually sufficient if the retreat has laundry facilities. Choose moisture-wicking fabrics that dry quickly if you need to do a quick sink-wash."
+      }
+    ]
+  },
+  "golf-trip": {
+    title: "Golf Trip Packing Guide",
+    description: "Hit the links without the hassle. How to pack golf clubs, specialized apparel, and accessories for a perfect golf getaway.",
+    content: `
+      <h2>How to pack for a golf trip?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">To pack for a golf trip, use a high-quality travel cover for your clubs, protect club heads with a 'Stiff Arm' or extra padding, and pack your golf shoes in a dedicated bag to protect your clothing.</p>
+      </div>
+      <p>A golf trip requires careful coordination of bulky gear and specific dress codes. Use a hard-sided or high-end soft-sided travel bag for your clubs. To save space, you can often tuck extra towels or even some clothing around your clubs for added protection. Read our <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">overweight baggage guide</a> to stay within airline limits for heavy golf bags.</p>
+    `,
+    faqs: [
+      {
+        question: "How do I prevent my driver from breaking during flight?",
+        answer: "Remove the head from your adjustable driver and pack it in its headcover inside your carry-on. Place the shaft back in the bag with the other clubs and use a 'Stiff Arm' to provide vertical protection against impacts."
+      }
+    ]
   }
 };
 
@@ -379,7 +440,7 @@ export default async function TripTypePage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 10, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 12, 2026</div>
       </div>
 
       <div

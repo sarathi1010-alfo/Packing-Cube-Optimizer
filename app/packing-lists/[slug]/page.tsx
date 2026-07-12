@@ -165,6 +165,43 @@ const PAGES = {
         answer: "Pack at least 3-4 pairs of high-quality wool or synthetic ski socks for a week-long trip. Never wear two pairs at once as it can restrict circulation and actually make your feet colder."
       }
     ]
+  },
+  "maternity-travel-checklist": {
+    title: "Maternity Travel Checklist: Comfort & Care",
+    description: "Travel comfortably during pregnancy. The essential maternity travel checklist for safety, support, and well-being.",
+    content: `
+      <h2>What should be on a maternity travel checklist?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">A maternity travel checklist should prioritize compression socks for circulation, a supportive belly band, comfortable slip-on shoes, prenatal vitamins, and a copy of your medical records.</p>
+      </div>
+      <p>Traveling while pregnant requires extra planning for comfort and safety. Focus on breathable, stretchy fabrics and items that alleviate common travel discomforts like swelling and back pain. Use our <a href="/" class="text-brand-orange underline font-semibold">simulator</a> to plan your bag so that frequent essentials are always within easy reach.</p>
+
+      <h3>Staying Comfortable on Long Flights</h3>
+      <p>Compression socks are vital for preventing deep vein thrombosis (DVT) and reducing swelling in the legs and feet. Additionally, bring a small pillow for lumbar support and stay hydrated throughout your journey. Always consult with your healthcare provider before any significant travel during pregnancy.</p>
+    `,
+    faqs: [
+      {
+        question: "Is it safe to fly during the third trimester?",
+        answer: "Most airlines allow travel up to 36 weeks, but rules vary. Always check your airline's specific policy and consult with your doctor before booking a flight in your third trimester."
+      }
+    ]
+  },
+  "student-study-abroad": {
+    title: "Student Study Abroad Packing List",
+    description: "Prepare for your semester of a lifetime. The essential packing list for students studying abroad, from tech to lifestyle.",
+    content: `
+      <h2>What are the essentials for a study abroad packing list?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For study abroad, pack a reliable laptop and universal power adapter, a versatile capsule wardrobe for diverse social and academic settings, a secure way to carry your passport, and essential medications.</p>
+      </div>
+      <p>Studying abroad is a long-term commitment that requires a balance between academic needs and personal travel. Focus on items that are durable and multi-functional. Use compression packing cubes to fit a semester's worth of basics into a manageable suitcase. Read our <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">baggage fee guide</a> to ensure you don't start your semester with a heavy airline penalty.</p>
+    `,
+    faqs: [
+      {
+        question: "Should I pack a lot of school supplies?",
+        answer: "No. Most stationery and basic supplies can be bought cheaply at your destination. Focus your luggage space on specialized electronics and clothing that might be harder to find or more expensive abroad."
+      }
+    ]
   }
 };
 
@@ -227,7 +264,7 @@ export default async function PackingListPage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 10, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 12, 2026</div>
       </div>
 
       <div
