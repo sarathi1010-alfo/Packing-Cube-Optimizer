@@ -378,6 +378,59 @@ const PAGES = {
         answer: "Remove the head from your adjustable driver and pack it in its headcover inside your carry-on. Place the shaft back in the bag with the other clubs and use a 'Stiff Arm' to provide vertical protection against impacts."
       }
     ]
+  },
+  "van-life-tour": {
+    title: "Van Life Tour Packing Guide",
+    description: "Master the art of packing for life on the road. Essential gear and spatial organization for your next van life adventure.",
+    content: `
+      <h2>How to pack for a van life tour?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">To pack for van life, prioritize multi-functional gear, utilize vertical storage with soft-sided bins, pack a minimalist modular wardrobe, and use spatial planning to maximize the limited square footage of your van.</p>
+      </div>
+      <p>Van life is the ultimate exercise in spatial optimization. Every inch of your van must be utilized efficiently. Use soft-sided packing cubes and collapsible containers to organize your belongings. This allows you to easily shift items around and maintain a tidy living space. For more tips on managing limited space, see our <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">spatial optimization guide</a>.</p>
+      <h3>Maximizing Limited Storage</h3>
+      <p>In a van, traditional suitcases are your enemy. Opt for flexible storage solutions that can conform to the irregular shapes of your van's cabinets and under-bed storage. Use compression cubes for off-season clothing and bulky items like bedding.</p>
+    `,
+    faqs: [
+      {
+        question: "How do I keep my van organized?",
+        answer: "Use a 'place for everything' approach. Color-coded packing cubes help identify contents quickly, and magnetic strips can be used for kitchen utensils and small tools."
+      }
+    ]
+  },
+  "destination-wedding-guest": {
+    title: "Destination Wedding Guest Packing Guide",
+    description: "Look your best without the stress. How to pack formal wear and wedding essentials for a destination celebration.",
+    content: `
+      <h2>What should a destination wedding guest pack?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">Wedding guests should pack formal attire in a garment folder, versatile accessories, comfortable dress shoes, and a small steamer. Use compression cubes for casual clothes to make room for your wedding outfit.</p>
+      </div>
+      <p>Attending a destination wedding requires careful planning to ensure your formal attire arrives in pristine condition. Use a garment folder or a dedicated suit bag for your main outfit. For shoes, use individual shoe bags to protect your clothing from dirt. Check out our <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">baggage fee guide</a> to manage the weight of your wedding gear.</p>
+    `,
+    faqs: [
+      {
+        question: "How do I pack a bridesmaid dress?",
+        answer: "Place the dress in a plastic dry-cleaning bag before folding or rolling it loosely. This prevents the fabric from rubbing against itself and reduces wrinkles."
+      }
+    ]
+  },
+  "surfing-vacation": {
+    title: "Surfing Vacation Packing Guide",
+    description: "Catch the perfect wave with our surfing vacation packing guide. Essential gear, protective layers, and tropical essentials.",
+    content: `
+      <h2>How to pack for a surfing vacation?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">To pack for a surf trip, prioritize multiple rash guards, board shorts, high-SPF reef-safe sunscreen, a reliable wet bag, and protect your surfboards with a high-quality travel bag and padding.</p>
+      </div>
+      <p>A surfing vacation involves managing wet gear and protecting expensive boards. Use mesh bags for your rash guards and swimwear to allow them to breathe. If you're bringing your own boards, ensure they are well-padded with foam or bubble wrap inside your board bag. Read our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoiding overweight fees</a> for heavy board bags.</p>
+    `,
+    faqs: [
+      {
+        question: "What is the best way to pack surf wax?",
+        answer: "Keep your surf wax in a small, leak-proof container or a dedicated wax bag to prevent it from melting and ruining your other gear in the heat."
+      }
+    ]
   }
 };
 
@@ -440,7 +493,7 @@ export default async function TripTypePage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 12, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 13, 2026</div>
       </div>
 
       <div

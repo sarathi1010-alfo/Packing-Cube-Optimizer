@@ -4,7 +4,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Packing Guides & Blog | Packing Cube Optimizer", // Published: 2026-07-12
+  title: "Packing Guides & Blog | Packing Cube Optimizer", // Published: 2026-07-13
   description: "Learn how to pack smarter, travel lighter, and fit more in your carry-on with our expert packing guides.",
 };
 
@@ -13,21 +13,21 @@ const POSTS = [
     slug: "avoid-overweight-baggage-fees",
     title: "How to pack efficiently to avoid overweight baggage fees",
     excerpt: "Stop paying the hidden travel tax. Learn 8 expert strategies to pack efficiently, optimize your luggage space, and stay under the weight limit every time.",
-    date: "2026-07-12",
+    date: "2026-07-13",
     category: "Guides"
   },
   {
     slug: "how-to-pack-7-day-trip-carry-on",
     title: "How to pack for a 7-day trip in a carry-on",
     excerpt: "Learn the exact packing cube configuration and folding techniques to fit a full week of clothes into a standard budget airline carry-on without paying extra baggage fees.",
-    date: "2026-07-10",
+    date: "2026-07-13",
     category: "Guides"
   },
   {
     slug: "ultimate-guide-to-packing-cubes",
     title: "The Ultimate Guide to Packing Cubes in 2026",
     excerpt: "Everything you need to know about packing cubes. From compression vs. standard to the best materials and configurations for every suitcase size.",
-    date: "2026-07-11",
+    date: "2026-07-13",
     category: "Pillar"
   },
   {
