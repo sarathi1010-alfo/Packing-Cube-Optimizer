@@ -71,3 +71,15 @@
 49. Twitter: Traveling for business? 💼 Learn the 'garment folder' secret to keeping your suits crisp and wrinkle-free in a carry-on. [Link] #BusinessTravel #PackFit #LifeHacks
 50. Instagram: Planning a Maldives honeymoon? 🏝️ Don't forget reef-safe sunscreen and elegant resort wear! Full packing list in our bio. #Honeymoon #Maldives #PackingList
 51. Facebook: Music festival season is here! 🎸 Stay hydrated, stay comfortable, and keep your gear organized with our survival packing guide. [Link] #FestivalSeason #MusicFestival #PackFit
+
+## Tier 3 - New Social Content (July 13, 2026) - Published
+52. Twitter: Stop the "hidden travel tax"! 💸 Overweight baggage fees are hitting $100+. Learn 8 pro strategies to stay light and fee-free. [Link] #TravelHacks #PackFit #BudgetTravel
+53. Instagram: Rolling vs. Folding? 🤔 The debate is over! Our hybrid method saves 30% more space. Roll soft fabrics, fold structured ones. Full guide in bio! 🧳 #PackingTips #TravelLight #PackFit
+54. Facebook: Pro Tip: Wear your heaviest boots and coat on the plane. 🧥 Instant luggage "deletion"! More expert hacks in our latest blog post. [Link] #SmartPacking #BudgetTravel #TravelTips
+55. Pinterest: How to pack for 7 days in a carry-on and never pay for bags again. 🎒 The ultimate checklist for efficient travel. #MinimalistTravel #PackingCubes #CarryOnOnly
+56. Twitter: Use our visual simulator to plan your bag *before* you pack. 🧩 Tetris for travelers! No more last-minute stuffing. [Link] #TravelTech #PackFit #NomadLife
+57. Instagram: Heavy items at the bottom, near the wheels! 🧳 Keep your bag stable and easy to roll. Check out our 8 expert strategies for stress-free travel. Link in bio! #LuggageTips #TravelSmart #PackFit
+58. Facebook: Heading on a van life tour? 🚐 Spatial optimization is key. See how to fit your whole life into a small van with our modular packing system. [Link] #VanLife #Organization #PackFit
+59. Twitter: Destination wedding guest? 👗 Keep your formal wear wrinkle-free in a carry-on with our garment folder secret. [Link] #WeddingGuest #TravelHacks #LifeHacks
+60. Instagram: Catch the perfect wave, not a baggage fee! 🏄‍♂️ Our surf trip guide shows you how to pack boards and gear efficiently. Link in bio! #SurfTrip #PackFit #Surfing
+61. Facebook: Traveling with a toddler? 👶 Stay sane with our color-coded packing cube system. A cube for toys, a cube for snacks! Full checklist here: [Link] #FamilyTravel #ParentingHacks #PackFit

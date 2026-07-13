@@ -12,6 +12,14 @@ const urls = [
   '/destinations/asia-packing-guide',
   '/destinations/europe-packing-guide',
   '/packing-lists/weekend-getaway',
+  '/trip-types/van-life-tour',
+  '/trip-types/destination-wedding-guest',
+  '/trip-types/surfing-vacation',
+  '/destinations/paris-packing-guide',
+  '/destinations/london-packing-guide',
+  '/destinations/new-york-packing-guide',
+  '/packing-lists/toddler-travel-essentials',
+  '/packing-lists/senior-cruise-checklist',
   '/about'
 ];
 

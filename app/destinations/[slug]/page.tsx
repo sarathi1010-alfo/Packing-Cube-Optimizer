@@ -266,6 +266,57 @@ const PAGES = {
         answer: "Only if you are visiting Northern Vietnam (Hanoi, Sapa) between December and February, when temperatures can drop significantly. For the rest of the country and other times of year, lightweight clothing is sufficient."
       }
     ]
+  },
+  "paris-packing-guide": {
+    title: "Paris Packing Guide: Chic & Comfortable",
+    description: "Master Parisian style and stay comfortable with our comprehensive Paris packing guide. Tips for all seasons.",
+    content: `
+      <h2>How to pack for a trip to Paris?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">When packing for Paris, prioritize elegant neutral-toned layers, stylish but broken-in walking shoes, a versatile trench coat, and a secure cross-body bag for city exploration.</p>
+      </div>
+      <p>Parisian style is all about effortless elegance. Focus on a capsule wardrobe of high-quality basics that you can easily mix and match. You'll be doing a lot of walking, so comfortable shoes are essential, but avoid bulky athletic sneakers if you want to blend in. Use compression cubes to fit your stylish layers into a carry-on. Read our <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">Paris baggage guide</a> to stay light.</p>
+    `,
+    faqs: [
+      {
+        question: "What is the best footwear for Paris?",
+        answer: "Opt for clean, stylish fashion sneakers or high-quality loafers. Avoid high heels due to cobblestones and choose waterproof options if visiting during the rainy season."
+      }
+    ]
+  },
+  "london-packing-guide": {
+    title: "London Packing Guide: Ready for Rain or Shine",
+    description: "Navigate London's unpredictable weather with our essential packing guide. Layers, style, and travel tips.",
+    content: `
+      <h2>What are the essentials for packing for London?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">To pack for London, prioritize a high-quality compact umbrella, a versatile raincoat, moisture-wicking layers, comfortable walking boots, and an Oyster card or contactless payment method.</p>
+      </div>
+      <p>London weather is famously fickle. The key is versatile layering and being prepared for rain at any moment. Choose a stylish but practical coat and comfortable shoes for exploring the city's diverse neighborhoods. Use standard packing cubes to organize your layers and keep your bag tidy during transit.</p>
+    `,
+    faqs: [
+      {
+        question: "Do I need a lot of formal clothes for London?",
+        answer: "Most of London is quite casual, but some restaurants and theaters have a 'smart casual' dress code. A nice pair of trousers and a collared shirt or an elegant dress are sufficient."
+      }
+    ]
+  },
+  "new-york-packing-guide": {
+    title: "New York Packing Guide: The Big Apple",
+    description: "Conquer NYC with our comprehensive packing guide. From Manhattan museums to Brooklyn brunches, stay prepared and stylish.",
+    content: `
+      <h2>How to pack for a trip to New York City?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">When packing for NYC, prioritize versatile urban attire, comfortable walking shoes, a robust power bank, a reusable water bottle, and a secure daypack for city exploration.</p>
+      </div>
+      <p>New York is a city that never stops, and your packing should reflect that. You'll be doing an incredible amount of walking, so supportive footwear is non-negotiable. Plan your outfits to be versatile enough to transition from a daytime museum visit to a Broadway show. Use <a href="/" class="text-brand-orange underline font-semibold">PackFit</a> to ensure your urban gear fits perfectly in your suitcase.</p>
+    `,
+    faqs: [
+      {
+        question: "What is the best way to carry my belongings in NYC?",
+        answer: "A secure cross-body bag or a small, lightweight backpack is ideal. Keep your valuables in zipped compartments and be mindful of your surroundings in crowded areas like Times Square."
+      }
+    ]
   }
 };
 
@@ -328,7 +379,7 @@ export default async function DestinationPage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 12, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 13, 2026</div>
       </div>
 
       <div

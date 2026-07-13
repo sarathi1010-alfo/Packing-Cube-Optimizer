@@ -202,6 +202,40 @@ const PAGES = {
         answer: "No. Most stationery and basic supplies can be bought cheaply at your destination. Focus your luggage space on specialized electronics and clothing that might be harder to find or more expensive abroad."
       }
     ]
+  },
+  "toddler-travel-essentials": {
+    title: "Toddler Travel Essentials Checklist",
+    description: "Keep your little one happy and organized on the go. The ultimate checklist for traveling with a toddler.",
+    content: `
+      <h2>What are the toddler travel essentials?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">Toddler travel essentials include plenty of snacks, a favorite comfort item, a compact stroller, a robust diaper bag, and using color-coded packing cubes to keep toys and clothes organized.</p>
+      </div>
+      <p>Traveling with a toddler requires extra organization and patience. Plan your packing to be as modular as possible. Use dedicated packing cubes for different categories: one for clothes, one for toys, and one for essentials like diapers and wipes. Check out our <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">toddler baggage tips</a> for more advice.</p>
+    `,
+    faqs: [
+      {
+        question: "How do I keep my toddler entertained on a flight?",
+        answer: "Pack a variety of small, quiet toys and activities. Novelty is key—new toys that they haven't seen before can hold their attention for longer. Don't forget their favorite comfort object!"
+      }
+    ]
+  },
+  "senior-cruise-checklist": {
+    title: "Senior Cruise Packing Checklist",
+    description: "Enjoy your cruise with comfort and peace of mind. The ultimate packing checklist for seniors.",
+    content: `
+      <h2>What's on the senior cruise packing checklist?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">The senior cruise checklist prioritizes comfortable walking shoes with good grip, a comprehensive medication organizer, elegant evening attire, sun protection, and a copy of all important medical records.</p>
+      </div>
+      <p>A cruise is a wonderful way to travel, offering comfort and variety. Focus on packing versatile layers for both on-board and shore excursions. Use standard packing cubes to keep your belongings organized and easy to find in your cabin. Read our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoiding baggage fees</a> for your flights to the embarkation port.</p>
+    `,
+    faqs: [
+      {
+        question: "What should I pack for medical needs on a cruise?",
+        answer: "Bring a full supply of all medications in their original containers, plus a few extra days' worth just in case. A list of your prescriptions and your doctor's contact information is also essential."
+      }
+    ]
   }
 };
 
@@ -264,7 +298,7 @@ export default async function PackingListPage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 12, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 13, 2026</div>
       </div>
 
       <div
