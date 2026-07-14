@@ -46,3 +46,8 @@ Based on the review of Google Search Console (GSC) coverage reports and technica
 - [x] Refreshed About page metadata and internal links (2026-07-13).
 - [x] Triggered IndexNow API for all 9 new/updated URLs (2026-07-13).
 - [x] Verified 200 OK and technical hygiene for all July 13 publications via automated Playwright testing (2026-07-13).
+- [x] Published Tier 1 Article update for July 14, 2026, with retroactive internal linking from 2 pages (2026-07-14).
+- [x] Generated 8 new Tier 2 programmatic pages across trip types, destinations, and packing lists (2026-07-14).
+- [x] Refreshed About page metadata and internal links (2026-07-14).
+- [x] Triggered IndexNow API for all 9 new/updated URLs (2026-07-14).
+- [x] Verified 200 OK and technical hygiene for all July 14 publications via automated Playwright testing (2026-07-14).

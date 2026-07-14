@@ -29,14 +29,14 @@ curl -X POST "https://api.indexnow.org/indexnow" \
           "keyLocation": "https://packfit.alfo.online/your-indexnow-key.txt",
           "urlList": [
               "https://packfit.alfo.online/blog/avoid-overweight-baggage-fees",
-              "https://packfit.alfo.online/trip-types/van-life-tour",
-              "https://packfit.alfo.online/trip-types/destination-wedding-guest",
-              "https://packfit.alfo.online/trip-types/surfing-vacation",
-              "https://packfit.alfo.online/destinations/paris-packing-guide",
-              "https://packfit.alfo.online/destinations/london-packing-guide",
-              "https://packfit.alfo.online/destinations/new-york-packing-guide",
-              "https://packfit.alfo.online/packing-lists/toddler-travel-essentials",
-              "https://packfit.alfo.online/packing-lists/senior-cruise-checklist"
+              "https://packfit.alfo.online/trip-types/disney-world-trip",
+              "https://packfit.alfo.online/trip-types/road-trip-usa",
+              "https://packfit.alfo.online/trip-types/all-inclusive-resort",
+              "https://packfit.alfo.online/destinations/spain-packing-guide",
+              "https://packfit.alfo.online/destinations/portugal-packing-guide",
+              "https://packfit.alfo.online/destinations/switzerland-packing-guide",
+              "https://packfit.alfo.online/packing-lists/glamping-checklist",
+              "https://packfit.alfo.online/packing-lists/hiking-day-trip-checklist"
           ]
       }'
 

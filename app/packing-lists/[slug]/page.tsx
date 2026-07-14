@@ -236,6 +236,40 @@ const PAGES = {
         answer: "Bring a full supply of all medications in their original containers, plus a few extra days' worth just in case. A list of your prescriptions and your doctor's contact information is also essential."
       }
     ]
+  },
+  "glamping-checklist": {
+    title: "The Ultimate Glamping Checklist",
+    description: "Combine comfort with the great outdoors. Our glamping checklist covers all the luxury essentials for your next high-end camping trip.",
+    content: `
+      <h2>What's on the essential glamping checklist?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">A glamping checklist prioritizes 'luxe' comfort items like cozy loungewear, portable ambient lighting, high-quality toiletries, a dedicated coffee setup, and versatile footwear for both camp and trails.</p>
+      </div>
+      <p>Glamping is about the experience. Use standard packing cubes to keep your luxury items organized and clean. Plan your packing with <a href="/" class="text-brand-orange underline font-semibold">PackFit</a> to ensure your gear fits perfectly in your vehicle or travel bag.</p>
+    `,
+    faqs: [
+      {
+        question: "What is the difference between camping and glamping?",
+        answer: "Glamping (glamorous camping) typically involves more amenities and creature comforts than traditional camping, such as comfortable beds, electricity, and often more gourmet food options."
+      }
+    ]
+  },
+  "hiking-day-trip-checklist": {
+    title: "Hiking Day Trip Checklist: Trail Essentials",
+    description: "Don't get caught unprepared on the trail. Our hiking day trip checklist covers everything from safety gear to hydration.",
+    content: `
+      <h2>What should I bring on a hiking day trip?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">The hiking day trip checklist focuses on the 'Ten Essentials', including navigation, sun protection, insulation, illumination, first-aid, fire, repair kit, nutrition, hydration, and emergency shelter.</p>
+      </div>
+      <p>For a day trip, weight and balance are key. Use our <a href="/" class="text-brand-orange underline font-semibold">visual simulator</a> to ensure your daypack's center of gravity is close to your back. Check out our <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">spatial optimization guide</a> for tips on packing a balanced pack.</p>
+    `,
+    faqs: [
+      {
+        question: "How much water should I carry on a day hike?",
+        answer: "A general rule of thumb is about 0.5 liters of water for every hour of moderate activity in moderate temperatures. Adjust based on intensity, terrain, and weather conditions."
+      }
+    ]
   }
 };
 
@@ -298,7 +332,7 @@ export default async function PackingListPage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 13, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 14, 2026</div>
       </div>
 
       <div

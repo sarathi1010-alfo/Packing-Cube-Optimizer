@@ -20,6 +20,14 @@ const urls = [
   '/destinations/new-york-packing-guide',
   '/packing-lists/toddler-travel-essentials',
   '/packing-lists/senior-cruise-checklist',
+  '/trip-types/disney-world-trip',
+  '/trip-types/road-trip-usa',
+  '/trip-types/all-inclusive-resort',
+  '/destinations/spain-packing-guide',
+  '/destinations/portugal-packing-guide',
+  '/destinations/switzerland-packing-guide',
+  '/packing-lists/glamping-checklist',
+  '/packing-lists/hiking-day-trip-checklist',
   '/about'
 ];
 

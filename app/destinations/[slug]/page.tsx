@@ -317,6 +317,57 @@ const PAGES = {
         answer: "A secure cross-body bag or a small, lightweight backpack is ideal. Keep your valuables in zipped compartments and be mindful of your surroundings in crowded areas like Times Square."
       }
     ]
+  },
+  "spain-packing-guide": {
+    title: "Spain Packing Guide: Sun, Sea, and Style",
+    description: "Pack for Spain like a local. What to bring for Barcelona's beaches, Madrid's museums, and Andalusia's historic streets.",
+    content: `
+      <h2>How to pack for a trip to Spain?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">When packing for Spain, prioritize stylish but breathable cotton/linen clothing, comfortable walking sandals, a secure cross-body bag, and a versatile light jacket for late-night tapas crawls.</p>
+      </div>
+      <p>Spain is a country that lives outdoors. Your packing should be stylish yet practical for high temperatures and plenty of walking. Use standard packing cubes to organize your evening wear separately. Read our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoiding baggage fees</a> for your inter-city flights.</p>
+    `,
+    faqs: [
+      {
+        question: "Is there a dress code for restaurants in Spain?",
+        answer: "While casual is fine during the day, Spaniards tend to dress up slightly for dinner. Think 'smart casual'—avoid flip-flops and athletic wear for evening meals in cities like Madrid or Seville."
+      }
+    ]
+  },
+  "portugal-packing-guide": {
+    title: "Portugal Packing Guide: Tiles and Terrain",
+    description: "Navigate Portugal's steep streets and stunning coastline with our essential packing guide. Focus on footwear and versatile layers.",
+    content: `
+      <h2>What should I pack for Portugal?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">To pack for Portugal, prioritize shoes with excellent grip for slippery tiled streets (calcada), lightweight layers for coastal winds, multiple swimsuits for the Algarve, and a secure anti-theft bag.</p>
+      </div>
+      <p>Portugal is incredibly hilly, especially in Lisbon and Porto. Footwear is the most important item in your bag. Use compression packing cubes to keep your load light. Plan your exact suitcase layout with <a href="/" class="text-brand-orange underline font-semibold">PackFit</a> before you leave.</p>
+    `,
+    faqs: [
+      {
+        question: "What shoes are best for Lisbon's hills?",
+        answer: "Sneakers or sandals with high-traction rubber soles. The traditional Portuguese limestone tiles can be extremely slippery, even when dry. Avoid heels or smooth-soled shoes."
+      }
+    ]
+  },
+  "switzerland-packing-guide": {
+    title: "Switzerland Packing Guide: Alpine Essentials",
+    description: "From lakeside cities to mountain peaks, here is everything you need to pack for Switzerland in any season.",
+    content: `
+      <h2>How to pack for a trip to Switzerland?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For Switzerland, prioritize high-quality layering, a reliable waterproof shell, sturdy hiking shoes or boots, and a mix of casual urban attire and professional-looking layers for cities.</p>
+      </div>
+      <p>Switzerland involves significant altitude changes. Even in summer, mountain peaks can be freezing. Use large compression cubes for your bulky layers. Check out our <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">efficiency guide</a> for tips on managing heavy gear without paying extra fees.</p>
+    `,
+    faqs: [
+      {
+        question: "Is Switzerland very expensive to buy forgotten items?",
+        answer: "Yes, Switzerland has a high cost of living. It is much more cost-effective to pack everything you need, especially specialized gear like hiking boots or winter coats, rather than buying them locally."
+      }
+    ]
   }
 };
 
@@ -379,7 +430,7 @@ export default async function DestinationPage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 13, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 14, 2026</div>
       </div>
 
       <div
