@@ -431,6 +431,57 @@ const PAGES = {
         answer: "Keep your surf wax in a small, leak-proof container or a dedicated wax bag to prevent it from melting and ruining your other gear in the heat."
       }
     ]
+  },
+  "disney-world-trip": {
+    title: "Disney World Trip Packing Guide",
+    description: "Magic Kingdom to Epcot: The ultimate packing guide for a Disney World vacation, focusing on comfort, hydration, and theme park essentials.",
+    content: `
+      <h2>How to pack for a Disney World trip?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For Disney World, prioritize extremely comfortable walking shoes, a lightweight cooling towel, a portable phone charger, a reusable water bottle, and a compact poncho for sudden Florida rain showers.</p>
+      </div>
+      <p>Packing for Disney World is a marathon, not a sprint. You will likely walk 10-15 miles per day. Use standard packing cubes to organize your family's outfits by day. Don't forget to use our <a href="/" class="text-brand-orange underline font-semibold">visual simulator</a> to ensure your theme park daypack is balanced and light.</p>
+    `,
+    faqs: [
+      {
+        question: "What are the best shoes for Disney World?",
+        answer: "Broken-in athletic sneakers or high-quality supportive sandals like Tevas or Chacos. Avoid brand new shoes or flip-flops for long park days."
+      }
+    ]
+  },
+  "road-trip-usa": {
+    title: "USA Road Trip Packing Guide",
+    description: "Hit the open road. How to pack for a cross-country USA road trip, focusing on organization and multi-climate gear.",
+    content: `
+      <h2>What are the essentials for a USA road trip?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">To pack for a road trip, use soft-sided duffels or bins for easier trunk Tetris, a dedicated car 'snack cube', a comprehensive first-aid kit, and versatile layers for changing state climates.</p>
+      </div>
+      <p>Road trips allow for more gear than flights, but organization is still key to avoiding a messy car. Use color-coded packing cubes for each passenger. See our <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">spatial optimization guide</a> for tips on packing tight spaces.</p>
+    `,
+    faqs: [
+      {
+        question: "How do I keep the car organized on a long trip?",
+        answer: "Use seat-back organizers for small items and keep a dedicated 'trash bin' cube. Pack a small 'overnight bag' for hotel stops so you don't have to unpack the whole car."
+      }
+    ]
+  },
+  "all-inclusive-resort": {
+    title: "All-Inclusive Resort Packing Guide",
+    description: "Relax in style. Everything you need to pack for an all-inclusive resort stay, from swimwear to evening dining attire.",
+    content: `
+      <h2>How to pack for an all-inclusive resort?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For an all-inclusive resort, pack multiple swimsuits, lightweight cover-ups, high-SPF reef-safe sunscreen, and at least two 'smart casual' outfits for evening dining.</p>
+      </div>
+      <p>All-inclusive resorts often have specific dress codes for their specialty restaurants. Use standard packing cubes to keep your resort wear crisp. Plan your packing with <a href="/" class="text-brand-orange underline font-semibold">PackFit</a> to stay within weight limits for those tropical flights.</p>
+    `,
+    faqs: [
+      {
+        question: "Do I need to bring cash to an all-inclusive resort?",
+        answer: "While most things are included, small bills for tipping staff (bartenders, housekeeping, bellhops) are always appreciated and often lead to better service."
+      }
+    ]
   }
 };
 
@@ -493,7 +544,7 @@ export default async function TripTypePage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 13, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 14, 2026</div>
       </div>
 
       <div

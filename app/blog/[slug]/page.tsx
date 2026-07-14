@@ -15,7 +15,7 @@ const POSTS = {
   "avoid-overweight-baggage-fees": {
     title: "How to pack efficiently to avoid overweight baggage fees",
     description: "Learn how to pack efficiently to avoid overweight baggage fees, including tips on weighing luggage, rolling vs. folding, weight distribution, and spatial optimization.",
-    date: "2026-07-13",
+    date: "2026-07-14",
     faqs: [
       {
         question: "How can I avoid overweight baggage fees?",
@@ -118,19 +118,58 @@ const POSTS = {
       <h2>The Psychology of Overpacking: Why We Bring Too Much</h2>
       <p>Understanding *why* we overpack is the first step to stopping it. Most overpacking is driven by anxiety—specifically, the fear of being unprepared. We pack for every possible contingency: "What if I get invited to a gala?" "What if it snows in July?" "What if I lose my favorite shirt?" This "What If" syndrome results in a suitcase filled with items that have a less than 5% chance of being used. By recognizing this pattern, you can intentionally shift your focus to packing for the 90% of your trip that is predictable. Remember, most destinations have shops; if you truly need something you didn't bring, you can almost always buy it. Freeing yourself from the burden of "just in case" items is the ultimate way to travel with confidence and ease.</p>
 
-      <h2>9. The Future of Smart Travel: IoT and AI Optimization</h2>
+      <h2>9. The Science of Spatial Planning</h2>
+      <p>Spatial planning is more than just "fitting things in." It's about understanding the geometry of your luggage. A standard carry-on is essentially a rectangular prism with a fixed volume (usually around 35-45 liters). When you pack loose items, you create irregular shapes that leave "dead space"—tiny pockets of air that add no value but take up significant volume. By using packing cubes, you are essentially converting your irregular items into standardized blocks, similar to a 3D version of Tetris. This allows you to utilize up to 95% of your bag's total volume, compared to the 60-70% efficiency of traditional loose packing.</p>
+
+      <h3>Weight-to-Volume Ratio Guide</h3>
+      <p>To truly master efficient packing, you need to monitor your Weight-to-Volume ratio. Ideally, you want to maximize volume usage while minimizing total weight. Here is a quick reference for common materials:</p>
+      <div class="overflow-x-auto my-6">
+        <table class="min-w-full divide-y divide-brand-beige border border-brand-beige rounded-lg">
+          <thead class="bg-brand-sand/50">
+            <tr>
+              <th class="px-4 py-3 text-left text-sm font-semibold text-brand-navy uppercase">Material Type</th>
+              <th class="px-4 py-3 text-left text-sm font-semibold text-brand-navy uppercase">Density Profile</th>
+              <th class="px-4 py-3 text-left text-sm font-semibold text-brand-navy uppercase">Packing Strategy</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-brand-beige">
+            <tr>
+              <td class="px-4 py-3 font-medium">Merino Wool / Silks</td>
+              <td class="px-4 py-3">Low Weight, Low Volume</td>
+              <td class="px-4 py-3">Roll tightly; stack vertically.</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">Denim / Heavy Cottons</td>
+              <td class="px-4 py-3">High Weight, High Volume</td>
+              <td class="px-4 py-3">Fold flat at the bottom; use as a base.</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">Tech Gear / Electronics</td>
+              <td class="px-4 py-3">High Weight, Low Volume</td>
+              <td class="px-4 py-3">Place near the wheels; protect with padding.</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">Down / Insulation</td>
+              <td class="px-4 py-3">Low Weight, High Volume</td>
+              <td class="px-4 py-3">Always use compression cubes.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>10. The Future of Smart Travel: IoT and AI Optimization</h2>
       <p>As we look toward the future, the way we avoid baggage fees will likely become even more automated. We are already seeing the rise of "smart luggage" with built-in digital scales and GPS tracking. In the coming years, we can expect deep integration between spatial optimization software and smart fabrics. Imagine a suitcase that can communicate with your smartphone to tell you exactly how much weight you've added in real-time, or a packing app that uses augmented reality (AR) to project the most efficient layout directly into your open bag. While these high-tech solutions are exciting, they still rely on the fundamental principles of weight distribution and essentialism that we've covered in this guide. The goal remains the same: minimizing the physical and financial weight of travel so you can focus on the experience itself.</p>
 
-      <h2>10. The Hidden Costs of "Free" Carry-ons</h2>
+      <h2>11. The Hidden Costs of "Free" Carry-ons</h2>
       <p>Many travelers opt for budget airlines to save money, only to realize that the "free" carry-on allowance is so small it's almost impossible to use. Airlines like Spirit, Frontier, and Ryanair have turned baggage into their primary profit center. If your bag is even a centimeter too large or a kilogram too heavy, you could be hit with a "gate check fee" that costs more than your actual flight ticket. This is why using a <a href="/" class="text-brand-orange underline font-semibold">spatial optimizer like PackFit</a> is so critical—it ensures your bag fits the exact physical constraints of your specific airline before you ever leave your house.</p>
 
-      <h2>11. TSA Regulations and Your Luggage Weight</h2>
+      <h2>12. TSA Regulations and Your Luggage Weight</h2>
       <p>While TSA is primarily concerned with security, their regulations can indirectly affect your bag's weight. For instance, the "3-1-1" rule for liquids often leads travelers to buy expensive, heavy travel-sized toiletries. Instead, consider solid alternatives like shampoo bars and solid cologne. Not only do these count as "solids" (freeing up space in your liquids bag), but they are often lighter and last much longer. Every ounce you save on toiletries is an ounce you can use for essential gear or souvenirs. Check our <a href="/templates" class="text-brand-orange underline font-semibold">Packing Checklist</a> for a full breakdown of liquid alternatives.</p>
 
-      <h2>12. The Digital Nomad's Guide to Lightweight Gear</h2>
+      <h2>13. The Digital Nomad's Guide to Lightweight Gear</h2>
       <p>For those who work while they travel, electronics are often the heaviest part of the bag. A "tech audit" is essential. Do you really need a laptop, a tablet, and an e-reader? Modern smartphones and powerful lightweight laptops like the MacBook Air or specialized thin-and-light PC ultrabooks can replace multiple devices. Use a multi-port GaN charger instead of three separate power bricks. This single change can save you nearly 1kg in total weight. Always use a dedicated <a href="/templates" class="text-brand-orange underline font-semibold">Tech Packing Checklist</a> to ensure you don't bring redundant cables or adapters.</p>
 
-      <h2>13. Post-Trip Audit: The Secret to Long-Term Efficiency</h2>
+      <h2>14. Post-Trip Audit: The Secret to Long-Term Efficiency</h2>
       <p>The best way to pack better for your next trip is to audit your current one. When you return home, lay out everything you brought. Divide it into three piles: "Used daily," "Used once," and "Never used." Be ruthless. Anything in the "Never used" pile (unless it's an emergency first-aid item) should not be packed for your next trip. This data-driven approach to packing is the only way to achieve true minimalist travel and permanent freedom from overweight fees. You can track these audits in your <a href="/dashboard" class="text-brand-orange underline font-semibold">PackFit Dashboard</a> to see your weight efficiency improve over time.</p>
 
       <h2>Conclusion</h2>
@@ -140,7 +179,7 @@ const POSTS = {
   "how-to-pack-7-day-trip-carry-on": {
     title: "How to pack for a 7-day trip in a carry-on",
     description: "Learn the exact packing cube configuration and folding techniques to fit a full week of clothes into a standard budget airline carry-on without paying extra baggage fees.",
-    date: "2026-07-13",
+    date: "2026-07-14",
     faqs: [
       {
         question: "How do I pack for 7 days in a carry-on?",
@@ -148,7 +187,7 @@ const POSTS = {
       }
     ],
     content: `
-      <p>Traveling with just a carry-on for a 7-day trip is the ultimate travel flex. It means no waiting at the baggage carousel, no lost luggage, and <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoiding those dreaded $60+ checked bag fees</a>. The secret? Packing cubes and spatial optimization.</p>
+      <p>Traveling with just a carry-on for a 7-day trip is the ultimate travel flex. It means no waiting at the baggage carousel, no lost luggage, and <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoiding those dreaded $60+ checked bag fees</a>. The secret? Packing cubes and spatial optimization. Our latest guide covers <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">how to pack efficiently to avoid overweight baggage fees</a> in even more detail.</p>
 
       <p>For more in-depth strategies, read our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">how to pack efficiently to avoid overweight baggage fees</a>.</p>
 
@@ -181,7 +220,7 @@ const POSTS = {
   "ultimate-guide-to-packing-cubes": {
     title: "The Ultimate Guide to Packing Cubes in 2026",
     description: "Everything you need to know about packing cubes. From compression vs. standard to the best materials and configurations for every suitcase size.",
-    date: "2026-07-13",
+    date: "2026-07-14",
     faqs: [
       {
         question: "What are the best packing cubes in 2026?",

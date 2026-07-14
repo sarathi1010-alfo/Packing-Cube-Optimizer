@@ -83,3 +83,15 @@
 59. Twitter: Destination wedding guest? 👗 Keep your formal wear wrinkle-free in a carry-on with our garment folder secret. [Link] #WeddingGuest #TravelHacks #LifeHacks
 60. Instagram: Catch the perfect wave, not a baggage fee! 🏄‍♂️ Our surf trip guide shows you how to pack boards and gear efficiently. Link in bio! #SurfTrip #PackFit #Surfing
 61. Facebook: Traveling with a toddler? 👶 Stay sane with our color-coded packing cube system. A cube for toys, a cube for snacks! Full checklist here: [Link] #FamilyTravel #ParentingHacks #PackFit
+
+## Tier 3 - New Social Content (July 14, 2026) - Published
+62. Twitter: Stop the "hidden travel tax"! 💸 Overweight baggage fees are hitting $100+. Learn the science of spatial planning and stay light. [Link] #TravelHacks #PackFit #BudgetTravel
+63. Instagram: Rolling vs. Folding? 🤔 The debate is over! Our hybrid method saves 30% more space. Roll soft fabrics, fold structured ones. Full guide in bio! 🧳 #PackingTips #TravelLight #PackFit
+64. Facebook: Pro Tip: Wear your heaviest boots and coat on the plane. 🧥 Instant luggage "deletion"! More expert hacks in our latest blog post. [Link] #SmartPacking #BudgetTravel #TravelTips
+65. Pinterest: How to pack for 7 days in a carry-on and never pay for bags again. 🎒 The ultimate checklist for efficient travel. #MinimalistTravel #PackingCubes #CarryOnOnly
+66. Twitter: Use our visual simulator to plan your bag *before* you pack. 🧩 Tetris for travelers! No more last-minute stuffing. [Link] #TravelTech #PackFit #NomadLife
+67. Instagram: Heading to Disney World? 🏰 Don't let sore feet ruin the magic. Our new guide covers the best footwear and daypack essentials! Link in bio. #DisneyWorld #FamilyTravel #PackFit
+68. Facebook: Planning a USA Road Trip? 🚗 Trunk Tetris is a real skill. Learn how to optimize your car's space for a stress-free journey. [Link] #RoadTrip #TravelOrganization
+69. Twitter: Glamping this weekend? 🌲 Sparkle in the woods with our luxury glamping checklist. Comfort meets the outdoors! [Link] #Glamping #LuxuryTravel #PackFit
+70. Instagram: Switzerland bound? 🇨🇭 Alpine weather changes fast. Master the 3-layer system with our expert Swiss packing guide. Link in bio! #Switzerland #AlpineTravel #PackingList
+71. Facebook: Hiking a local trail? 🥾 Safety first! Check out our Ten Essentials day trip checklist to ensure you're prepared for anything. [Link] #Hiking #OutdoorSafety #PackFit
