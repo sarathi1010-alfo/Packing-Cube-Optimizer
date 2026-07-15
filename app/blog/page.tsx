@@ -13,7 +13,7 @@ const POSTS = [
     slug: "avoid-overweight-baggage-fees",
     title: "How to pack efficiently to avoid overweight baggage fees",
     excerpt: "Stop paying the hidden travel tax. Learn expert strategies to pack efficiently, optimize your luggage space, and stay under the weight limit every time.",
-    date: "2026-07-14",
+    date: "2026-07-15",
     category: "Guides"
   },
   {

@@ -270,6 +270,40 @@ const PAGES = {
         answer: "A general rule of thumb is about 0.5 liters of water for every hour of moderate activity in moderate temperatures. Adjust based on intensity, terrain, and weather conditions."
       }
     ]
+  },
+  "rv-trip-checklist": {
+    title: "RV Trip Checklist: Life on Wheels",
+    description: "Everything you need for a successful RV adventure. From kitchen essentials to outdoor gear.",
+    content: `
+      <h2>How to pack for an RV trip?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">To pack for an RV trip, prioritize multi-functional kitchen gear, collapsible storage bins, outdoor-friendly furniture, and a comprehensive tool kit. Use soft-sided bags to maximize limited storage space.</p>
+      </div>
+      <p>RV life is all about maximizing small spaces. Use our <a href="/" class="text-brand-orange underline font-semibold">visual simulator</a> to plan your interior storage. Don't forget to pack according to your route's diverse climates. Read our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">spatial optimization</a> for expert tips on tight spaces.</p>
+    `,
+    faqs: [
+      {
+        question: "What is the most forgotten item on RV trips?",
+        answer: "Leveling blocks and a basic tool kit. Ensuring your RV is level and having the tools for minor repairs are vital for a stress-free experience."
+      }
+    ]
+  },
+  "international-travel-checklist": {
+    title: "International Travel Checklist: Global Ready",
+    description: "Don't miss a thing! Our international travel checklist covers all the essentials for a smooth global journey.",
+    content: `
+      <h2>What's on the essential international travel checklist?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">The essential international checklist covers your passport/visa, universal power adapters, local currency, travel insurance, and a versatile capsule wardrobe organized in compression cubes.</p>
+      </div>
+      <p>Global travel requires careful preparation. Ensure you have all necessary documents and tech for your destination. Use <a href="/" class="text-brand-orange underline font-semibold">PackFit</a> to stay within varying international airline weight limits. Read our <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">overweight baggage guide</a> to master lightweight travel.</p>
+    `,
+    faqs: [
+      {
+        question: "How do I keep my documents safe abroad?",
+        answer: "Use a secure neck pouch or money belt, and always keep digital and physical copies of your passport and insurance documents in separate locations."
+      }
+    ]
   }
 };
 
@@ -332,7 +366,7 @@ export default async function PackingListPage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 14, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 15, 2026</div>
       </div>
 
       <div
