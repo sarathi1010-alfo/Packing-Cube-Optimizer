@@ -95,3 +95,15 @@
 69. Twitter: Glamping this weekend? 🌲 Sparkle in the woods with our luxury glamping checklist. Comfort meets the outdoors! [Link] #Glamping #LuxuryTravel #PackFit
 70. Instagram: Switzerland bound? 🇨🇭 Alpine weather changes fast. Master the 3-layer system with our expert Swiss packing guide. Link in bio! #Switzerland #AlpineTravel #PackingList
 71. Facebook: Hiking a local trail? 🥾 Safety first! Check out our Ten Essentials day trip checklist to ensure you're prepared for anything. [Link] #Hiking #OutdoorSafety #PackFit
+
+## Tier 3 - New Social Content (July 15, 2026) - Published
+72. Twitter: Stop the "hidden travel tax"! 💸 Overweight baggage fees are hitting $100+. Learn 8 pro strategies to stay light and fee-free. [Link] #TravelHacks #PackFit #BudgetTravel
+73. Instagram: Rolling vs. Folding? 🤔 The debate is over! Our hybrid method saves 30% more space. Roll soft fabrics, fold structured ones. Full guide in bio! 🧳 #PackingTips #TravelLight #PackFit
+74. Facebook: Pro Tip: Wear your heaviest boots and coat on the plane. 🧥 Instant luggage "deletion"! More expert hacks in our latest blog post. [Link] #SmartPacking #BudgetTravel #TravelTips
+75. Pinterest: How to pack for 7 days in a carry-on and never pay for bags again. 🎒 The ultimate checklist for efficient travel. #MinimalistTravel #PackingCubes #CarryOnOnly
+76. Twitter: Use our visual simulator to plan your bag *before* you pack. 🧩 Tetris for travelers! No more last-minute stuffing. [Link] #TravelTech #PackFit #NomadLife
+77. Instagram: Planning an adventure trip? 🧗‍♂️ From rugged gear to safety essentials, our new guide covers everything you need to pack for the unexpected. Link in bio! #AdventureTravel #PackFit
+78. Facebook: Going on a cruise? 🚢 Don't let a compact cabin cramp your style. Learn how to organize your space like a pro with our new cruise packing guide. [Link] #CruiseLife #TravelOrganization
+79. Twitter: Turkey bound? 🇹🇷 Master the art of packing for East meets West. From Istanbul's mosques to Cappadocia's cool nights. [Link] #TurkeyTravel #PackFit
+80. Instagram: Morocco is a sensory explosion! 🇲🇦 Stay comfortable and respectful with our essential Morocco packing guide. Link in bio! #Morocco #TravelTips #PackFit
+81. Facebook: Heading to Peru? 🇵🇪 From the Andes to the Amazon, prepare for every microclimate with our comprehensive Peru packing guide. [Link] #PeruTravel #MachuPicchu #PackFit

@@ -482,6 +482,57 @@ const PAGES = {
         answer: "While most things are included, small bills for tipping staff (bartenders, housekeeping, bellhops) are always appreciated and often lead to better service."
       }
     ]
+  },
+  "adventure-travel": {
+    title: "Adventure Travel Packing Guide",
+    description: "Prepare for the unexpected. Our adventure travel packing guide covers rugged gear, safety essentials, and multi-functional clothing.",
+    content: `
+      <h2>How to pack for adventure travel?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For adventure travel, prioritize moisture-wicking synthetic layers, a robust first-aid kit, durable multi-functional tools, and high-performance footwear. Use compression cubes to manage volume and weight distribution.</p>
+      </div>
+      <p>Adventure travel often involves remote locations and varied terrain. Your gear needs to be as resilient as you are. Focus on high-quality, durable materials and a minimalist approach. Use <a href="/" class="text-brand-orange underline font-semibold">PackFit</a> to ensure your pack is perfectly balanced for trekking or climbing.</p>
+    `,
+    faqs: [
+      {
+        question: "What is the most important item for adventure travel?",
+        answer: "High-quality, broken-in footwear. Whether it's hiking boots or trail runners, your feet are your primary mode of transport and need the best protection."
+      }
+    ]
+  },
+  "cruise-vacation": {
+    title: "Cruise Vacation Packing Guide",
+    description: "Set sail with confidence. The ultimate guide to packing for a cruise, from formal nights to port excursions.",
+    content: `
+      <h2>How to pack for a cruise vacation?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">When packing for a cruise, bring a mix of casual daywear, at least one formal outfit, comfortable walking shoes for ports, and a small daypack. Use standard packing cubes to keep your compact cabin organized.</p>
+      </div>
+      <p>Cruise ships offer a variety of experiences, from relaxing by the pool to exploring historic ports. Plan for diverse dress codes and activities. Read our <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">baggage fee guide</a> to stay light on your flight to the embarkation city.</p>
+    `,
+    faqs: [
+      {
+        question: "Do I need to pack a formal suit for a cruise?",
+        answer: "Most modern cruises have 'optional' formal nights. A nice blazer or an elegant cocktail dress is usually sufficient for these occasions."
+      }
+    ]
+  },
+  "family-road-trip": {
+    title: "Family Road Trip Packing Guide",
+    description: "Keep the kids happy and the car organized. Expert tips for packing for a family road trip.",
+    content: `
+      <h2>How to pack for a family road trip?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For a family road trip, use color-coded packing cubes for each child, pack a dedicated 'car essentials' bag with snacks and entertainment, and utilize soft-sided duffels for easier trunk optimization.</p>
+      </div>
+      <p>Road trips are a great way to bond as a family, but they can be chaotic without organization. Use our <a href="/" class="text-brand-orange underline font-semibold">visual simulator</a> to plan your trunk 'Tetris'. Don't forget a comprehensive first-aid kit and plenty of hydration!</p>
+    `,
+    faqs: [
+      {
+        question: "How do I keep my car organized with kids?",
+        answer: "Use seat-back organizers for small toys and electronics, and assign a specific 'trash bin' cube to keep the cabin clean throughout the journey."
+      }
+    ]
   }
 };
 
@@ -544,7 +595,7 @@ export default async function TripTypePage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 14, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 15, 2026</div>
       </div>
 
       <div

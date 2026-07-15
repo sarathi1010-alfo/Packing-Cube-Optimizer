@@ -42,7 +42,7 @@ const PAGES = {
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
         <p class="font-medium text-brand-navy m-0">To pack for Japan, prioritize slip-on shoes for frequent removals, a coin purse for the cash-heavy economy, a portable Wi-Fi or eSIM, and a respectful, smart-casual capsule wardrobe.</p>
       </div>
-      <p>Japan involves a lot of walking and frequent shoe changes. Choose comfortable, stylish sneakers that are easy to slip on and off. Pack light, as train overhead bins and luggage storage areas are often very compact.</p>
+      <p>Japan involves a lot of walking and frequent shoe changes. Choose comfortable, stylish sneakers that are easy to slip on and off. Pack light, as train overhead bins and luggage storage areas are often very compact. For long-haul flights to Tokyo or Osaka, make sure to read our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">how to pack efficiently to avoid overweight baggage fees</a>.</p>
     `,
     faqs: [
       {
@@ -76,7 +76,7 @@ const PAGES = {
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
         <p class="font-medium text-brand-navy m-0">Essential items for Europe include a comfortable pair of stylish walking shoes, a versatile capsule wardrobe in neutral colors, a secure cross-body bag for anti-theft, and a travel adapter for EU/UK outlets.</p>
       </div>
-      <p>Europe is best explored with a carry-on. Trains have limited luggage space, and dragging heavy bags over cobblestones is a quick way to ruin your trip. Focus on a capsule wardrobe—items that easily mix and match—and use compression packing cubes to fit it all into a 40L backpack or small roller.</p>
+      <p>Europe is best explored with a carry-on. Trains have limited luggage space, and dragging heavy bags over cobblestones is a quick way to ruin your trip. Focus on a capsule wardrobe—items that easily mix and match—and use compression packing cubes to fit it all into a 40L backpack or small roller. This is particularly important to <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoid overweight baggage fees</a> on budget European airlines like Ryanair or EasyJet.</p>
     `,
     faqs: [
       {
@@ -368,6 +368,57 @@ const PAGES = {
         answer: "Yes, Switzerland has a high cost of living. It is much more cost-effective to pack everything you need, especially specialized gear like hiking boots or winter coats, rather than buying them locally."
       }
     ]
+  },
+  "turkey-packing-guide": {
+    title: "Turkey Packing Guide: East Meets West",
+    description: "Prepare for your Turkish adventure. From the vibrant streets of Istanbul to the fairy chimneys of Cappadocia and the turquoise coast.",
+    content: `
+      <h2>How to pack for a trip to Turkey?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">When packing for Turkey, prioritize modest layers for mosque visits, comfortable walking shoes for ancient ruins, breathable cotton/linen for the coast, and a light jacket for cool evenings in Cappadocia.</p>
+      </div>
+      <p>Turkey offers a unique blend of cultures and landscapes. You'll need versatile clothing that transitions from city exploration to coastal relaxation. Use standard packing cubes to organize your gear. Read our <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">baggage fee guide</a> for your inter-city flights between Istanbul and Izmir.</p>
+    `,
+    faqs: [
+      {
+        question: "What is the dress code for the Blue Mosque?",
+        answer: "Shoulders and knees must be covered for both men and women. Women must also cover their hair. Most major mosques provide scarves and wraps if you don't have your own."
+      }
+    ]
+  },
+  "morocco-packing-guide": {
+    title: "Morocco Packing Guide: Souks & Sands",
+    description: "Navigate the vibrant culture of Morocco with our essential packing guide. Tips for the medinas, the mountains, and the desert.",
+    content: `
+      <h2>What should I pack for Morocco?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">To pack for Morocco, prioritize modest, breathable clothing, comfortable walking sandals, high-SPF sun protection, and a versatile scarf for sun and sand protection.</p>
+      </div>
+      <p>Morocco is a sensory explosion. You'll want clothes that are respectful of the local culture yet comfortable for navigating bustling medinas. Use compression packing cubes to manage your desert layers. Plan your exact bag layout with <a href="/" class="text-brand-orange underline font-semibold">PackFit</a> before you depart.</p>
+    `,
+    faqs: [
+      {
+        question: "Do I need to dress conservatively in Morocco?",
+        answer: "Yes, especially in rural areas and the medinas. Aim to cover your shoulders and knees to show respect for the local traditions and avoid unwanted attention."
+      }
+    ]
+  },
+  "peru-packing-guide": {
+    title: "Peru Packing Guide: Andes to Amazon",
+    description: "Prepare for your Peruvian journey. Essential gear for Machu Picchu, the Sacred Valley, and the Amazon rainforest.",
+    content: `
+      <h2>How to pack for a trip to Peru?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">When packing for Peru, prioritize high-quality layering for the Andes, a reliable waterproof shell, sturdy hiking boots, and moisture-wicking gear for the Amazon.</p>
+      </div>
+      <p>Peru's diverse geography requires a strategic approach to packing. Altitude and weather can change rapidly. Use our <a href="/" class="text-brand-orange underline font-semibold">visual simulator</a> to ensure your trekking pack is balanced and stays within carry-on limits for domestic flights to Cusco.</p>
+    `,
+    faqs: [
+      {
+        question: "What shoes are best for the Inca Trail?",
+        answer: "High-quality, waterproof hiking boots with excellent ankle support are essential for the uneven and often slippery terrain of the Inca Trail."
+      }
+    ]
   }
 };
 
@@ -430,7 +481,7 @@ export default async function DestinationPage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 14, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 15, 2026</div>
       </div>
 
       <div
