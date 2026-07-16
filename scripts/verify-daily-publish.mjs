@@ -28,7 +28,15 @@ const urls = [
   '/destinations/switzerland-packing-guide',
   '/packing-lists/glamping-checklist',
   '/packing-lists/hiking-day-trip-checklist',
-  '/about'
+  '/about',
+  '/trip-types/solo-female-travel',
+  '/trip-types/backpacking-southeast-asia',
+  '/trip-types/volunteer-abroad',
+  '/destinations/south-america-packing-guide',
+  '/destinations/africa-packing-guide',
+  '/destinations/new-zealand-packing-guide',
+  '/packing-lists/remote-work-retreat',
+  '/packing-lists/long-haul-flight-essentials'
 ];
 
 async function verify() {

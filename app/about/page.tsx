@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "About | Packing Cube Optimizer",
   description: "Learn about Packing Cube Optimizer, why it exists, and how it helps you travel smarter.",
   other: {
-    "last-modified": "2026-07-15"
+    "last-modified": "2026-07-16"
   }
 };
 
@@ -26,7 +26,7 @@ export default function AboutPage() {
           <p className="text-muted-foreground mb-4">
             Travelers constantly struggle with a simple spatial problem: <em>&quot;Will all this fit in my carry-on?&quot;</em>
             Instead of guessing, over-packing, or dealing with stressful <Link href="/blog/avoid-overweight-baggage-fees" className="text-primary hover:underline">overweight baggage fees</Link>, we realized the solution
-            was right in front of us—packing cubes. Learn more in our latest guide on <Link href="/blog/avoid-overweight-baggage-fees" className="text-primary hover:underline font-semibold">how to pack efficiently to avoid overweight baggage fees</Link>, published July 15, 2026.
+            was right in front of us—packing cubes. Learn more in our latest guide on <Link href="/blog/avoid-overweight-baggage-fees" className="text-primary hover:underline font-semibold">how to pack efficiently to avoid overweight baggage fees</Link>, updated July 16, 2026.
           </p>
           <p className="text-muted-foreground">
             Packing cubes turn abstract clothing piles into standardized blocks. By creating a visual, drag-and-drop

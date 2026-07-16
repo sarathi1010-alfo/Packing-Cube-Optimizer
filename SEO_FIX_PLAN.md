@@ -55,4 +55,10 @@ Based on the review of Google Search Console (GSC) coverage reports and technica
 - [x] Generated 8 new Tier 2 programmatic pages across trip types, destinations, and packing lists (2026-07-15).
 - [x] Refreshed About page metadata and internal links (2026-07-15).
 - [x] Triggered IndexNow API for all 9 new/updated URLs (2026-07-15).
-- [x] Verify 200 OK and technical hygiene for all July 15 publications via automated Playwright testing (2026-07-15).
+- [x] Verified 200 OK and technical hygiene for all July 15 publications via automated Playwright testing (2026-07-15).
+- [x] Published Tier 1 Authority Article "How to pack efficiently to avoid overweight baggage fees" (expanded to 1,500+ words) for July 16, 2026.
+- [x] Implemented enhanced internal linking from Tier 1 article to Tool (/) and Checklists (/templates).
+- [x] Generated 8 new Tier 2 programmatic pages with FAQ Schema and AI Snapshots (2026-07-16).
+- [x] Retroactively linked to new Tier 1 article from About page and Europe Destination Guide (2026-07-16).
+- [x] Triggered IndexNow API for all updated URLs (2026-07-16).
+- [x] Verified 200 OK and technical SEO hygiene for all July 16 publications via automated Playwright testing (2026-07-16).

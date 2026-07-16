@@ -107,3 +107,15 @@
 79. Twitter: Turkey bound? 🇹🇷 Master the art of packing for East meets West. From Istanbul's mosques to Cappadocia's cool nights. [Link] #TurkeyTravel #PackFit
 80. Instagram: Morocco is a sensory explosion! 🇲🇦 Stay comfortable and respectful with our essential Morocco packing guide. Link in bio! #Morocco #TravelTips #PackFit
 81. Facebook: Heading to Peru? 🇵🇪 From the Andes to the Amazon, prepare for every microclimate with our comprehensive Peru packing guide. [Link] #PeruTravel #MachuPicchu #PackFit
+
+## Tier 3 - New Social Content (July 16, 2026) - Published
+82. Twitter: Stop the "hidden travel tax"! 💸 Overweight baggage fees are hitting 00+. Learn 8 pro strategies to stay light and fee-free. [Link] #TravelHacks #PackFit #BudgetTravel
+83. Instagram: Rolling vs. Folding? 🤔 The debate is over! Our hybrid method saves 30% more space. Roll soft fabrics, fold structured ones. Full guide in bio! 🧳 #PackingTips #TravelLight #PackFit
+84. Facebook: Pro Tip: Wear your heaviest boots and coat on the plane. 🧥 Instant luggage "deletion"! More expert hacks in our latest blog post. [Link] #SmartPacking #BudgetTravel #TravelTips
+85. Pinterest: How to pack for 7 days in a carry-on and never pay for bags again. 🎒 The ultimate checklist for efficient travel. #MinimalistTravel #PackingCubes #CarryOnOnly
+86. Twitter: Use our visual simulator to plan your bag *before* you pack. 🧩 Tetris for travelers! No more last-minute stuffing. [Link] #TravelTech #PackFit #NomadLife
+87. Instagram: Heading solo? 👸 Our new solo female travel guide covers safety gear and lightweight packing for maximum independence. Link in bio! #SoloTravel #SafetyFirst #PackFit
+88. Facebook: Backpacking SE Asia? 🌏 Don't let the humidity win. Learn the best moisture-wicking gear and temple-ready outfits in our new guide. [Link] #SEAsia #Backpacking #TravelTips
+89. Twitter: Working from anywhere? 💻 Our remote work retreat checklist ensures you have all the tech and comfort you need for a productive workation. [Link] #DigitalNomad #RemoteWork #PackFit
+90. Instagram: Long-haul flight ahead? ✈️ Stay refreshed with our survival kit essentials. Compression socks are a non-negotiable! Check the link in bio. #TravelRefresh #LongHaul #FlightEssentials
+91. Facebook: Volunteering abroad? 🤝 Practicality meets purpose. See how to pack for physical work and community engagement with our new guide. [Link] #VolunteerAbroad #ServiceTrip #PackFit

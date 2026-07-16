@@ -82,7 +82,7 @@ const PAGES = {
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
         <p class="font-medium text-brand-navy m-0">Pack for a family vacation by using color-coded packing cubes for each child, prioritizing a dedicated 'essentials bag' for mid-flight needs, and utilizing the 5-4-3-2-1 rule to keep clothing volume manageable for everyone.</p>
       </div>
-      <p>Family travel can be chaotic, but your packing doesn't have to be. The secret is compartmentalization. Assign each family member a specific color of packing cube. This makes it instantly clear whose clothes are whose when you arrive at your destination.</p>
+      <p>Family travel can be chaotic, but your packing doesn't have to be. The secret is compartmentalization. Assign each family member a specific color of packing cube. This makes it instantly clear whose clothes are whose when you arrive at your destination. For larger families, read our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">how to pack efficiently to avoid overweight baggage fees</a> to ensure everyone stays under the limit.</p>
     `,
     faqs: [
       {
@@ -533,6 +533,71 @@ const PAGES = {
         answer: "Use seat-back organizers for small toys and electronics, and assign a specific 'trash bin' cube to keep the cabin clean throughout the journey."
       }
     ]
+  },
+  "solo-female-travel": {
+    title: "Solo Female Travel Packing Guide",
+    description: "Empowering tips for women traveling alone. Focus on safety gear, modest attire, and lightweight packing for maximum independence.",
+    content: `
+      <h2>How to pack for solo female travel?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For solo female travel, prioritize a lightweight 40L backpack for mobility, a door jammer for extra security, versatile modest layers, a secure cross-body bag, and a physical backup of emergency contacts.</p>
+      </div>
+      <p>Traveling solo as a woman is a transformative experience, but it requires smart preparation. Packing light is a safety strategy—it means you can manage your own bags without help and move quickly if needed. Use compression packing cubes to keep your belongings organized and compact.</p>
+      <h3>Safety and Security Essentials</h3>
+      <p>In addition to your clothing, consider carrying a portable door lock or a rubber door wedge for added peace of mind in accommodations. A high-quality power bank is also vital to ensure your phone is always charged for navigation and communication.</p>
+    `,
+    faqs: [
+      {
+        question: "What is the best bag for a solo female traveler?",
+        answer: "A travel-specific 40L backpack is ideal. It's easy to carry on public transport, fits in overhead bins, and keeps your hands free for navigation and safety."
+      },
+      {
+        question: "How do I dress respectfully while traveling solo?",
+        answer: "Research your destination's cultural norms. In many regions, covering shoulders and knees is appreciated and can help you blend in more easily. Lightweight linen and cotton are great for staying cool while remaining modest."
+      }
+    ]
+  },
+  "backpacking-southeast-asia": {
+    title: "Backpacking Southeast Asia Packing Guide",
+    description: "The ultimate list for exploring Thailand, Vietnam, Cambodia, and beyond. Humid weather essentials and temple-ready outfits.",
+    content: `
+      <h2>What to pack for backpacking Southeast Asia?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">When backpacking Southeast Asia, prioritize ultra-lightweight moisture-wicking fabrics, a universal travel adapter, high-SPF reef-safe sunscreen, slip-on shoes for temple visits, and a robust waterproof bag for boat trips.</p>
+      </div>
+      <p>Southeast Asia is known for its incredible heat and humidity. Natural fibers like linen and tech fabrics that dry quickly are your best friends. Since you'll likely be moving frequently between hostels and islands, keeping your pack light and modular is essential. Use standard packing cubes to organize your gear and see our <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">overweight fee guide</a> for budget airline tips.</p>
+    `,
+    faqs: [
+      {
+        question: "Do I need a lot of warm clothes for SE Asia?",
+        answer: "Mostly no, but a light sweater or hoodie is essential for cold bus/plane air conditioning and for cooler evenings in northern regions like Chiang Mai or Hanoi."
+      },
+      {
+        question: "What footwear is best for Southeast Asia?",
+        answer: "A pair of sturdy walking sandals (like Chacos) and a pair of lightweight, breathable sneakers. Flip-flops are great for the beach but offer little support for city walking."
+      }
+    ]
+  },
+  "volunteer-abroad": {
+    title: "Volunteer Abroad Packing Guide",
+    description: "Prepare for your service trip with practical clothing, essential gear, and tips for living in diverse environments.",
+    content: `
+      <h2>How to pack for volunteering abroad?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">To pack for volunteering abroad, prioritize durable, modest clothing that can handle physical work, a comprehensive first-aid kit, a reusable water bottle with a filter, and small gifts for your host community.</p>
+      </div>
+      <p>Volunteering often takes you off the beaten path. Your gear needs to be functional and resilient. Research the specific requirements of your program—some may require specialized equipment or specific types of work clothes. Use our <a href="/" class="text-brand-orange underline font-semibold">visual simulator</a> to ensure your gear fits into a manageable bag.</p>
+    `,
+    faqs: [
+      {
+        question: "Should I bring professional clothes for volunteering?",
+        answer: "It depends on the placement. If you are teaching or working in an office, smart-casual modest attire is usually expected. For manual labor or community development, durable workwear is better."
+      },
+      {
+        question: "What kind of first-aid supplies should I bring?",
+        answer: "Include basic bandages, antiseptic wipes, pain relievers, rehydration salts, and any personal prescription medications. A broad-spectrum antibiotic (prescribed by your doctor) can also be useful in remote areas."
+      }
+    ]
   }
 };
 
@@ -595,7 +660,7 @@ export default async function TripTypePage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 15, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 16, 2026</div>
       </div>
 
       <div
