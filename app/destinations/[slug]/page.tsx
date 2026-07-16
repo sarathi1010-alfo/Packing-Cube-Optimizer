@@ -76,7 +76,7 @@ const PAGES = {
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
         <p class="font-medium text-brand-navy m-0">Essential items for Europe include a comfortable pair of stylish walking shoes, a versatile capsule wardrobe in neutral colors, a secure cross-body bag for anti-theft, and a travel adapter for EU/UK outlets.</p>
       </div>
-      <p>Europe is best explored with a carry-on. Trains have limited luggage space, and dragging heavy bags over cobblestones is a quick way to ruin your trip. Focus on a capsule wardrobe—items that easily mix and match—and use compression packing cubes to fit it all into a 40L backpack or small roller. This is particularly important to <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoid overweight baggage fees</a> on budget European airlines like Ryanair or EasyJet.</p>
+      <p>Europe is best explored with a carry-on. Trains have limited luggage space, and dragging heavy bags over cobblestones is a quick way to ruin your trip. Focus on a capsule wardrobe—items that easily mix and match—and use compression packing cubes to fit it all into a 40L backpack or small roller. This is particularly important to <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoid overweight baggage fees</a> on budget European airlines like Ryanair or EasyJet. If you're planning a multi-city tour, our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">efficient packing strategies</a> is essential reading.</p>
     `,
     faqs: [
       {
@@ -419,6 +419,69 @@ const PAGES = {
         answer: "High-quality, waterproof hiking boots with excellent ankle support are essential for the uneven and often slippery terrain of the Inca Trail."
       }
     ]
+  },
+  "south-america-packing-guide": {
+    title: "South America Packing Guide: Continent of Contrast",
+    description: "From the Galapagos to Patagonia, here is how to pack for the diverse climates and cultures of South America.",
+    content: `
+      <h2>How to pack for a trip to South America?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">To pack for South America, prioritize high-quality technical layers for the Andes, lightweight breathable cotton for tropical regions, sturdy hiking boots, and a robust secure daypack for city exploration.</p>
+      </div>
+      <p>South America offers everything from glacial peaks to lush rainforests. The key is a modular packing system. Use compression packing cubes to manage your cold-weather gear and standard cubes for your tropical items. Read our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">avoiding overweight fees</a> for long-haul flights between countries.</p>
+    `,
+    faqs: [
+      {
+        question: "Do I need a heavy winter coat for South America?",
+        answer: "Only if you are heading deep into Patagonia or high into the Andes during the winter months. For most travelers, a high-quality layering system (base layer, fleece, and waterproof shell) is more versatile and easier to pack."
+      },
+      {
+        question: "Is it safe to carry a laptop in South America?",
+        answer: "Yes, but be discreet. Use a non-descript backpack and avoid taking your laptop out in public spaces unless you are in a secure cafe or co-working space."
+      }
+    ]
+  },
+  "africa-packing-guide": {
+    title: "Africa Packing Guide: Safari & Beyond",
+    description: "Prepare for your African adventure. Essential packing tips for safaris, bustling cities, and diverse landscapes.",
+    content: `
+      <h2>What are the essentials for an Africa packing list?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">When packing for Africa, prioritize neutral-colored lightweight clothing for safari, high-SPF sun protection, a robust first-aid kit, a universal power adapter, and comfortable walking shoes.</p>
+      </div>
+      <p>Africa is a vast continent with varied climates. For safari, stick to earth tones (tan, khaki, olive) to blend in and avoid attracting insects. In cities like Cape Town or Nairobi, smart-casual attire is common. Use standard packing cubes to organize your gear. See our <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">efficiency guide</a> for managing gear within bush plane weight limits.</p>
+    `,
+    faqs: [
+      {
+        question: "Why should I avoid blue and black on safari?",
+        answer: "In some parts of Africa, dark blue and black colors attract tsetse flies, which have a painful bite. Neutral earth tones are much more practical and comfortable."
+      },
+      {
+        question: "Do I need malaria tablets for all of Africa?",
+        answer: "Not everywhere, but many popular travel regions are in malarial zones. Consult with a travel clinic or your doctor well in advance of your trip for specific recommendations."
+      }
+    ]
+  },
+  "new-zealand-packing-guide": {
+    title: "New Zealand Packing Guide: Outdoor Paradise",
+    description: "Prepare for the 'four seasons in one day'. The ultimate packing guide for New Zealand's stunning North and South Islands.",
+    content: `
+      <h2>How to pack for a trip to New Zealand?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">To pack for New Zealand, prioritize high-quality merino wool base layers, a reliable waterproof shell, sturdy hiking boots, and sun protection for the intense Southern Hemisphere UV rays.</p>
+      </div>
+      <p>New Zealand is an outdoor lover's dream, but the weather can be unpredictable. Layers are essential. Use compression packing cubes to manage your fleeces and thermal wear. Plan your exact suitcase layout with <a href="/" class="text-brand-orange underline font-semibold">PackFit</a> to ensure your gear stays organized during your road trip.</p>
+    `,
+    faqs: [
+      {
+        question: "Is merino wool really better for New Zealand?",
+        answer: "Yes! New Zealand is the home of merino, and for good reason. It's breathable, odor-resistant, and keeps you warm even if it gets slightly damp—perfect for the country's active lifestyle."
+      },
+      {
+        question: "Do I need to pack dressy clothes for New Zealand?",
+        answer: "New Zealand is generally very casual. Even in the cities, a 'smart casual' look (like nice jeans and a clean shirt or sweater) is sufficient for almost any restaurant or activity."
+      }
+    ]
   }
 };
 
@@ -481,7 +544,7 @@ export default async function DestinationPage({ params }: PageProps) {
         <h1 className="text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight mb-4">
           {page.title}
         </h1>
-        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 15, 2026</div>
+        <div className="text-muted-foreground text-xs mb-4 italic">Last updated: July 16, 2026</div>
       </div>
 
       <div

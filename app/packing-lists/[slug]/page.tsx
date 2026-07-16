@@ -304,6 +304,50 @@ const PAGES = {
         answer: "Use a secure neck pouch or money belt, and always keep digital and physical copies of your passport and insurance documents in separate locations."
       }
     ]
+  },
+  "remote-work-retreat": {
+    title: "Remote Work Retreat Packing List",
+    description: "Balance productivity and relaxation. The essential packing list for your next remote work or 'workation' getaway.",
+    content: `
+      <h2>What should I pack for a remote work retreat?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For a remote work retreat, prioritize a reliable laptop with all accessories, a portable second monitor or laptop stand, noise-canceling headphones, a versatile 'smart-casual' wardrobe, and a dedicated tech organizer.</p>
+      </div>
+      <p>Working remotely while traveling is a delicate balance. Your gear needs to be as professional as your office but as portable as your luggage. Use standard packing cubes to separate your 'work' gear from your 'play' clothes. Plan your bag layout with our <a href="/" class="text-brand-orange underline font-semibold">visual simulator</a> to ensure your expensive tech is well-protected.</p>
+      <h3>Tech Organization is Key</h3>
+      <p>Invest in a high-quality cable organizer to prevent a tangled mess of chargers and adapters. A multi-port GaN charger can replace several individual bricks, saving significant weight and space in your carry-on.</p>
+    `,
+    faqs: [
+      {
+        question: "How do I ensure good Wi-Fi during a retreat?",
+        answer: "Always research your accommodation's Wi-Fi reviews. As a backup, carry a portable Wi-Fi hotspot or ensure your phone has a robust international data plan with tethering capabilities."
+      },
+      {
+        question: "What is the best way to carry my laptop safely?",
+        answer: "Use a dedicated, padded laptop sleeve inside a secure, weather-resistant backpack. Never check your laptop in your main luggage; always keep it with you in the cabin."
+      }
+    ]
+  },
+  "long-haul-flight-essentials": {
+    title: "Long-Haul Flight Essentials Checklist",
+    description: "Survive the journey in comfort. Everything you need for your personal item to stay refreshed and relaxed during long flights.",
+    content: `
+      <h2>What are the long-haul flight essentials?</h2>
+      <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
+        <p class="font-medium text-brand-navy m-0">For a long-haul flight, prioritize noise-canceling headphones, a high-quality neck pillow, compression socks, a reusable water bottle, an eye mask, and a small 'refreshment kit' with basic toiletries.</p>
+      </div>
+      <p>A long-haul flight can be a grueling experience without the right preparation. Your personal item should be your 'survival kit'. Use small packing cubes to keep your inflight essentials organized and easy to reach under the seat. Read our guide on <a href="/blog/avoid-overweight-baggage-fees" class="text-brand-orange underline font-semibold">packing efficiently</a> for tips on maximizing your personal item space.</p>
+    `,
+    faqs: [
+      {
+        question: "What should I wear for a 10+ hour flight?",
+        answer: "Comfort is paramount. Wear soft, breathable layers (like cotton or merino wool) and shoes that are easy to slip off. Compression socks are highly recommended to prevent swelling and DVT."
+      },
+      {
+        question: "How do I stay hydrated on a long flight?",
+        answer: "Bring a large, empty reusable water bottle and fill it after passing through security. Drink regularly, and avoid excessive caffeine or alcohol, which can further dehydrate you in the dry cabin air."
+      }
+    ]
   }
 };
 
