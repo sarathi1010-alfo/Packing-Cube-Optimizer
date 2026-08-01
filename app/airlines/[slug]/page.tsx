@@ -24,6 +24,18 @@ export default async function AirlinePage({ params }: { params: Promise<{ slug: 
   const carryOnVol = (airline.carryOn.height * airline.carryOn.width * airline.carryOn.depth) / 1000;
   const personalVol = airline.personalItem.height > 0 ? (airline.personalItem.height * airline.personalItem.width * airline.personalItem.depth) / 1000 : 0;
 
+  const carryOnInches = {
+    height: (airline.carryOn.height / 2.54).toFixed(1),
+    width: (airline.carryOn.width / 2.54).toFixed(1),
+    depth: (airline.carryOn.depth / 2.54).toFixed(1),
+  };
+
+  const personalInches = airline.personalItem.height > 0 ? {
+    height: (airline.personalItem.height / 2.54).toFixed(1),
+    width: (airline.personalItem.width / 2.54).toFixed(1),
+    depth: (airline.personalItem.depth / 2.54).toFixed(1),
+  } : null;
+
   return (
     <div className="container mx-auto px-4 py-8 max-w-4xl">
       <Link href="/airlines">
@@ -35,7 +47,7 @@ export default async function AirlinePage({ params }: { params: Promise<{ slug: 
       <div className="space-y-8">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b pb-6">
           <div>
-            <h1 className="text-4xl font-bold text-brand-navy mb-2">{airline.name} Baggage Rules</h1>
+            <h1 className="text-4xl font-bold text-brand-navy mb-2">{airline.name} Carry-On Baggage Guide: Size Limits & Fees for 2026</h1>
             <p className="text-muted-foreground">{airline.region} Region</p>
           </div>
           <Link href={`/carry-on-checker?airline=${airline.id}`}>
@@ -135,6 +147,69 @@ export default async function AirlinePage({ params }: { params: Promise<{ slug: 
             </Button>
           </Link>
         </div>
+
+        <div className="prose prose-lg prose-slate max-w-none prose-headings:text-brand-navy prose-a:text-brand-orange hover:prose-a:text-brand-orange/80 mt-12">
+          <h2>{airline.name} carry-on size limits (inches/cm)</h2>
+          <p>
+            When flying with {airline.name}, your main carry-on bag must not exceed <strong>{airline.carryOn.height} x {airline.carryOn.width} x {airline.carryOn.depth} cm</strong> ({carryOnInches.height} x {carryOnInches.width} x {carryOnInches.depth} inches) including handles and wheels.
+            {airline.carryOn.weightKg ? ` The absolute maximum weight permitted is ${airline.carryOn.weightKg} kg (${(airline.carryOn.weightKg * 2.20462).toFixed(1)} lbs).` : ' There is no strict weight limit published, provided you can lift the bag into the overhead bin unassisted.'}
+          </p>
+
+          <h2>{airline.name} checked baggage fees and weight limits</h2>
+          <p>
+            {airline.carryOn.isIncluded ?
+              `While your carry-on is included with your standard fare, checked baggage typically incurs an additional fee, especially on basic economy tickets.` :
+              `Please note that a standard carry-on is NOT included for free with all fare classes on ${airline.name}. You may need to pay an additional fee.`}
+            Checked bags on {airline.name} usually have a standard weight limit of 23 kg (50 lbs) for economy class. Bags exceeding this limit will be subject to expensive overweight baggage fees. We strongly recommend reading our guide on <Link href="/blog/avoid-overweight-baggage-fees" className="text-brand-orange underline font-semibold">how to pack efficiently to avoid overweight baggage fees</Link> before you head to the airport.
+          </p>
+
+          <h2>How to pack for {airline.name} carry-on restrictions using PackFit</h2>
+          <p>
+            With a maximum volume of {carryOnVol.toFixed(1)} liters, spatial optimization is critical. We recommend using a modular packing system. Start with one large compression packing cube for bulky items like jeans and sweaters, and place it at the bottom of the bag. Use standard cubes for lighter tops to prevent wrinkles.
+            Before you pack, use the <Link href="/calculator" className="text-brand-orange underline font-semibold">PackFit visual simulator</Link> to map out your luggage and ensure it meets {airline.name}&apos;s strict guidelines.
+          </p>
+
+          <h2>Personal item guidelines for {airline.name}</h2>
+          <p>
+            {airline.personalItem.height > 0 ? (
+              `In addition to your carry-on, you are allowed one personal item such as a laptop bag, purse, or small backpack. This item must fit under the seat in front of you and cannot exceed ${airline.personalItem.height} x ${airline.personalItem.width} x ${airline.personalItem.depth} cm (${personalInches?.height} x ${personalInches?.width} x ${personalInches?.depth} inches).`
+            ) : (
+              `In addition to your carry-on, you are allowed one personal item such as a laptop bag, purse, or small backpack. While ${airline.name} does not publish exact maximum dimensions for personal items, it must fit comfortably under the seat in front of you.`
+            )}
+            This is an excellent place to store heavy electronics to reduce the weight of your main carry-on.
+          </p>
+        </div>
+
+        <div className="mt-8 bg-brand-sand/30 border-l-4 border-brand-orange p-6 rounded-r-xl">
+          <h3 className="text-xl font-bold text-brand-navy mb-4 mt-0">Quick Reference Table</h3>
+          <div className="overflow-x-auto">
+            <table className="min-w-full divide-y divide-brand-beige">
+              <thead>
+                <tr>
+                  <th className="px-4 py-2 text-left text-sm font-semibold text-brand-navy">Bag Type</th>
+                  <th className="px-4 py-2 text-left text-sm font-semibold text-brand-navy">Size Limit (cm)</th>
+                  <th className="px-4 py-2 text-left text-sm font-semibold text-brand-navy">Weight Limit</th>
+                  <th className="px-4 py-2 text-left text-sm font-semibold text-brand-navy">Fee</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-brand-beige">
+                <tr>
+                  <td className="px-4 py-2 text-sm">Carry-On</td>
+                  <td className="px-4 py-2 text-sm">{airline.carryOn.height}x{airline.carryOn.width}x{airline.carryOn.depth}</td>
+                  <td className="px-4 py-2 text-sm">{airline.carryOn.weightKg ? `${airline.carryOn.weightKg} kg` : "No strict limit"}</td>
+                  <td className="px-4 py-2 text-sm">{airline.carryOn.isIncluded ? "Included" : "Varies"}</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-sm">Personal Item</td>
+                  <td className="px-4 py-2 text-sm">{airline.personalItem.height > 0 ? `${airline.personalItem.height}x${airline.personalItem.width}x${airline.personalItem.depth}` : "Must fit under seat"}</td>
+                  <td className="px-4 py-2 text-sm">No strict limit</td>
+                  <td className="px-4 py-2 text-sm">Included</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
       </div>
     </div>
   );
