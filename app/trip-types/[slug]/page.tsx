@@ -230,36 +230,132 @@ const PAGES = {
     ]
   },
   "7-day-trip": {
-    title: "7-Day Trip Packing Guide",
+    title: "The Ultimate 7-Day Trip Packing List for 2026",
     description: "The definitive guide for packing for a full week in a carry-on. Master the 5-4-3-2-1 rule and spatial optimization.",
     content: `
-      <h2>How to pack for a 7-day trip?</h2>
+      <h2>Why packing smart matters for a 7-day trip</h2>
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
         <p class="font-medium text-brand-navy m-0">To pack for a 7-day trip in a carry-on, use the 5-4-3-2-1 rule: 5 sets of socks/underwear, 4 tops, 3 bottoms, 2 pairs of shoes, and 1 hat/accessory. Organize these in one large compression cube and two medium standard cubes.</p>
       </div>
-      <p>A week-long trip is the sweet spot for carry-on travel. It's long enough to require variety, but short enough that you don't need to overpack. The key is coordinating your capsule wardrobe so every piece works with at least two others.</p>
+      <p>A week-long trip is the sweet spot for carry-on travel. It's long enough to require variety, but short enough that you don't need to overpack. The key is coordinating your capsule wardrobe so every piece works with at least two others. Read our guide on <a href="/blog/how-to-pack-7-day-trip-carry-on" class="text-brand-orange underline font-semibold">how to pack a carry-on for 7 days</a> for a deep dive.</p>
+
+      <h2>Complete Packing List</h2>
+      <p>Here is exactly what you need for 7 days in a single carry-on bag:</p>
+      <ul>
+        <li><strong>Clothing:</strong> 5 pairs of socks/underwear, 4 tops (mix of t-shirts/blouses), 3 bottoms (jeans, shorts, dress pants), 2 pairs of shoes (one worn), 1 jacket/sweater.</li>
+        <li><strong>Toiletries:</strong> TSA-approved clear bag (3-1-1 rule), toothbrush, deodorant, solid shampoo bar, travel-sized toothpaste.</li>
+        <li><strong>Electronics:</strong> Smartphone, universal adapter, multi-port GaN charger, e-reader, power bank.</li>
+        <li><strong>Documents:</strong> Passport/ID, physical copies of reservations, travel insurance info.</li>
+      </ul>
+
+      <h2>Packing Cube Recommendations for 7-Day Trips</h2>
+      <p>To fit this perfectly, use a modular approach with packing cubes. This ensures you avoid the dreaded "suitcase explosion" when you arrive at your hotel.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="min-w-full divide-y divide-brand-beige border border-brand-beige rounded-lg">
+          <thead class="bg-brand-sand/50">
+            <tr>
+              <th class="px-4 py-3 text-left text-sm font-semibold text-brand-navy uppercase">Category</th>
+              <th class="px-4 py-3 text-left text-sm font-semibold text-brand-navy uppercase">Items</th>
+              <th class="px-4 py-3 text-left text-sm font-semibold text-brand-navy uppercase">Cube Size Recommended</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-brand-beige">
+            <tr>
+              <td class="px-4 py-3 font-medium">Bottoms / Sweaters</td>
+              <td class="px-4 py-3">Jeans, trousers, hoodies</td>
+              <td class="px-4 py-3 font-bold text-brand-navy">1x Large Compression Cube</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">Tops</td>
+              <td class="px-4 py-3">T-shirts, blouses, button-downs</td>
+              <td class="px-4 py-3 font-bold text-brand-navy">1x Medium Standard Cube</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">Undergarments</td>
+              <td class="px-4 py-3">Socks, underwear, swimsuits</td>
+              <td class="px-4 py-3 font-bold text-brand-navy">1x Small Tube Cube</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Airline-Specific Baggage Considerations</h2>
+      <p>Before packing, always check the exact dimensions required by your airline. A bag that fits easily on Delta might be gate-checked on Ryanair. Check our comprehensive <a href="/airlines" class="text-brand-orange underline font-semibold">Airline Carry-On Guide</a> to ensure your bag is compliant before leaving for the airport.</p>
     `,
     faqs: [
       {
         question: "Can I fit 7 days of clothes in a carry-on?",
         answer: "Absolutely. By using the rolling method and compression packing cubes, you can easily fit a week's worth of clothing into a standard 40L carry-on bag."
+      },
+      {
+        question: "How do I avoid doing laundry on a 7-day trip?",
+        answer: "Pack merino wool socks and shirts, which naturally resist odors and can be worn multiple times, and use a dedicated wet/dry bag for dirty laundry."
       }
     ]
   },
   "weekend-getaway": {
-    title: "Weekend Getaway Packing List",
+    title: "The Ultimate Weekend Getaway Packing List for 2026",
     description: "Pack light and fast for your next weekend escape. Minimalist tips for 2-3 day trips.",
     content: `
-      <h2>What should I pack for a weekend getaway?</h2>
+      <h2>Why packing smart matters for a weekend getaway</h2>
       <div class="ai-snapshot bg-brand-sand/30 border-l-4 border-brand-orange p-4 my-6 rounded-r-lg">
         <p class="font-medium text-brand-navy m-0">For a weekend getaway, focus on one versatile outfit per day plus one dressier option for evening. Use two small packing cubes to keep your personal item or small duffel organized and lightweight.</p>
       </div>
-      <p>Weekend trips are about spontaneity and speed. Don't let heavy luggage slow you down. A small backpack or weekend duffel is all you need if you pack modularly.</p>
+      <p>Weekend trips are about spontaneity and speed. Don't let heavy luggage slow you down. A small backpack or weekend duffel is all you need if you pack modularly. Use our <a href="/" class="text-brand-orange underline font-semibold">visual simulator</a> to plan your small bag perfectly.</p>
+
+      <h2>Complete Packing List</h2>
+      <p>Here is what you need for a quick weekend escape (Friday night to Sunday night):</p>
+      <ul>
+        <li><strong>Clothing:</strong> 3 pairs of socks/underwear, 2 tops, 1 pair of versatile bottoms (plus the outfit you travel in), 1 lightweight jacket.</li>
+        <li><strong>Toiletries:</strong> The absolute minimum. Toothbrush, solid deodorant, travel toothpaste. Skip the shampoo if your hotel provides it.</li>
+        <li><strong>Electronics:</strong> Phone, charger, headphones. Leave the laptop at home if possible!</li>
+        <li><strong>Documents:</strong> ID and mobile boarding passes.</li>
+      </ul>
+
+      <h2>Packing Cube Recommendations for a Weekend Getaway</h2>
+      <p>In a small 25L personal item, organization is tight. You don't want to use large cubes that waste space.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="min-w-full divide-y divide-brand-beige border border-brand-beige rounded-lg">
+          <thead class="bg-brand-sand/50">
+            <tr>
+              <th class="px-4 py-3 text-left text-sm font-semibold text-brand-navy uppercase">Category</th>
+              <th class="px-4 py-3 text-left text-sm font-semibold text-brand-navy uppercase">Items</th>
+              <th class="px-4 py-3 text-left text-sm font-semibold text-brand-navy uppercase">Cube Size Recommended</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-brand-beige">
+            <tr>
+              <td class="px-4 py-3 font-medium">All Clothing</td>
+              <td class="px-4 py-3">Tops, bottoms, sleepwear</td>
+              <td class="px-4 py-3 font-bold text-brand-navy">1x Medium Compression Cube</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">Undergarments</td>
+              <td class="px-4 py-3">Socks, underwear</td>
+              <td class="px-4 py-3 font-bold text-brand-navy">1x Small Standard Cube</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">Toiletries</td>
+              <td class="px-4 py-3">Liquids, toothbrush</td>
+              <td class="px-4 py-3 font-bold text-brand-navy">1x Clear 1-Quart TSA Bag</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Airline-Specific Baggage Considerations</h2>
+      <p>If you are flying on a budget carrier like Spirit or Frontier, your "free" bag is strictly a personal item that must fit under the seat. Checking our <a href="/airlines" class="text-brand-orange underline font-semibold">Airline Rules Database</a> will save you from a surprise $60 gate fee.</p>
     `,
     faqs: [
       {
         question: "What is the best bag for a weekend trip?",
         answer: "A 20L to 30L backpack or a structured duffel bag is perfect for a 2-3 day trip. It's easy to carry and fits under the seat of most airplanes."
+      },
+      {
+        question: "How do I avoid bringing too many shoes?",
+        answer: "Wear your bulkiest, most versatile shoes (like stylish sneakers) on the plane, and pack only one pair of lightweight alternatives (like flats or sandals) in your bag."
       }
     ]
   },
