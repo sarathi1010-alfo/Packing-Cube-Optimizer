@@ -16,11 +16,11 @@ const getCanonicalUrl = () => {
 
 export const siteConfig = {
   name: "PackFit",
-  description: "Your personal system for packing consistency. Pack smarter, fit more, travel lighter, and never forget essentials again with our smart, habit-forming workflow.",
+  description: "Free packing cube optimizer and luggage space calculator. Maximize your carry-on capacity, fit more clothes, and pack smarter for every journey.",
   url: getCanonicalUrl(),
   ogImage: "/og-image.png",
   links: {
     twitter: "https://twitter.com/alfo_online",
-    github: "https://github.com/alfo-online",
+    github: "https://github.com/sarathi1010-alfo",
   },
 };

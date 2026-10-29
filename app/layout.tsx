@@ -14,13 +14,13 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: siteConfig.name + " | Pack smarter, fit more",
-    template: "%s | " + siteConfig.name,
+    default: "PackFit | Packing Cube Optimizer & Luggage Planner",
+    template: "%s | PackFit",
   },
   description: siteConfig.description,
   keywords: ["packing cube optimizer", "luggage space calculator", "carry on size checker", "packing simulator", "travel tool"],
   openGraph: {
-    title: siteConfig.name,
+    title: "PackFit | Packing Cube Optimizer & Luggage Planner",
     description: siteConfig.description,
     url: siteConfig.url,
     siteName: siteConfig.name,
@@ -29,6 +29,7 @@ export const metadata: Metadata = {
         url: `${siteConfig.url}${siteConfig.ogImage}`,
         width: 1200,
         height: 630,
+        alt: "PackFit Packing Cube Optimizer",
       },
     ],
     locale: "en_US",
@@ -36,12 +37,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: siteConfig.name,
+    title: "PackFit | Packing Cube Optimizer & Luggage Planner",
     description: siteConfig.description,
     images: [`${siteConfig.url}${siteConfig.ogImage}`],
   },
   alternates: {
-    canonical: "/",
+    canonical: "https://packfit.alfo.online/",
   },
   manifest: "/manifest.json",
   appleWebApp: {
@@ -55,21 +56,6 @@ export const viewport = {
   themeColor: "#0F172A",
 };
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": siteConfig.name,
-  "description": siteConfig.description,
-  "url": siteConfig.url,
-  "applicationCategory": "TravelApplication",
-  "operatingSystem": "All",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -80,10 +66,6 @@ export default function RootLayout({
       <head>
         <meta name="google-adsense-account" content="ca-pub-6393936268623951" />
         <meta name="monetag" content="86950f5308b2a836fd804730ef0e5e7d" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
         {/* Google Analytics (GA4) */}
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-HZQ3QT11QC" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -96,10 +78,17 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={`${inter.className} min-h-screen flex flex-col`}>
+        <a
+          href="#main-content"
+          id="skip-link"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-primary focus:shadow-md focus:outline-none focus:ring-2 focus:ring-primary rounded-md"
+        >
+          Skip to content
+        </a>
         <PWARegistry />
         <Navbar />
         <RecentlyLaunched />
-        <main className="flex-1">
+        <main id="main-content" className="flex-1">
           <AdSlot slot="top-leaderboard" format="auto" />
           {children}
           <AdSlot slot="bottom-leaderboard" format="auto" />

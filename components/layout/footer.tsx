@@ -27,28 +27,28 @@ export function Footer() {
         <div>
           <h3 className="font-semibold mb-4">Resources</h3>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><Link href="/airlines" className="hover:text-primary transition-colors">Airline Baggage Rules</Link></li>
-            <li><Link href="/templates" className="hover:text-primary transition-colors">Packing Templates</Link></li>
-            <li><Link href="/guides" className="hover:text-primary transition-colors">Travel Guides</Link></li>
+            <li><Link href="/airlines" className="hover:text-primary transition-colors inline-block py-1">Airline Baggage Rules</Link></li>
+            <li><Link href="/templates" className="hover:text-primary transition-colors inline-block py-1">Packing Templates</Link></li>
+            <li><Link href="/blog" className="hover:text-primary transition-colors inline-block py-1">Travel Guides</Link></li>
           </ul>
         </div>
 
         <div>
           <h3 className="font-semibold mb-4">Legal & Company</h3>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><Link href="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</Link></li>
-            <li><Link href="/terms-of-service" className="hover:text-primary transition-colors">Terms of Service</Link></li>
-            <li><Link href="/contact" className="hover:text-primary transition-colors">Contact</Link></li>
-            <li><Link href="/about" className="hover:text-primary transition-colors">About Us</Link></li>
+            <li><Link href="/privacy-policy" className="hover:text-primary transition-colors inline-block py-1">Privacy Policy</Link></li>
+            <li><Link href="/terms-of-service" className="hover:text-primary transition-colors inline-block py-1">Terms of Service</Link></li>
+            <li><Link href="/contact" className="hover:text-primary transition-colors inline-block py-1">Contact</Link></li>
+            <li><Link href="/about" className="hover:text-primary transition-colors inline-block py-1">About Us</Link></li>
           </ul>
         </div>
 
         <div>
           <h3 className="font-semibold mb-4">Social</h3>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><a href="#" className="hover:text-primary transition-colors">Twitter</a></li>
-            <li><a href="#" className="hover:text-primary transition-colors">GitHub</a></li>
-            <li><a href="#" className="hover:text-primary transition-colors">LinkedIn</a></li>
+            <li><a href="https://twitter.com/alfo_online" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors inline-block py-1">Twitter</a></li>
+            <li><a href="https://github.com/sarathi1010-alfo" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors inline-block py-1">GitHub</a></li>
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors inline-block py-1">LinkedIn</a></li>
           </ul>
         </div>
       </div>
