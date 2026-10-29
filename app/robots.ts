@@ -155,10 +155,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: [
-      "https://packfit.alfo.online/sitemap.xml",
-      "https://packfit.alfo.online/sitemap-articles.xml",
-      "https://packfit.alfo.online/sitemap-products.xml",
-    ],
+    sitemap: "https://packfit.alfo.online/sitemap.xml",
   };
 }
