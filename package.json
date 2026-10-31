@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "node scripts/indexnow-ping.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.5.0",

@@ -3,6 +3,11 @@ import { MetadataRoute } from "next";
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
+      // AhrefsBot Unblocked
+      {
+        userAgent: "AhrefsBot",
+        allow: "/",
+      },
       // TIER 1 – GLOBAL SEARCH ENGINES
       {
         userAgent: [
@@ -134,7 +139,6 @@ export default function robots(): MetadataRoute.Robots {
       // AGGRESSIVE SECURITY SCRAPERS (BLOCKED)
       {
         userAgent: [
-          "AhrefsBot",
           "SemrushBot",
           "MajesticBot",
           "rogerbot",
@@ -155,10 +159,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: [
-      "https://packfit.alfo.online/sitemap.xml",
-      "https://packfit.alfo.online/sitemap-articles.xml",
-      "https://packfit.alfo.online/sitemap-products.xml",
-    ],
+    sitemap: "https://packfit.alfo.online/sitemap.xml",
   };
 }

@@ -20,7 +20,6 @@ export const siteConfig = {
   url: getCanonicalUrl(),
   ogImage: "/og-image.png",
   links: {
-    twitter: "https://twitter.com/alfo_online",
-    github: "https://github.com/alfo-online",
+    github: "https://github.com/sarathi1010-alfo",
   },
 };
