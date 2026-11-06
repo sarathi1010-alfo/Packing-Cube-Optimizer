@@ -64,7 +64,7 @@ export default function AboutPage() {
       <div className="bg-card border rounded-2xl p-8 text-center max-w-2xl mx-auto">
         <h2 className="text-2xl font-bold mb-4">Part of the Alfo Ecosystem</h2>
         <p className="text-muted-foreground mb-6">
-          Packing Cube Optimizer is proudly built and maintained as part of the <a href="https://alfo.online" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">alfo.online</a> suite of web utilities.
+          Packing Cube Optimizer is proudly built and maintained as part of the <a href="https://alfo.online" target="_blank" rel="noopener" className="text-primary hover:underline font-medium">alfo.online</a> suite of web utilities.
           Our mission is to build clean, fast, and highly specialized tools that solve specific everyday problems.
         </p>
         <Link href="/calculator" className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-brand-orange text-white hover:bg-brand-orange/90 h-10 px-6 py-2">

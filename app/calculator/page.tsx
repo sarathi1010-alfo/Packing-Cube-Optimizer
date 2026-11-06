@@ -10,6 +10,7 @@ import { Slider } from "@/components/ui/slider";
 import { Box, ArrowRight, Calculator } from "lucide-react";
 import Link from "next/link";
 import { RelatedTools } from "@/components/widgets/related-tools";
+import { trackEvent } from "@/lib/gtag";
 
 export default function CalculatorPage() {
   const [days, setDays] = useState<number[]>([7]);
@@ -23,6 +24,12 @@ export default function CalculatorPage() {
     // Simple mock heuristic for calculator logic
     const result: Record<string, number> = {};
     const tripDays = days[0];
+
+    trackEvent('optimize_pack', {
+      days: tripDays,
+      climate,
+      travel_style: travelStyle,
+    });
 
     // Base needs
     result["small-standard"] = 1; // Always need one for underwear/socks

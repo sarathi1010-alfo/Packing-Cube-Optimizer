@@ -20,11 +20,11 @@ export function Navbar() {
             </button>
             <div className="absolute top-full left-0 mt-2 w-48 rounded-md border bg-popover text-popover-foreground shadow-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
               <div className="p-2 flex flex-col gap-1">
-                <a href="https://resumeforge.alfo.online" target="_blank" rel="noopener noreferrer" className="block px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground rounded-sm">Resume Forge</a>
-                <a href="https://qrgenerator.alfo.online" target="_blank" rel="noopener noreferrer" className="block px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground rounded-sm">QR Generator</a>
-                <a href="https://paletteflow.alfo.online" target="_blank" rel="noopener noreferrer" className="block px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground rounded-sm">Palette Flow</a>
-                <a href="https://pdfutility.app" target="_blank" rel="noopener noreferrer" className="block px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground rounded-sm">PDF Utility</a>
-                <a href="https://lunacycle.alfo.online" target="_blank" rel="noopener noreferrer" className="block px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground rounded-sm">Luna Cycle</a>
+                <a href="https://resumeforge.alfo.online" target="_blank" rel="noopener" className="block px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground rounded-sm">Resume Forge</a>
+                <a href="https://qr.alfo.online" target="_blank" rel="noopener" className="block px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground rounded-sm">QR Generator</a>
+                <a href="https://paletteflow.alfo.online" target="_blank" rel="noopener" className="block px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground rounded-sm">Palette Flow</a>
+                <a href="https://pdfutility.app" target="_blank" rel="noopener" className="block px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground rounded-sm">PDF Utility</a>
+                <a href="https://lunacycle.alfo.online" target="_blank" rel="noopener" className="block px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground rounded-sm">Luna Cycle</a>
               </div>
             </div>
           </div>
@@ -63,10 +63,10 @@ export function Navbar() {
                 <div className="pt-4 border-t">
                   <span className="text-sm font-semibold text-muted-foreground mb-2 block">Related Tools</span>
                   <div className="flex flex-col gap-2">
-                    <a href="https://resumeforge.alfo.online" target="_blank" rel="noopener noreferrer" className="text-muted-foreground">Resume Forge</a>
-                    <a href="https://qrgenerator.alfo.online" target="_blank" rel="noopener noreferrer" className="text-muted-foreground">QR Generator</a>
-                    <a href="https://paletteflow.alfo.online" target="_blank" rel="noopener noreferrer" className="text-muted-foreground">Palette Flow</a>
-                    <a href="https://pdfutility.app" target="_blank" rel="noopener noreferrer" className="text-muted-foreground">PDF Utility</a>
+                    <a href="https://resumeforge.alfo.online" target="_blank" rel="noopener" className="text-muted-foreground">Resume Forge</a>
+                    <a href="https://qr.alfo.online" target="_blank" rel="noopener" className="text-muted-foreground">QR Generator</a>
+                    <a href="https://paletteflow.alfo.online" target="_blank" rel="noopener" className="text-muted-foreground">Palette Flow</a>
+                    <a href="https://pdfutility.app" target="_blank" rel="noopener" className="text-muted-foreground">PDF Utility</a>
                   </div>
                 </div>
                 <Link href="/calculator" className="mt-4">
@@ -80,7 +80,7 @@ export function Navbar() {
         </div>
       </div>
       <div className="w-full bg-brand-sand/50 text-center py-1 text-[10px] text-muted-foreground border-b uppercase tracking-widest">
-        Powered by <a href="https://alfo.online" target="_blank" rel="noopener noreferrer" className="font-semibold hover:text-primary transition-colors">alfo.online</a>
+        Powered by <a href="https://alfo.online" target="_blank" rel="noopener" className="font-semibold hover:text-primary transition-colors">alfo.online</a>
       </div>
     </header>
   );

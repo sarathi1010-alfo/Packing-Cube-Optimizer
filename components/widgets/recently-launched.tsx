@@ -20,7 +20,7 @@ export function RecentlyLaunched() {
               <a
                 href={tool.url}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
                 className="hover:text-primary hover:underline font-medium transition-colors"
               >
                 {tool.name}

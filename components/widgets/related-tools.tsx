@@ -11,7 +11,7 @@ export function RelatedTools() {
     {
       name: "QR Generator",
       description: "Instantly generate custom QR codes for menus, wifi, and links.",
-      url: "https://qrgenerator.alfo.online",
+      url: "https://qr.alfo.online",
       tag: "Utility"
     },
     {
@@ -38,7 +38,7 @@ export function RelatedTools() {
               key={tool.name}
               href={tool.url}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener"
               className="block group bg-card border rounded-lg p-6 shadow-sm hover:shadow-md transition-all hover:border-primary/50"
             >
               <div className="flex items-center justify-between mb-3">
